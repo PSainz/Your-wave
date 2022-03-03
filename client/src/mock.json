@@ -1,0 +1,38 @@
+[
+  {
+    "spot_name": "Air guling",
+    "country": "Indo",
+    "city": "Lombok",
+    "wave_form": "Hollow",
+    "wave_direction": "Right",
+    "break_type": "Reef",
+    "rating": 5,
+    "location": {
+      "coordinates": [-8.7666666666667, 115.73333333333]
+    }
+  },
+  {
+    "spot_name": "Hossegor",
+    "country": "La Graviere",
+    "city": "Hossegor",
+    "wave_form": "Hollow",
+    "wave_direction": "A-Frame",
+    "break_type": "Sand",
+    "rating": 4,
+    "location": {
+      "coordinates": [43.67483050070836, -1.440504828931964]
+    }
+  },
+  {
+    "spot_name": "Getxo",
+    "country": "Spain",
+    "city": "Bilbao",
+    "wave_form": "Mellow",
+    "wave_direction": "Left",
+    "break_type": "Rock",
+    "rating": 3,
+    "location": {
+      "coordinates": [43.374892937706555, -3.034869436864046]
+    }
+  }
+]
