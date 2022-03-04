@@ -44,3 +44,5 @@ const spotSchema = mongoose.Schema({
 var Spot = mongoose.model("Spot", spotSchema);
 
 export default Spot;
+
+

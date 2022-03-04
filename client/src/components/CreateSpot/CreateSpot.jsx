@@ -71,9 +71,15 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
     if (currentId === 0) {
       e.preventDefault();
       spotData.location = locationSpot;
-      dispatch(createSpot(spotData));
-      clear();
-      navigate("/spots");
+      if (spotData.location.lat === "" && spotData.location.lng === "") {
+        window.alert("PLEASE GET LOCATION FIRST");
+      } else {
+        spotData.location = locationSpot;
+        // console.log(spotData.location, "spotData.location.HandleSubmit");
+        dispatch(createSpot(spotData));
+        clear();
+        navigate("/spots");
+      }
     } else {
       // dispatch(updatePost(currentId, postData));
       clear();
