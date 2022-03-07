@@ -6,6 +6,7 @@ import { createSpot } from "../../actions/spots";
 import { TextField, MenuItem, Button } from "@mui/material";
 // import useStyles from "./styles";
 import Navbar from "./../Navbar/Navbar.jsx";
+import Modal from "./../Modal/Modal.jsx";
 // import useGeoLocation from "./../../hooks/useGeoLocation";
 
 const CreateSpot = ({ currentId, setCurrentId }) => {
@@ -36,16 +37,22 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
   console.log(locationSpot, "locationSpot");
 
   const getCoordinates = async () => {
-    const id = navigator.geolocation.watchPosition((position) => {
-      console.log(position, "POSITION GET");
-      const lat = position.coords.latitude;
-      const lng = position.coords.longitude;
-      locationSpot.lat = lat;
-      locationSpot.lng = lng;
-    });
-    setTimeout(() => {
-      navigator.geolocation.clearWatch(id);
-    }, 10 * 1000);
+    if (navigator.geolocation) {
+      const id = navigator.geolocation.watchPosition((position, posError) => {
+        console.log(position, "POSITION GET");
+        const lat = position.coords.latitude;
+        const lng = position.coords.longitude;
+        locationSpot.lat = lat;
+        locationSpot.lng = lng;
+      });
+      setTimeout(() => {
+        navigator.geolocation.clearWatch(id);
+      }, 10 * 4000);
+    } else {
+      alert(
+        "Sorry, Geolocation is not supported in by this browser. Try with Google Chrome."
+      );
+    }
   };
 
   useEffect(() => {
@@ -242,17 +249,37 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           Clear
         </Button>
       </form>
-      <Button
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <Button
+          className={""}
+          variant="contained"
+          color="primary"
+          size="small"
+          type="submit"
+          fullWidth
+          onClick={() => getCoordinates()}
+        >
+          Get Location
+        </Button>
+        <Modal />
+      </div>
+      {/* <Button
         className={""}
         variant="contained"
         color="primary"
         size="large"
         type="submit"
         fullWidth
-        onClick={() => getCoordinates()}
+        onClick={handleOpen}
       >
-        Get Location
-      </Button>
+        Set Location in map
+      </Button> */}
       <Button
         className={""}
         variant="contained"
