@@ -6,7 +6,8 @@ import { createSpot } from "../../actions/spots";
 import { TextField, MenuItem, Button } from "@mui/material";
 // import useStyles from "./styles";
 import Navbar from "./../Navbar/Navbar.jsx";
-import Modal from "./../Modal/Modal.jsx";
+// import Modal from "./../Modal/Modal.jsx";
+// import Map from "./../Gmaps/Map.jsx";
 // import useGeoLocation from "./../../hooks/useGeoLocation";
 
 const CreateSpot = ({ currentId, setCurrentId }) => {
@@ -47,7 +48,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
       });
       setTimeout(() => {
         navigator.geolocation.clearWatch(id);
-      }, 10 * 4000);
+      }, 40000);
     } else {
       alert(
         "Sorry, Geolocation is not supported in by this browser. Try with Google Chrome."
@@ -82,10 +83,16 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
         window.alert("PLEASE GET LOCATION FIRST");
       } else {
         spotData.location = locationSpot;
+        window.alert("LOCATION SUCCED!");
         // console.log(spotData.location, "spotData.location.HandleSubmit");
-        dispatch(createSpot(spotData));
-        clear();
-        navigate("/spots");
+        setTimeout(() => {
+          dispatch(createSpot(spotData));
+          clear();
+          navigate("/spots");
+        }, 5000);
+        // dispatch(createSpot(spotData));
+        // clear();
+        // navigate("/spots");
       }
     } else {
       // dispatch(updatePost(currentId, postData));
@@ -265,21 +272,9 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           fullWidth
           onClick={() => getCoordinates()}
         >
-          Get Location
+          Get current Location
         </Button>
-        <Modal />
       </div>
-      {/* <Button
-        className={""}
-        variant="contained"
-        color="primary"
-        size="large"
-        type="submit"
-        fullWidth
-        onClick={handleOpen}
-      >
-        Set Location in map
-      </Button> */}
       <Button
         className={""}
         variant="contained"

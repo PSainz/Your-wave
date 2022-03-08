@@ -1,28 +1,26 @@
 import React from "react";
 import GoogleMapReact from "google-map-react";
+import LocationPin from "./LocationPin.jsx";
 // import dotenv from "dotenv-webpack";
 // dotenv.config();
 import "./Map.css";
 
-console.log(process.env.API_KEY_GMAPS);
+// getLocation();
 
 const Map = ({ location, zoomLevel }) => (
-  <div className="map">
-    <h2 className="map-h2">Come Visit Us At Our Campus</h2>
-
-    <div className="google-map">
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
-        defaultCenter={location}
-        defaultZoom={zoomLevel}
-      >
-        {/* <LocationPin
-          lat={location.lat}
-          lng={location.lng}
-          text={location.address}
-        /> */}
-      </GoogleMapReact>
-    </div>
+  <div className="google-map">
+    {/* <button onClick={getLocation()} style={{ display: "none" }}></button> */}
+    <GoogleMapReact
+      bootstrapURLKeys={{ key: "" }}
+      defaultCenter={location}
+      defaultZoom={zoomLevel}
+    >
+      <LocationPin
+        lat={location.lat}
+        lng={location.lng}
+        text={location.address}
+      />
+    </GoogleMapReact>
   </div>
 );
 

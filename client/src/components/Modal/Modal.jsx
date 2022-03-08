@@ -18,11 +18,28 @@ const style = {
   //   p: 4,
 };
 
-const location = {
-  address: "1600 Amphitheatre Parkway, Mountain View, california.",
-  lat: 37.42216,
-  lng: -122.08427,
+// const location = {
+//   address: "1600 Amphitheatre Parkway, Mountain View, california.",
+//   lat: 37.42216,
+//   lng: -122.08427,
+// };
+
+let location = {
+  lat: "",
+  lng: "",
 };
+
+const getCoordinates = async () => {
+  navigator.geolocation.watchPosition((position, posError) => {
+    console.log(position, "POSITION GET");
+    const lat = position.coords.latitude;
+    const lng = position.coords.longitude;
+    location.lat = lat;
+    location.lng = lng;
+  });
+};
+
+getCoordinates();
 
 export default function BasicModal() {
   const [open, setOpen] = React.useState(false);
@@ -39,7 +56,7 @@ export default function BasicModal() {
         type="fire"
         onClick={handleOpen}
       >
-        Set Location in map
+        Check current location in map
       </Button>
       <Modal
         open={open}
@@ -48,13 +65,8 @@ export default function BasicModal() {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Map location={location} zoomLevel={17} />
-          {/* <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </Typography> */}
+          <div>Aqui iria llamada a la api y demás info del Spot</div>
+          {/* <Map location={location} zoomLevel={7} /> */}
         </Box>
       </Modal>
     </div>
