@@ -27,7 +27,7 @@ export const getSpots = async (req, res) => {
   export const createSpot = async (req, res) => {
     const {
       spot_name,
-      country,
+      countrie,
       city,
       wave_form,
       wave_direction,
@@ -39,7 +39,7 @@ export const getSpots = async (req, res) => {
   
     const newSpot = new Spot({
       spot_name,
-      country,
+      countrie,
       city,
       wave_form,
       wave_direction,

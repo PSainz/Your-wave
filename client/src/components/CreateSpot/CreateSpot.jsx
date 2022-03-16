@@ -4,16 +4,20 @@ import FileBase from "react-file-base64";
 import { useNavigate } from "react-router-dom";
 import { createSpot } from "../../actions/spots";
 import { TextField, MenuItem, Button } from "@mui/material";
+import { countries } from "./../../utils/countries";
 // import useStyles from "./styles";
 import Navbar from "./../Navbar/Navbar.jsx";
 // import Modal from "./../Modal/Modal.jsx";
 // import Map from "./../Gmaps/Map.jsx";
 // import useGeoLocation from "./../../hooks/useGeoLocation";
+import allCountries from "country-region-data/data.json";
+
+console.log(allCountries, "allCountries");
 
 const CreateSpot = ({ currentId, setCurrentId }) => {
   const [spotData, setSpotData] = useState({
     spot_name: "",
-    country: "",
+    countrie: "",
     city: "",
     wave_form: "",
     wave_direction: "",
@@ -64,7 +68,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
     setCurrentId(0);
     setSpotData({
       spot_name: "",
-      country: "",
+      countrie: "",
       city: "",
       wave_form: "",
       wave_direction: "",
@@ -146,15 +150,24 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           }
         />
         <TextField
-          name="country"
+          name="Countrie"
           variant="outlined"
-          label="Country*"
           fullWidth
-          value={spotData.country || ""}
+          select
+          label="Countrie*"
+          value={spotData.countrie}
           onChange={(e) =>
-            setSpotData({ ...spotData, country: e.target.value })
+            setSpotData({ ...spotData, countrie: e.target.value })
           }
-        />
+        >
+          {allCountries.map((item) => {
+            return (
+              <MenuItem key={item.countryName} value={item.countryName || ""}>
+                {item.countryName}
+              </MenuItem>
+            );
+          })}
+        </TextField>
         <TextField
           name="city"
           variant="outlined"
@@ -248,7 +261,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
         </div>
         <Button
           variant="contained"
-          color="secondary"
+          color="error"
           size="small"
           onClick={clear}
           fullWidth
