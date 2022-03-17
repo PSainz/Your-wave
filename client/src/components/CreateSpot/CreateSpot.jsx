@@ -4,20 +4,25 @@ import FileBase from "react-file-base64";
 import { useNavigate } from "react-router-dom";
 import { createSpot } from "../../actions/spots";
 import { TextField, MenuItem, Button } from "@mui/material";
-import { countries } from "./../../utils/countries";
-// import useStyles from "./styles";
+import allCountries from "country-region-data/data.json";
 import Navbar from "./../Navbar/Navbar.jsx";
+import { waveForms } from "./../../utils/waveForms";
+import { waveDirections } from "./../../utils/waveDirections";
+import { breakTypes } from "./../../utils/breakTypes";
+import { ratings } from "./../../utils/ratings";
+
+// import { countries } from "./../../utils/countries";
+// import useStyles from "./styles";
 // import Modal from "./../Modal/Modal.jsx";
 // import Map from "./../Gmaps/Map.jsx";
 // import useGeoLocation from "./../../hooks/useGeoLocation";
-import allCountries from "country-region-data/data.json";
 
-console.log(allCountries, "allCountries");
+// console.log(allCountries, "allCountries");
 
 const CreateSpot = ({ currentId, setCurrentId }) => {
   const [spotData, setSpotData] = useState({
     spot_name: "",
-    countrie: "",
+    country: "",
     city: "",
     wave_form: "",
     wave_direction: "",
@@ -35,6 +40,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
+
   let locationSpot = {
     lat: "",
     lng: "",
@@ -68,7 +74,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
     setCurrentId(0);
     setSpotData({
       spot_name: "",
-      countrie: "",
+      country: "",
       city: "",
       wave_form: "",
       wave_direction: "",
@@ -93,7 +99,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           dispatch(createSpot(spotData));
           clear();
           navigate("/spots");
-        }, 5000);
+        }, 3000);
         // dispatch(createSpot(spotData));
         // clear();
         // navigate("/spots");
@@ -103,32 +109,6 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
       clear();
     }
   };
-
-  const waveForms = [
-    { value: "Hollow", text: "Hollow" },
-    { value: "Fat", text: "Fat" },
-    { value: "Mellow", text: "Mellow" },
-  ];
-
-  const waveDirections = [
-    { value: "Left", text: "Left" },
-    { value: "Right", text: "Right" },
-    { value: "A-Frame", text: "A-Frame" },
-  ];
-
-  const breakTypes = [
-    { value: "Reef", text: "Reef" },
-    { value: "Sand", text: "Sand" },
-    { value: "Rock", text: "Rock" },
-  ];
-
-  const ratings = [
-    { value: 1, text: "1" },
-    { value: 2, text: "2" },
-    { value: 3, text: "3" },
-    { value: 4, text: "4" },
-    { value: 5, text: "5" },
-  ];
 
   return (
     <div>
@@ -140,9 +120,11 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
         onSubmit={handleSubmit}
       >
         <TextField
+          inputProps={{ pattern: "[a-z]" }}
           name="spot_name"
+          required
           variant="outlined"
-          label="Spot Name*"
+          label="Spot Name"
           fullWidth
           value={spotData.spot_name || ""}
           onChange={(e) =>
@@ -150,14 +132,16 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           }
         />
         <TextField
-          name="Countrie"
+          name="Country"
+          margin="dense"
+          required
           variant="outlined"
           fullWidth
           select
-          label="Countrie*"
-          value={spotData.countrie}
+          label="Country"
+          value={spotData.country}
           onChange={(e) =>
-            setSpotData({ ...spotData, countrie: e.target.value })
+            setSpotData({ ...spotData, country: e.target.value })
           }
         >
           {allCountries.map((item) => {
@@ -170,18 +154,22 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
         </TextField>
         <TextField
           name="city"
+          margin="dense"
+          required
           variant="outlined"
-          label="City*"
+          label="City - Region"
           fullWidth
           value={spotData.city || ""}
           onChange={(e) => setSpotData({ ...spotData, city: e.target.value })}
         />
         <TextField
           name="Wave form"
+          margin="dense"
+          required
           variant="outlined"
           fullWidth
           select
-          label="Wave form*"
+          label="Wave form"
           value={spotData.wave_form}
           onChange={(e) =>
             setSpotData({ ...spotData, wave_form: e.target.value })
@@ -197,10 +185,12 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
         </TextField>
         <TextField
           name="Wave direction"
+          margin="dense"
+          required
           variant="outlined"
           fullWidth
           select
-          label="Wave direction*"
+          label="Wave direction"
           value={spotData.wave_direction}
           onChange={(e) =>
             setSpotData({ ...spotData, wave_direction: e.target.value })
@@ -216,10 +206,12 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
         </TextField>
         <TextField
           name="Break type"
+          margin="dense"
+          required
           variant="outlined"
           fullWidth
           select
-          label="Break type*"
+          label="Break type"
           value={spotData.break_type}
           onChange={(e) =>
             setSpotData({ ...spotData, break_type: e.target.value })
@@ -235,10 +227,12 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
         </TextField>
         <TextField
           name="Rating"
+          margin="dense"
+          required
           variant="outlined"
           fullWidth
           select
-          label="Rating*"
+          label="Rating"
           value={spotData.rating}
           onChange={(e) => setSpotData({ ...spotData, rating: e.target.value })}
         >
@@ -291,7 +285,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
       <Button
         className={""}
         variant="contained"
-        color="primary"
+        color="success"
         size="large"
         type="submit"
         fullWidth

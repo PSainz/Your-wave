@@ -23,7 +23,10 @@ const Spot = ({ spot, setCurrentId }) => {
     <Card className={""}>
       <CardMedia
         className={""}
-        image={spot.selectedFile || ""}
+        image={
+          spot.selectedFile ||
+          "https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png"
+        }
         title={spot.spot_name}
       />
       <div className={""}>
