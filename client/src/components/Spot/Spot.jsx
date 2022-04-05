@@ -11,6 +11,7 @@ import {
 // import DeleteIcon from "@material-ui/icons/Delete";
 // import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import { useDispatch } from "react-redux";
+import Modal from "../Modal/Modal";
 
 // import { likePost, deletePost } from '../../../actions/posts';
 // import useStyles from "./styles";
@@ -20,7 +21,7 @@ const Spot = ({ spot, setCurrentId }) => {
   // const classes = useStyles();
 
   return (
-    <Card className={""}>
+    <Card className={""} style={{ border: "1px solid blue" }}>
       <CardMedia
         className={""}
         image={
@@ -30,17 +31,9 @@ const Spot = ({ spot, setCurrentId }) => {
         title={spot.spot_name}
       />
       <div className={""}>
-        <Typography variant="h6">{spot.country}</Typography>
+        <Typography variant="h6">{spot.spot_name}</Typography>
       </div>
-      <div className={""}>
-        <Button
-          style={{ color: "white" }}
-          size="small"
-          onClick={() => setCurrentId(spot._id)}
-        >
-          {/* <MoreHorizIcon fontSize="default" /> */}
-        </Button>
-      </div>
+
       <div className={""}>
         <Typography variant="body2" color="textSecondary" component="h2">
           {spot.country}
@@ -54,6 +47,8 @@ const Spot = ({ spot, setCurrentId }) => {
           {spot.wave_form}
         </Typography>
       </CardContent>
+      <img src={spot.selectedFile} style={{ width: "100%" }} />
+      <Modal spot={spot} />
     </Card>
   );
 };

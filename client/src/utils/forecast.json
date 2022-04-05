@@ -1,0 +1,3397 @@
+{
+  "hours": [
+    {
+      "airTemperature": { "noaa": 28.68, "sg": 28.68 },
+      "precipitation": { "noaa": 0.08, "sg": 0.08 },
+      "time": "2022-04-05T00:00:00+00:00",
+      "waterTemperature": { "meto": 30.13, "noaa": 29.52, "sg": 30.13 },
+      "waveDirection": {
+        "icon": 219.63,
+        "meteo": 220.36,
+        "noaa": 218.4,
+        "sg": 220.36
+      },
+      "waveHeight": { "icon": 1.26, "meteo": 1.38, "noaa": 1.3, "sg": 1.38 },
+      "wavePeriod": {
+        "icon": 11.94,
+        "meteo": 11.06,
+        "noaa": 14.64,
+        "sg": 11.06
+      },
+      "windDirection": { "icon": 108.58, "noaa": 141.66, "sg": 108.58 }
+    },
+    {
+      "airTemperature": { "noaa": 28.67, "sg": 28.67 },
+      "precipitation": { "noaa": 0.05, "sg": 0.05 },
+      "time": "2022-04-05T01:00:00+00:00",
+      "waterTemperature": { "meto": 30.21, "noaa": 29.67, "sg": 30.21 },
+      "waveDirection": {
+        "icon": 219.46,
+        "meteo": 220.48,
+        "noaa": 218.68,
+        "sg": 220.48
+      },
+      "waveHeight": { "icon": 1.29, "meteo": 1.34, "noaa": 1.3, "sg": 1.34 },
+      "wavePeriod": { "icon": 12.07, "meteo": 11.1, "noaa": 14.59, "sg": 11.1 },
+      "windDirection": { "icon": 118.97, "noaa": 146.69, "sg": 118.97 }
+    },
+    {
+      "airTemperature": { "noaa": 28.66, "sg": 28.66 },
+      "precipitation": { "noaa": 0.03, "sg": 0.03 },
+      "time": "2022-04-05T02:00:00+00:00",
+      "waterTemperature": { "meto": 30.29, "noaa": 29.83, "sg": 30.29 },
+      "waveDirection": {
+        "icon": 219.28,
+        "meteo": 220.61,
+        "noaa": 218.97,
+        "sg": 220.61
+      },
+      "waveHeight": { "icon": 1.33, "meteo": 1.31, "noaa": 1.3, "sg": 1.31 },
+      "wavePeriod": {
+        "icon": 12.2,
+        "meteo": 11.13,
+        "noaa": 14.54,
+        "sg": 11.13
+      },
+      "windDirection": { "icon": 129.35, "noaa": 151.73, "sg": 129.35 }
+    },
+    {
+      "airTemperature": { "noaa": 28.66, "sg": 28.66 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-05T03:00:00+00:00",
+      "waterTemperature": { "meto": 30.43, "noaa": 29.99, "sg": 30.43 },
+      "waveDirection": {
+        "icon": 219.11,
+        "meteo": 220.73,
+        "noaa": 219.25,
+        "sg": 220.73
+      },
+      "waveHeight": { "icon": 1.36, "meteo": 1.27, "noaa": 1.3, "sg": 1.27 },
+      "wavePeriod": {
+        "icon": 12.33,
+        "meteo": 11.17,
+        "noaa": 14.49,
+        "sg": 11.17
+      },
+      "windDirection": { "icon": 139.74, "noaa": 156.76, "sg": 139.74 }
+    },
+    {
+      "airTemperature": { "noaa": 28.6, "sg": 28.6 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-05T04:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 30.2, "sg": 30.62 },
+      "waveDirection": {
+        "icon": 218.84,
+        "meteo": 220.5,
+        "noaa": 219.44,
+        "sg": 220.5
+      },
+      "waveHeight": { "icon": 1.4, "meteo": 1.3, "noaa": 1.3, "sg": 1.3 },
+      "wavePeriod": {
+        "icon": 12.42,
+        "meteo": 11.29,
+        "noaa": 14.44,
+        "sg": 11.29
+      },
+      "windDirection": { "icon": 153.54, "noaa": 161.61, "sg": 153.54 }
+    },
+    {
+      "airTemperature": { "noaa": 28.54, "sg": 28.54 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-05T05:00:00+00:00",
+      "waterTemperature": { "meto": 30.83, "noaa": 30.41, "sg": 30.83 },
+      "waveDirection": {
+        "icon": 218.57,
+        "meteo": 220.27,
+        "noaa": 219.64,
+        "sg": 220.27
+      },
+      "waveHeight": { "icon": 1.45, "meteo": 1.34, "noaa": 1.29, "sg": 1.34 },
+      "wavePeriod": {
+        "icon": 12.52,
+        "meteo": 11.41,
+        "noaa": 14.38,
+        "sg": 11.41
+      },
+      "windDirection": { "icon": 167.33, "noaa": 166.47, "sg": 167.33 }
+    },
+    {
+      "airTemperature": { "noaa": 28.49, "sg": 28.49 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-05T06:00:00+00:00",
+      "waterTemperature": { "meto": 30.94, "noaa": 30.62, "sg": 30.94 },
+      "waveDirection": {
+        "icon": 218.3,
+        "meteo": 220.04,
+        "noaa": 219.83,
+        "sg": 220.04
+      },
+      "waveHeight": { "icon": 1.49, "meteo": 1.37, "noaa": 1.29, "sg": 1.37 },
+      "wavePeriod": {
+        "icon": 12.61,
+        "meteo": 11.53,
+        "noaa": 14.33,
+        "sg": 11.53
+      },
+      "windDirection": { "icon": 181.13, "noaa": 171.32, "sg": 181.13 }
+    },
+    {
+      "airTemperature": { "noaa": 28.62, "sg": 28.62 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-05T07:00:00+00:00",
+      "waterTemperature": { "meto": 30.98, "noaa": 30.41, "sg": 30.98 },
+      "waveDirection": {
+        "icon": 217.98,
+        "meteo": 219.59,
+        "noaa": 219.75,
+        "sg": 219.59
+      },
+      "waveHeight": { "icon": 1.53, "meteo": 1.39, "noaa": 1.29, "sg": 1.39 },
+      "wavePeriod": {
+        "icon": 12.65,
+        "meteo": 11.56,
+        "noaa": 14.27,
+        "sg": 11.56
+      },
+      "windDirection": { "icon": 180.66, "noaa": 173.28, "sg": 180.66 }
+    },
+    {
+      "airTemperature": { "noaa": 28.76, "sg": 28.76 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-05T08:00:00+00:00",
+      "waterTemperature": { "meto": 31.02, "noaa": 30.2, "sg": 31.02 },
+      "waveDirection": {
+        "icon": 217.67,
+        "meteo": 219.14,
+        "noaa": 219.66,
+        "sg": 219.14
+      },
+      "waveHeight": { "icon": 1.56, "meteo": 1.41, "noaa": 1.29, "sg": 1.41 },
+      "wavePeriod": {
+        "icon": 12.68,
+        "meteo": 11.58,
+        "noaa": 14.22,
+        "sg": 11.58
+      },
+      "windDirection": { "icon": 180.19, "noaa": 175.25, "sg": 180.19 }
+    },
+    {
+      "airTemperature": { "noaa": 28.9, "sg": 28.9 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-05T09:00:00+00:00",
+      "waterTemperature": { "meto": 30.91, "noaa": 30.0, "sg": 30.91 },
+      "waveDirection": {
+        "icon": 217.35,
+        "meteo": 218.69,
+        "noaa": 219.58,
+        "sg": 218.69
+      },
+      "waveHeight": { "icon": 1.6, "meteo": 1.43, "noaa": 1.29, "sg": 1.43 },
+      "wavePeriod": {
+        "icon": 12.72,
+        "meteo": 11.61,
+        "noaa": 14.16,
+        "sg": 11.61
+      },
+      "windDirection": { "icon": 179.72, "noaa": 177.21, "sg": 179.72 }
+    },
+    {
+      "airTemperature": { "noaa": 29.0, "sg": 29.0 },
+      "precipitation": { "noaa": 0.08, "sg": 0.08 },
+      "time": "2022-04-05T10:00:00+00:00",
+      "waterTemperature": { "meto": 30.73, "noaa": 29.83, "sg": 30.73 },
+      "waveDirection": {
+        "icon": 216.99,
+        "meteo": 218.11,
+        "noaa": 219.42,
+        "sg": 218.11
+      },
+      "waveHeight": { "icon": 1.63, "meteo": 1.44, "noaa": 1.29, "sg": 1.44 },
+      "wavePeriod": {
+        "icon": 12.73,
+        "meteo": 11.53,
+        "noaa": 14.09,
+        "sg": 11.53
+      },
+      "windDirection": { "icon": 177.66, "noaa": 168.02, "sg": 177.66 }
+    },
+    {
+      "airTemperature": { "noaa": 29.1, "sg": 29.1 },
+      "precipitation": { "noaa": 0.15, "sg": 0.15 },
+      "time": "2022-04-05T11:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.66, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 216.63,
+        "meteo": 217.53,
+        "noaa": 219.27,
+        "sg": 217.53
+      },
+      "waveHeight": { "icon": 1.66, "meteo": 1.45, "noaa": 1.3, "sg": 1.45 },
+      "wavePeriod": {
+        "icon": 12.74,
+        "meteo": 11.45,
+        "noaa": 14.02,
+        "sg": 11.45
+      },
+      "windDirection": { "icon": 175.6, "noaa": 158.83, "sg": 175.6 }
+    },
+    {
+      "airTemperature": { "noaa": 29.2, "sg": 29.2 },
+      "precipitation": { "noaa": 0.23, "sg": 0.23 },
+      "time": "2022-04-05T12:00:00+00:00",
+      "waterTemperature": { "meto": 30.52, "noaa": 29.49, "sg": 30.52 },
+      "waveDirection": {
+        "icon": 216.27,
+        "meteo": 216.95,
+        "noaa": 219.11,
+        "sg": 216.95
+      },
+      "waveHeight": { "icon": 1.69, "meteo": 1.46, "noaa": 1.3, "sg": 1.46 },
+      "wavePeriod": {
+        "icon": 12.75,
+        "meteo": 11.37,
+        "noaa": 13.95,
+        "sg": 11.37
+      },
+      "windDirection": { "icon": 173.54, "noaa": 149.64, "sg": 173.54 }
+    },
+    {
+      "airTemperature": { "noaa": 29.18, "sg": 29.18 },
+      "precipitation": { "noaa": 0.15, "sg": 0.15 },
+      "time": "2022-04-05T13:00:00+00:00",
+      "waterTemperature": { "meto": 30.44, "noaa": 29.51, "sg": 30.44 },
+      "waveDirection": {
+        "icon": 215.87,
+        "meteo": 216.46,
+        "noaa": 218.98,
+        "sg": 216.46
+      },
+      "waveHeight": { "icon": 1.71, "meteo": 1.47, "noaa": 1.3, "sg": 1.47 },
+      "wavePeriod": { "icon": 12.75, "meteo": 11.3, "noaa": 13.9, "sg": 11.3 },
+      "windDirection": { "icon": 176.38, "noaa": 148.99, "sg": 176.38 }
+    },
+    {
+      "airTemperature": { "noaa": 29.16, "sg": 29.16 },
+      "precipitation": { "noaa": 0.08, "sg": 0.08 },
+      "time": "2022-04-05T14:00:00+00:00",
+      "waterTemperature": { "meto": 30.38, "noaa": 29.54, "sg": 30.38 },
+      "waveDirection": {
+        "icon": 215.46,
+        "meteo": 215.96,
+        "noaa": 218.84,
+        "sg": 215.96
+      },
+      "waveHeight": { "icon": 1.74, "meteo": 1.47, "noaa": 1.3, "sg": 1.47 },
+      "wavePeriod": {
+        "icon": 12.76,
+        "meteo": 11.22,
+        "noaa": 13.86,
+        "sg": 11.22
+      },
+      "windDirection": { "icon": 179.21, "noaa": 148.33, "sg": 179.21 }
+    },
+    {
+      "airTemperature": { "noaa": 29.15, "sg": 29.15 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-05T15:00:00+00:00",
+      "waterTemperature": { "meto": 30.34, "noaa": 29.56, "sg": 30.34 },
+      "waveDirection": {
+        "icon": 215.06,
+        "meteo": 215.47,
+        "noaa": 218.71,
+        "sg": 215.47
+      },
+      "waveHeight": { "icon": 1.76, "meteo": 1.48, "noaa": 1.3, "sg": 1.48 },
+      "wavePeriod": {
+        "icon": 12.76,
+        "meteo": 11.15,
+        "noaa": 13.81,
+        "sg": 11.15
+      },
+      "windDirection": { "icon": 182.05, "noaa": 147.68, "sg": 182.05 }
+    },
+    {
+      "airTemperature": { "noaa": 29.01, "sg": 29.01 },
+      "precipitation": { "noaa": 0.17, "sg": 0.17 },
+      "time": "2022-04-05T16:00:00+00:00",
+      "waterTemperature": { "meto": 30.3, "noaa": 29.56, "sg": 30.3 },
+      "waveDirection": {
+        "icon": 214.65,
+        "meteo": 215.19,
+        "noaa": 218.44,
+        "sg": 215.19
+      },
+      "waveHeight": { "icon": 1.78, "meteo": 1.49, "noaa": 1.3, "sg": 1.49 },
+      "wavePeriod": { "icon": 12.76, "meteo": 11.0, "noaa": 13.79, "sg": 11.0 },
+      "windDirection": { "icon": 186.88, "noaa": 149.43, "sg": 186.88 }
+    },
+    {
+      "airTemperature": { "noaa": 28.88, "sg": 28.88 },
+      "precipitation": { "noaa": 0.33, "sg": 0.33 },
+      "time": "2022-04-05T17:00:00+00:00",
+      "waterTemperature": { "meto": 30.26, "noaa": 29.55, "sg": 30.26 },
+      "waveDirection": {
+        "icon": 214.25,
+        "meteo": 214.9,
+        "noaa": 218.17,
+        "sg": 214.9
+      },
+      "waveHeight": { "icon": 1.79, "meteo": 1.5, "noaa": 1.31, "sg": 1.5 },
+      "wavePeriod": {
+        "icon": 12.75,
+        "meteo": 10.84,
+        "noaa": 13.76,
+        "sg": 10.84
+      },
+      "windDirection": { "icon": 191.71, "noaa": 151.17, "sg": 191.71 }
+    },
+    {
+      "airTemperature": { "noaa": 28.75, "sg": 28.75 },
+      "precipitation": { "noaa": 0.49, "sg": 0.49 },
+      "time": "2022-04-05T18:00:00+00:00",
+      "waterTemperature": { "meto": 30.24, "noaa": 29.55, "sg": 30.24 },
+      "waveDirection": {
+        "icon": 213.84,
+        "meteo": 214.62,
+        "noaa": 217.9,
+        "sg": 214.62
+      },
+      "waveHeight": { "icon": 1.81, "meteo": 1.51, "noaa": 1.31, "sg": 1.51 },
+      "wavePeriod": {
+        "icon": 12.75,
+        "meteo": 10.69,
+        "noaa": 13.74,
+        "sg": 10.69
+      },
+      "windDirection": { "icon": 196.54, "noaa": 152.92, "sg": 196.54 }
+    },
+    {
+      "airTemperature": { "noaa": 28.39, "sg": 28.39 },
+      "precipitation": { "noaa": 0.48, "sg": 0.48 },
+      "time": "2022-04-05T19:00:00+00:00",
+      "waterTemperature": { "meto": 30.23, "noaa": 29.53, "sg": 30.23 },
+      "waveDirection": {
+        "icon": 213.49,
+        "meteo": 214.34,
+        "noaa": 217.52,
+        "sg": 214.34
+      },
+      "waveHeight": { "icon": 1.82, "meteo": 1.52, "noaa": 1.31, "sg": 1.52 },
+      "wavePeriod": {
+        "icon": 12.73,
+        "meteo": 10.44,
+        "noaa": 13.71,
+        "sg": 10.44
+      },
+      "windDirection": { "icon": 198.39, "noaa": 148.73, "sg": 198.39 }
+    },
+    {
+      "airTemperature": { "noaa": 28.03, "sg": 28.03 },
+      "precipitation": { "noaa": 0.47, "sg": 0.47 },
+      "time": "2022-04-05T20:00:00+00:00",
+      "waterTemperature": { "meto": 30.21, "noaa": 29.5, "sg": 30.21 },
+      "waveDirection": {
+        "icon": 213.13,
+        "meteo": 214.06,
+        "noaa": 217.15,
+        "sg": 214.06
+      },
+      "waveHeight": { "icon": 1.84, "meteo": 1.53, "noaa": 1.31, "sg": 1.53 },
+      "wavePeriod": {
+        "icon": 12.72,
+        "meteo": 10.19,
+        "noaa": 13.68,
+        "sg": 10.19
+      },
+      "windDirection": { "icon": 200.24, "noaa": 144.55, "sg": 200.24 }
+    },
+    {
+      "airTemperature": { "noaa": 27.67, "sg": 27.67 },
+      "precipitation": { "noaa": 0.46, "sg": 0.46 },
+      "time": "2022-04-05T21:00:00+00:00",
+      "waterTemperature": { "meto": 30.19, "noaa": 29.47, "sg": 30.19 },
+      "waveDirection": {
+        "icon": 212.78,
+        "meteo": 213.78,
+        "noaa": 216.77,
+        "sg": 213.78
+      },
+      "waveHeight": { "icon": 1.85, "meteo": 1.54, "noaa": 1.31, "sg": 1.54 },
+      "wavePeriod": { "icon": 12.7, "meteo": 9.94, "noaa": 13.65, "sg": 9.94 },
+      "windDirection": { "icon": 202.09, "noaa": 140.36, "sg": 202.09 }
+    },
+    {
+      "airTemperature": { "noaa": 27.81, "sg": 27.81 },
+      "precipitation": { "noaa": 0.35, "sg": 0.35 },
+      "time": "2022-04-05T22:00:00+00:00",
+      "waterTemperature": { "meto": 30.18, "noaa": 29.46, "sg": 30.18 },
+      "waveDirection": {
+        "icon": 212.5,
+        "meteo": 213.41,
+        "noaa": 216.31,
+        "sg": 213.41
+      },
+      "waveHeight": { "icon": 1.86, "meteo": 1.55, "noaa": 1.31, "sg": 1.55 },
+      "wavePeriod": { "icon": 12.67, "meteo": 9.7, "noaa": 13.61, "sg": 9.7 },
+      "windDirection": { "icon": 204.47, "noaa": 137.97, "sg": 204.47 }
+    },
+    {
+      "airTemperature": { "noaa": 27.95, "sg": 27.95 },
+      "precipitation": { "noaa": 0.25, "sg": 0.25 },
+      "time": "2022-04-05T23:00:00+00:00",
+      "waterTemperature": { "meto": 30.17, "noaa": 29.44, "sg": 30.17 },
+      "waveDirection": {
+        "icon": 212.22,
+        "meteo": 213.03,
+        "noaa": 215.85,
+        "sg": 213.03
+      },
+      "waveHeight": { "icon": 1.87, "meteo": 1.56, "noaa": 1.31, "sg": 1.56 },
+      "wavePeriod": { "icon": 12.64, "meteo": 9.45, "noaa": 13.57, "sg": 9.45 },
+      "windDirection": { "icon": 206.85, "noaa": 135.58, "sg": 206.85 }
+    },
+    {
+      "airTemperature": { "noaa": 28.08, "sg": 28.08 },
+      "precipitation": { "noaa": 0.14, "sg": 0.14 },
+      "time": "2022-04-06T00:00:00+00:00",
+      "waterTemperature": { "meto": 30.18, "noaa": 29.43, "sg": 30.18 },
+      "waveDirection": {
+        "icon": 211.94,
+        "meteo": 212.66,
+        "noaa": 215.39,
+        "sg": 212.66
+      },
+      "waveHeight": { "icon": 1.88, "meteo": 1.57, "noaa": 1.31, "sg": 1.57 },
+      "wavePeriod": { "icon": 12.61, "meteo": 9.21, "noaa": 13.53, "sg": 9.21 },
+      "windDirection": { "icon": 209.23, "noaa": 133.19, "sg": 209.23 }
+    },
+    {
+      "airTemperature": { "noaa": 28.2, "sg": 28.2 },
+      "precipitation": { "noaa": 0.21, "sg": 0.21 },
+      "time": "2022-04-06T01:00:00+00:00",
+      "waterTemperature": { "meto": 30.21, "noaa": 29.57, "sg": 30.21 },
+      "waveDirection": {
+        "icon": 211.74,
+        "meteo": 212.53,
+        "noaa": 215.01,
+        "sg": 212.53
+      },
+      "waveHeight": { "icon": 1.88, "meteo": 1.58, "noaa": 1.32, "sg": 1.58 },
+      "wavePeriod": { "icon": 12.57, "meteo": 9.19, "noaa": 13.5, "sg": 9.19 },
+      "windDirection": { "icon": 213.51, "noaa": 131.34, "sg": 213.51 }
+    },
+    {
+      "airTemperature": { "noaa": 28.31, "sg": 28.31 },
+      "precipitation": { "noaa": 0.29, "sg": 0.29 },
+      "time": "2022-04-06T02:00:00+00:00",
+      "waterTemperature": { "meto": 30.25, "noaa": 29.71, "sg": 30.25 },
+      "waveDirection": {
+        "icon": 211.54,
+        "meteo": 212.41,
+        "noaa": 214.64,
+        "sg": 212.41
+      },
+      "waveHeight": { "icon": 1.89, "meteo": 1.58, "noaa": 1.32, "sg": 1.58 },
+      "wavePeriod": { "icon": 12.53, "meteo": 9.18, "noaa": 13.47, "sg": 9.18 },
+      "windDirection": { "icon": 217.8, "noaa": 129.49, "sg": 217.8 }
+    },
+    {
+      "airTemperature": { "noaa": 28.43, "sg": 28.43 },
+      "precipitation": { "noaa": 0.36, "sg": 0.36 },
+      "time": "2022-04-06T03:00:00+00:00",
+      "waterTemperature": { "meto": 30.38, "noaa": 29.85, "sg": 30.38 },
+      "waveDirection": {
+        "icon": 211.34,
+        "meteo": 212.28,
+        "noaa": 214.26,
+        "sg": 212.28
+      },
+      "waveHeight": { "icon": 1.89, "meteo": 1.59, "noaa": 1.33, "sg": 1.59 },
+      "wavePeriod": { "icon": 12.49, "meteo": 9.16, "noaa": 13.44, "sg": 9.16 },
+      "windDirection": { "icon": 222.08, "noaa": 127.64, "sg": 222.08 }
+    },
+    {
+      "airTemperature": { "noaa": 28.34, "sg": 28.34 },
+      "precipitation": { "noaa": 0.24, "sg": 0.24 },
+      "time": "2022-04-06T04:00:00+00:00",
+      "waterTemperature": { "meto": 30.58, "noaa": 30.0, "sg": 30.58 },
+      "waveDirection": {
+        "icon": 211.22,
+        "meteo": 212.07,
+        "noaa": 214.03,
+        "sg": 212.07
+      },
+      "waveHeight": { "icon": 1.89, "meteo": 1.59, "noaa": 1.34, "sg": 1.59 },
+      "wavePeriod": { "icon": 12.44, "meteo": 9.06, "noaa": 13.42, "sg": 9.06 },
+      "windDirection": { "icon": 221.35, "noaa": 138.25, "sg": 221.35 }
+    },
+    {
+      "airTemperature": { "noaa": 28.26, "sg": 28.26 },
+      "precipitation": { "noaa": 0.12, "sg": 0.12 },
+      "time": "2022-04-06T05:00:00+00:00",
+      "waterTemperature": { "meto": 30.78, "noaa": 30.15, "sg": 30.78 },
+      "waveDirection": {
+        "icon": 211.11,
+        "meteo": 211.87,
+        "noaa": 213.81,
+        "sg": 211.87
+      },
+      "waveHeight": { "icon": 1.89, "meteo": 1.6, "noaa": 1.35, "sg": 1.6 },
+      "wavePeriod": { "icon": 12.38, "meteo": 8.97, "noaa": 13.39, "sg": 8.97 },
+      "windDirection": { "icon": 220.62, "noaa": 148.85, "sg": 220.62 }
+    },
+    {
+      "airTemperature": { "noaa": 28.17, "sg": 28.17 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-06T06:00:00+00:00",
+      "waterTemperature": { "meto": 30.91, "noaa": 30.29, "sg": 30.91 },
+      "waveDirection": {
+        "icon": 210.99,
+        "meteo": 211.66,
+        "noaa": 213.58,
+        "sg": 211.66
+      },
+      "waveHeight": { "icon": 1.89, "meteo": 1.6, "noaa": 1.36, "sg": 1.6 },
+      "wavePeriod": { "icon": 12.33, "meteo": 8.87, "noaa": 13.37, "sg": 8.87 },
+      "windDirection": { "icon": 219.89, "noaa": 159.46, "sg": 219.89 }
+    },
+    {
+      "airTemperature": { "noaa": 28.29, "sg": 28.29 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-06T07:00:00+00:00",
+      "waterTemperature": { "meto": 31.0, "noaa": 30.18, "sg": 31.0 },
+      "waveDirection": {
+        "icon": 210.94,
+        "meteo": 211.48,
+        "noaa": 213.32,
+        "sg": 211.48
+      },
+      "waveHeight": { "icon": 1.89, "meteo": 1.6, "noaa": 1.36, "sg": 1.6 },
+      "wavePeriod": { "icon": 12.27, "meteo": 8.7, "noaa": 13.33, "sg": 8.7 },
+      "windDirection": { "icon": 218.1, "noaa": 164.24, "sg": 218.1 }
+    },
+    {
+      "airTemperature": { "noaa": 28.42, "sg": 28.42 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-06T08:00:00+00:00",
+      "waterTemperature": { "meto": 31.08, "noaa": 30.06, "sg": 31.08 },
+      "waveDirection": {
+        "icon": 210.9,
+        "meteo": 211.31,
+        "noaa": 213.06,
+        "sg": 211.31
+      },
+      "waveHeight": { "icon": 1.89, "meteo": 1.6, "noaa": 1.37, "sg": 1.6 },
+      "wavePeriod": { "icon": 12.22, "meteo": 8.53, "noaa": 13.3, "sg": 8.53 },
+      "windDirection": { "icon": 216.31, "noaa": 169.02, "sg": 216.31 }
+    },
+    {
+      "airTemperature": { "noaa": 28.54, "sg": 28.54 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-06T09:00:00+00:00",
+      "waterTemperature": { "meto": 31.08, "noaa": 29.95, "sg": 31.08 },
+      "waveDirection": {
+        "icon": 210.85,
+        "meteo": 211.13,
+        "noaa": 212.8,
+        "sg": 211.13
+      },
+      "waveHeight": { "icon": 1.89, "meteo": 1.6, "noaa": 1.37, "sg": 1.6 },
+      "wavePeriod": { "icon": 12.16, "meteo": 8.36, "noaa": 13.26, "sg": 8.36 },
+      "windDirection": { "icon": 214.52, "noaa": 173.8, "sg": 214.52 }
+    },
+    {
+      "airTemperature": { "noaa": 28.81, "sg": 28.81 },
+      "precipitation": { "noaa": 0.03, "sg": 0.03 },
+      "time": "2022-04-06T10:00:00+00:00",
+      "waterTemperature": { "meto": 31.02, "noaa": 29.81, "sg": 31.02 },
+      "waveDirection": {
+        "icon": 210.85,
+        "meteo": 211.02,
+        "noaa": 213.16,
+        "sg": 211.02
+      },
+      "waveHeight": { "icon": 1.88, "meteo": 1.59, "noaa": 1.38, "sg": 1.59 },
+      "wavePeriod": { "icon": 12.11, "meteo": 8.39, "noaa": 13.16, "sg": 8.39 },
+      "windDirection": { "icon": 214.46, "noaa": 163.66, "sg": 214.46 }
+    },
+    {
+      "airTemperature": { "noaa": 29.07, "sg": 29.07 },
+      "precipitation": { "noaa": 0.06, "sg": 0.06 },
+      "time": "2022-04-06T11:00:00+00:00",
+      "waterTemperature": { "meto": 30.94, "noaa": 29.68, "sg": 30.94 },
+      "waveDirection": {
+        "icon": 210.84,
+        "meteo": 210.91,
+        "noaa": 213.52,
+        "sg": 210.91
+      },
+      "waveHeight": { "icon": 1.88, "meteo": 1.59, "noaa": 1.38, "sg": 1.59 },
+      "wavePeriod": { "icon": 12.07, "meteo": 8.43, "noaa": 13.07, "sg": 8.43 },
+      "windDirection": { "icon": 214.41, "noaa": 153.52, "sg": 214.41 }
+    },
+    {
+      "airTemperature": { "noaa": 29.34, "sg": 29.34 },
+      "precipitation": { "noaa": 0.1, "sg": 0.1 },
+      "time": "2022-04-06T12:00:00+00:00",
+      "waterTemperature": { "meto": 30.83, "noaa": 29.54, "sg": 30.83 },
+      "waveDirection": {
+        "icon": 210.84,
+        "meteo": 210.8,
+        "noaa": 213.88,
+        "sg": 210.8
+      },
+      "waveHeight": { "icon": 1.87, "meteo": 1.58, "noaa": 1.39, "sg": 1.58 },
+      "wavePeriod": { "icon": 12.02, "meteo": 8.46, "noaa": 12.97, "sg": 8.46 },
+      "windDirection": { "icon": 214.35, "noaa": 143.38, "sg": 214.35 }
+    },
+    {
+      "airTemperature": { "noaa": 29.32, "sg": 29.32 },
+      "precipitation": { "noaa": 0.08, "sg": 0.08 },
+      "time": "2022-04-06T13:00:00+00:00",
+      "waterTemperature": { "meto": 30.75, "noaa": 29.51, "sg": 30.75 },
+      "waveDirection": {
+        "icon": 210.85,
+        "meteo": 210.75,
+        "noaa": 213.59,
+        "sg": 210.75
+      },
+      "waveHeight": { "icon": 1.86, "meteo": 1.57, "noaa": 1.39, "sg": 1.57 },
+      "wavePeriod": { "icon": 11.97, "meteo": 8.49, "noaa": 12.9, "sg": 8.49 },
+      "windDirection": { "icon": 193.57, "noaa": 143.0, "sg": 193.57 }
+    },
+    {
+      "airTemperature": { "noaa": 29.29, "sg": 29.29 },
+      "precipitation": { "noaa": 0.07, "sg": 0.07 },
+      "time": "2022-04-06T14:00:00+00:00",
+      "waterTemperature": { "meto": 30.68, "noaa": 29.48, "sg": 30.68 },
+      "waveDirection": {
+        "icon": 210.85,
+        "meteo": 210.71,
+        "noaa": 213.3,
+        "sg": 210.71
+      },
+      "waveHeight": { "icon": 1.86, "meteo": 1.56, "noaa": 1.39, "sg": 1.56 },
+      "wavePeriod": { "icon": 11.93, "meteo": 8.53, "noaa": 12.82, "sg": 8.53 },
+      "windDirection": { "icon": 172.8, "noaa": 142.63, "sg": 172.8 }
+    },
+    {
+      "airTemperature": { "noaa": 29.26, "sg": 29.26 },
+      "precipitation": { "noaa": 0.05, "sg": 0.05 },
+      "time": "2022-04-06T15:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.44, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 210.86,
+        "meteo": 210.66,
+        "noaa": 213.01,
+        "sg": 210.66
+      },
+      "waveHeight": { "icon": 1.85, "meteo": 1.55, "noaa": 1.39, "sg": 1.55 },
+      "wavePeriod": { "icon": 11.88, "meteo": 8.56, "noaa": 12.75, "sg": 8.56 },
+      "windDirection": { "icon": 152.02, "noaa": 142.25, "sg": 152.02 }
+    },
+    {
+      "airTemperature": { "noaa": 29.23, "sg": 29.23 },
+      "precipitation": { "noaa": 0.04, "sg": 0.04 },
+      "time": "2022-04-06T16:00:00+00:00",
+      "waterTemperature": { "meto": 30.55, "noaa": 29.48, "sg": 30.55 },
+      "waveDirection": {
+        "icon": 210.86,
+        "meteo": 210.7,
+        "noaa": 212.52,
+        "sg": 210.7
+      },
+      "waveHeight": { "icon": 1.84, "meteo": 1.54, "noaa": 1.39, "sg": 1.54 },
+      "wavePeriod": { "icon": 11.83, "meteo": 8.6, "noaa": 12.71, "sg": 8.6 },
+      "windDirection": { "icon": 145.75, "noaa": 140.24, "sg": 145.75 }
+    },
+    {
+      "airTemperature": { "noaa": 29.2, "sg": 29.2 },
+      "precipitation": { "noaa": 0.02, "sg": 0.02 },
+      "time": "2022-04-06T17:00:00+00:00",
+      "waterTemperature": { "meto": 30.49, "noaa": 29.51, "sg": 30.49 },
+      "waveDirection": {
+        "icon": 210.85,
+        "meteo": 210.73,
+        "noaa": 212.04,
+        "sg": 210.73
+      },
+      "waveHeight": { "icon": 1.84, "meteo": 1.52, "noaa": 1.38, "sg": 1.52 },
+      "wavePeriod": { "icon": 11.78, "meteo": 8.64, "noaa": 12.67, "sg": 8.64 },
+      "windDirection": { "icon": 139.48, "noaa": 138.24, "sg": 139.48 }
+    },
+    {
+      "airTemperature": { "noaa": 29.17, "sg": 29.17 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-06T18:00:00+00:00",
+      "waterTemperature": { "meto": 30.45, "noaa": 29.54, "sg": 30.45 },
+      "waveDirection": {
+        "icon": 210.85,
+        "meteo": 210.77,
+        "noaa": 211.55,
+        "sg": 210.77
+      },
+      "waveHeight": { "icon": 1.83, "meteo": 1.51, "noaa": 1.38, "sg": 1.51 },
+      "wavePeriod": { "icon": 11.73, "meteo": 8.68, "noaa": 12.63, "sg": 8.68 },
+      "windDirection": { "icon": 133.21, "noaa": 136.23, "sg": 133.21 }
+    },
+    {
+      "airTemperature": { "noaa": 29.08, "sg": 29.08 },
+      "precipitation": { "noaa": 0.12, "sg": 0.12 },
+      "time": "2022-04-06T19:00:00+00:00",
+      "waterTemperature": { "meto": 30.42, "noaa": 29.5, "sg": 30.42 },
+      "waveDirection": {
+        "icon": 210.85,
+        "meteo": 210.86,
+        "noaa": 210.94,
+        "sg": 210.86
+      },
+      "waveHeight": { "icon": 1.82, "meteo": 1.5, "noaa": 1.37, "sg": 1.5 },
+      "wavePeriod": { "icon": 11.69, "meteo": 8.69, "noaa": 12.6, "sg": 8.69 },
+      "windDirection": { "icon": 135.83, "noaa": 136.46, "sg": 135.83 }
+    },
+    {
+      "airTemperature": { "noaa": 29.0, "sg": 29.0 },
+      "precipitation": { "noaa": 0.23, "sg": 0.23 },
+      "time": "2022-04-06T20:00:00+00:00",
+      "waterTemperature": { "meto": 30.39, "noaa": 29.45, "sg": 30.39 },
+      "waveDirection": {
+        "icon": 210.84,
+        "meteo": 210.96,
+        "noaa": 210.33,
+        "sg": 210.96
+      },
+      "waveHeight": { "icon": 1.81, "meteo": 1.48, "noaa": 1.37, "sg": 1.48 },
+      "wavePeriod": { "icon": 11.64, "meteo": 8.71, "noaa": 12.57, "sg": 8.71 },
+      "windDirection": { "icon": 138.45, "noaa": 136.69, "sg": 138.45 }
+    },
+    {
+      "airTemperature": { "noaa": 28.91, "sg": 28.91 },
+      "precipitation": { "noaa": 0.34, "sg": 0.34 },
+      "time": "2022-04-06T21:00:00+00:00",
+      "waterTemperature": { "meto": 30.37, "noaa": 29.41, "sg": 30.37 },
+      "waveDirection": {
+        "icon": 210.84,
+        "meteo": 211.05,
+        "noaa": 209.72,
+        "sg": 211.05
+      },
+      "waveHeight": { "icon": 1.8, "meteo": 1.47, "noaa": 1.36, "sg": 1.47 },
+      "wavePeriod": { "icon": 11.6, "meteo": 8.72, "noaa": 12.54, "sg": 8.72 },
+      "windDirection": { "icon": 141.07, "noaa": 136.92, "sg": 141.07 }
+    },
+    {
+      "airTemperature": { "noaa": 28.89, "sg": 28.89 },
+      "precipitation": { "noaa": 0.23, "sg": 0.23 },
+      "time": "2022-04-06T22:00:00+00:00",
+      "waterTemperature": { "meto": 30.35, "noaa": 29.41, "sg": 30.35 },
+      "waveDirection": {
+        "icon": 210.85,
+        "meteo": 211.19,
+        "noaa": 209.18,
+        "sg": 211.19
+      },
+      "waveHeight": { "icon": 1.79, "meteo": 1.46, "noaa": 1.36, "sg": 1.46 },
+      "wavePeriod": { "icon": 11.56, "meteo": 8.71, "noaa": 12.51, "sg": 8.71 },
+      "windDirection": { "icon": 138.12, "noaa": 132.49, "sg": 138.12 }
+    },
+    {
+      "airTemperature": { "noaa": 28.87, "sg": 28.87 },
+      "precipitation": { "noaa": 0.12, "sg": 0.12 },
+      "time": "2022-04-06T23:00:00+00:00",
+      "waterTemperature": { "meto": 30.33, "noaa": 29.41, "sg": 30.33 },
+      "waveDirection": {
+        "icon": 210.87,
+        "meteo": 211.33,
+        "noaa": 208.63,
+        "sg": 211.33
+      },
+      "waveHeight": { "icon": 1.78, "meteo": 1.44, "noaa": 1.36, "sg": 1.44 },
+      "wavePeriod": { "icon": 11.52, "meteo": 8.71, "noaa": 12.47, "sg": 8.71 },
+      "windDirection": { "icon": 135.18, "noaa": 128.07, "sg": 135.18 }
+    },
+    {
+      "airTemperature": { "noaa": 28.85, "sg": 28.85 },
+      "precipitation": { "noaa": 0.02, "sg": 0.02 },
+      "time": "2022-04-07T00:00:00+00:00",
+      "waterTemperature": { "meto": 30.37, "noaa": 29.4, "sg": 30.37 },
+      "waveDirection": {
+        "icon": 210.88,
+        "meteo": 211.47,
+        "noaa": 208.09,
+        "sg": 211.47
+      },
+      "waveHeight": { "icon": 1.77, "meteo": 1.43, "noaa": 1.36, "sg": 1.43 },
+      "wavePeriod": { "icon": 11.48, "meteo": 8.7, "noaa": 12.44, "sg": 8.7 },
+      "windDirection": { "icon": 132.23, "noaa": 123.64, "sg": 132.23 }
+    },
+    {
+      "airTemperature": { "noaa": 28.94, "sg": 28.94 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-07T01:00:00+00:00",
+      "waterTemperature": { "meto": 30.45, "noaa": 29.51, "sg": 30.45 },
+      "waveDirection": {
+        "icon": 210.93,
+        "meteo": 211.62,
+        "noaa": 207.8,
+        "sg": 211.62
+      },
+      "waveHeight": { "icon": 1.76, "meteo": 1.42, "noaa": 1.35, "sg": 1.42 },
+      "wavePeriod": { "icon": 11.45, "meteo": 8.68, "noaa": 12.39, "sg": 8.68 },
+      "windDirection": { "icon": 137.43, "noaa": 125.37, "sg": 137.43 }
+    },
+    {
+      "airTemperature": { "noaa": 29.02, "sg": 29.02 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-07T02:00:00+00:00",
+      "waterTemperature": { "meto": 30.54, "noaa": 29.61, "sg": 30.54 },
+      "waveDirection": {
+        "icon": 210.97,
+        "meteo": 211.78,
+        "noaa": 207.5,
+        "sg": 211.78
+      },
+      "waveHeight": { "icon": 1.74, "meteo": 1.4, "noaa": 1.33, "sg": 1.4 },
+      "wavePeriod": { "icon": 11.43, "meteo": 8.66, "noaa": 12.33, "sg": 8.66 },
+      "windDirection": { "icon": 142.62, "noaa": 127.11, "sg": 142.62 }
+    },
+    {
+      "airTemperature": { "noaa": 29.11, "sg": 29.11 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-07T03:00:00+00:00",
+      "waterTemperature": { "meto": 30.72, "noaa": 29.71, "sg": 30.72 },
+      "waveDirection": {
+        "icon": 211.02,
+        "meteo": 211.93,
+        "noaa": 207.21,
+        "sg": 211.93
+      },
+      "waveHeight": { "icon": 1.73, "meteo": 1.39, "noaa": 1.32, "sg": 1.39 },
+      "wavePeriod": { "icon": 11.4, "meteo": 8.64, "noaa": 12.28, "sg": 8.64 },
+      "windDirection": { "icon": 147.82, "noaa": 128.84, "sg": 147.82 }
+    },
+    {
+      "airTemperature": { "noaa": 29.11, "sg": 29.11 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-07T04:00:00+00:00",
+      "waterTemperature": { "meto": 30.92, "noaa": 29.83, "sg": 30.92 },
+      "waveDirection": {
+        "icon": 211.1,
+        "meteo": 212.06,
+        "noaa": 207.34,
+        "sg": 212.06
+      },
+      "waveHeight": { "icon": 1.72, "meteo": 1.38, "noaa": 1.31, "sg": 1.38 },
+      "wavePeriod": { "icon": 11.39, "meteo": 8.63, "noaa": 12.17, "sg": 8.63 },
+      "windDirection": { "icon": 156.69, "noaa": 134.79, "sg": 156.69 }
+    },
+    {
+      "airTemperature": { "noaa": 29.11, "sg": 29.11 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-07T05:00:00+00:00",
+      "waterTemperature": { "meto": 31.08, "noaa": 29.96, "sg": 31.08 },
+      "waveDirection": {
+        "icon": 211.18,
+        "meteo": 212.19,
+        "noaa": 207.46,
+        "sg": 212.19
+      },
+      "waveHeight": { "icon": 1.71, "meteo": 1.37, "noaa": 1.3, "sg": 1.37 },
+      "wavePeriod": { "icon": 11.37, "meteo": 8.61, "noaa": 12.06, "sg": 8.61 },
+      "windDirection": { "icon": 165.57, "noaa": 140.75, "sg": 165.57 }
+    },
+    {
+      "airTemperature": { "noaa": 29.11, "sg": 29.11 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-07T06:00:00+00:00",
+      "waterTemperature": { "meto": 31.15, "noaa": 30.08, "sg": 31.15 },
+      "waveDirection": {
+        "icon": 211.26,
+        "meteo": 212.32,
+        "noaa": 207.59,
+        "sg": 212.32
+      },
+      "waveHeight": { "icon": 1.7, "meteo": 1.36, "noaa": 1.29, "sg": 1.36 },
+      "wavePeriod": { "icon": 11.36, "meteo": 8.6, "noaa": 11.95, "sg": 8.6 },
+      "windDirection": { "icon": 174.44, "noaa": 146.7, "sg": 174.44 }
+    },
+    {
+      "airTemperature": { "noaa": 29.22, "sg": 29.22 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-07T07:00:00+00:00",
+      "waterTemperature": { "meto": 31.16, "noaa": 29.99, "sg": 31.16 },
+      "waveDirection": {
+        "icon": 211.28,
+        "meteo": 212.43,
+        "noaa": 207.44,
+        "sg": 212.43
+      },
+      "waveHeight": { "icon": 1.69, "meteo": 1.35, "noaa": 1.28, "sg": 1.35 },
+      "wavePeriod": { "icon": 11.33, "meteo": 8.54, "noaa": 11.9, "sg": 8.54 },
+      "windDirection": { "icon": 175.49, "noaa": 152.09, "sg": 175.49 }
+    },
+    {
+      "airTemperature": { "noaa": 29.32, "sg": 29.32 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-07T08:00:00+00:00",
+      "waterTemperature": { "meto": 31.15, "noaa": 29.89, "sg": 31.15 },
+      "waveDirection": {
+        "icon": 211.29,
+        "meteo": 212.53,
+        "noaa": 207.29,
+        "sg": 212.53
+      },
+      "waveHeight": { "icon": 1.68, "meteo": 1.33, "noaa": 1.28, "sg": 1.33 },
+      "wavePeriod": { "icon": 11.29, "meteo": 8.47, "noaa": 11.85, "sg": 8.47 },
+      "windDirection": { "icon": 176.54, "noaa": 157.47, "sg": 176.54 }
+    },
+    {
+      "airTemperature": { "noaa": 29.43, "sg": 29.43 },
+      "precipitation": { "noaa": 0.02, "sg": 0.02 },
+      "time": "2022-04-07T09:00:00+00:00",
+      "waterTemperature": { "meto": 31.08, "noaa": 29.79, "sg": 31.08 },
+      "waveDirection": {
+        "icon": 211.31,
+        "meteo": 212.64,
+        "noaa": 207.14,
+        "sg": 212.64
+      },
+      "waveHeight": { "icon": 1.67, "meteo": 1.32, "noaa": 1.27, "sg": 1.32 },
+      "wavePeriod": { "icon": 11.26, "meteo": 8.41, "noaa": 11.8, "sg": 8.41 },
+      "windDirection": { "icon": 177.59, "noaa": 162.86, "sg": 177.59 }
+    },
+    {
+      "airTemperature": { "noaa": 29.3, "sg": 29.3 },
+      "precipitation": { "noaa": 0.06, "sg": 0.06 },
+      "time": "2022-04-07T10:00:00+00:00",
+      "waterTemperature": { "meto": 30.99, "noaa": 29.71, "sg": 30.99 },
+      "waveDirection": {
+        "icon": 211.24,
+        "meteo": 212.56,
+        "noaa": 207.18,
+        "sg": 212.56
+      },
+      "waveHeight": { "icon": 1.66, "meteo": 1.31, "noaa": 1.26, "sg": 1.31 },
+      "wavePeriod": { "icon": 11.23, "meteo": 7.96, "noaa": 11.77, "sg": 7.96 },
+      "windDirection": { "icon": 169.76, "noaa": 156.2, "sg": 169.76 }
+    },
+    {
+      "airTemperature": { "noaa": 29.18, "sg": 29.18 },
+      "precipitation": { "noaa": 0.1, "sg": 0.1 },
+      "time": "2022-04-07T11:00:00+00:00",
+      "waterTemperature": { "meto": 30.93, "noaa": 29.63, "sg": 30.93 },
+      "waveDirection": {
+        "icon": 211.17,
+        "meteo": 212.49,
+        "noaa": 207.22,
+        "sg": 212.49
+      },
+      "waveHeight": { "icon": 1.65, "meteo": 1.31, "noaa": 1.26, "sg": 1.31 },
+      "wavePeriod": { "icon": 11.21, "meteo": 7.5, "noaa": 11.75, "sg": 7.5 },
+      "windDirection": { "icon": 161.93, "noaa": 149.53, "sg": 161.93 }
+    },
+    {
+      "airTemperature": { "noaa": 29.05, "sg": 29.05 },
+      "precipitation": { "noaa": 0.15, "sg": 0.15 },
+      "time": "2022-04-07T12:00:00+00:00",
+      "waterTemperature": { "meto": 30.87, "noaa": 29.55, "sg": 30.87 },
+      "waveDirection": {
+        "icon": 211.1,
+        "meteo": 212.41,
+        "noaa": 207.26,
+        "sg": 212.41
+      },
+      "waveHeight": { "icon": 1.64, "meteo": 1.3, "noaa": 1.25, "sg": 1.3 },
+      "wavePeriod": { "icon": 11.18, "meteo": 7.05, "noaa": 11.72, "sg": 7.05 },
+      "windDirection": { "icon": 154.1, "noaa": 142.87, "sg": 154.1 }
+    },
+    {
+      "airTemperature": { "noaa": 29.04, "sg": 29.04 },
+      "precipitation": { "noaa": 0.16, "sg": 0.16 },
+      "time": "2022-04-07T13:00:00+00:00",
+      "waterTemperature": { "meto": 30.81, "noaa": 29.51, "sg": 30.81 },
+      "waveDirection": {
+        "icon": 211.27,
+        "meteo": 212.23,
+        "noaa": 213.47,
+        "sg": 212.23
+      },
+      "waveHeight": { "icon": 1.63, "meteo": 1.29, "noaa": 1.24, "sg": 1.29 },
+      "wavePeriod": { "icon": 11.2, "meteo": 6.95, "noaa": 13.62, "sg": 6.95 },
+      "windDirection": { "icon": 152.3, "noaa": 141.43, "sg": 152.3 }
+    },
+    {
+      "airTemperature": { "noaa": 29.03, "sg": 29.03 },
+      "precipitation": { "noaa": 0.16, "sg": 0.16 },
+      "time": "2022-04-07T14:00:00+00:00",
+      "waterTemperature": { "meto": 30.76, "noaa": 29.47, "sg": 30.76 },
+      "waveDirection": {
+        "icon": 211.43,
+        "meteo": 212.04,
+        "noaa": 219.68,
+        "sg": 212.04
+      },
+      "waveHeight": { "icon": 1.61, "meteo": 1.28, "noaa": 1.23, "sg": 1.28 },
+      "wavePeriod": { "icon": 11.21, "meteo": 6.86, "noaa": 15.53, "sg": 6.86 },
+      "windDirection": { "icon": 150.5, "noaa": 139.98, "sg": 150.5 }
+    },
+    {
+      "airTemperature": { "noaa": 29.03, "sg": 29.03 },
+      "precipitation": { "noaa": 0.17, "sg": 0.17 },
+      "time": "2022-04-07T15:00:00+00:00",
+      "waterTemperature": { "meto": 30.7, "noaa": 29.43, "sg": 30.7 },
+      "waveDirection": {
+        "icon": 211.6,
+        "meteo": 211.86,
+        "noaa": 225.89,
+        "sg": 211.86
+      },
+      "waveHeight": { "icon": 1.6, "meteo": 1.27, "noaa": 1.22, "sg": 1.27 },
+      "wavePeriod": { "icon": 11.23, "meteo": 6.76, "noaa": 17.43, "sg": 6.76 },
+      "windDirection": { "icon": 148.7, "noaa": 138.54, "sg": 148.7 }
+    },
+    {
+      "airTemperature": { "noaa": 28.95, "sg": 28.95 },
+      "precipitation": { "noaa": 0.2, "sg": 0.2 },
+      "time": "2022-04-07T16:00:00+00:00",
+      "waterTemperature": { "meto": 30.64, "noaa": 29.43, "sg": 30.64 },
+      "waveDirection": {
+        "icon": 211.89,
+        "meteo": 211.96,
+        "noaa": 225.65,
+        "sg": 211.96
+      },
+      "waveHeight": { "icon": 1.59, "meteo": 1.26, "noaa": 1.21, "sg": 1.26 },
+      "wavePeriod": { "icon": 11.27, "meteo": 6.81, "noaa": 17.3, "sg": 6.81 },
+      "windDirection": { "icon": 148.46, "noaa": 142.45, "sg": 148.46 }
+    },
+    {
+      "airTemperature": { "noaa": 28.88, "sg": 28.88 },
+      "precipitation": { "noaa": 0.23, "sg": 0.23 },
+      "time": "2022-04-07T17:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.43, "sg": 30.6 },
+      "waveDirection": {
+        "icon": 212.17,
+        "meteo": 212.05,
+        "noaa": 225.42,
+        "sg": 212.05
+      },
+      "waveHeight": { "icon": 1.57, "meteo": 1.25, "noaa": 1.2, "sg": 1.25 },
+      "wavePeriod": { "icon": 11.31, "meteo": 6.87, "noaa": 17.16, "sg": 6.87 },
+      "windDirection": { "icon": 148.21, "noaa": 146.36, "sg": 148.21 }
+    },
+    {
+      "airTemperature": { "noaa": 28.81, "sg": 28.81 },
+      "precipitation": { "noaa": 0.25, "sg": 0.25 },
+      "time": "2022-04-07T18:00:00+00:00",
+      "waterTemperature": { "meto": 30.56, "noaa": 29.44, "sg": 30.56 },
+      "waveDirection": {
+        "icon": 212.46,
+        "meteo": 212.15,
+        "noaa": 225.18,
+        "sg": 212.15
+      },
+      "waveHeight": { "icon": 1.56, "meteo": 1.24, "noaa": 1.19, "sg": 1.24 },
+      "wavePeriod": { "icon": 11.35, "meteo": 6.92, "noaa": 17.03, "sg": 6.92 },
+      "windDirection": { "icon": 147.97, "noaa": 150.27, "sg": 147.97 }
+    },
+    {
+      "airTemperature": { "noaa": 28.73, "sg": 28.73 },
+      "precipitation": { "noaa": 0.25, "sg": 0.25 },
+      "time": "2022-04-07T19:00:00+00:00",
+      "waterTemperature": { "meto": 30.53, "noaa": 29.42, "sg": 30.53 },
+      "waveDirection": {
+        "icon": 212.74,
+        "meteo": 212.32,
+        "noaa": 225.23,
+        "sg": 212.32
+      },
+      "waveHeight": { "icon": 1.55, "meteo": 1.23, "noaa": 1.18, "sg": 1.23 },
+      "wavePeriod": { "icon": 11.39, "meteo": 7.01, "noaa": 16.94, "sg": 7.01 },
+      "windDirection": { "icon": 147.4, "noaa": 149.45, "sg": 147.4 }
+    },
+    {
+      "airTemperature": { "noaa": 28.66, "sg": 28.66 },
+      "precipitation": { "noaa": 0.24, "sg": 0.24 },
+      "time": "2022-04-07T20:00:00+00:00",
+      "waterTemperature": { "meto": 30.5, "noaa": 29.4, "sg": 30.5 },
+      "waveDirection": {
+        "icon": 213.01,
+        "meteo": 212.49,
+        "noaa": 225.29,
+        "sg": 212.49
+      },
+      "waveHeight": { "icon": 1.53, "meteo": 1.21, "noaa": 1.17, "sg": 1.21 },
+      "wavePeriod": { "icon": 11.43, "meteo": 7.1, "noaa": 16.84, "sg": 7.1 },
+      "windDirection": { "icon": 146.84, "noaa": 148.63, "sg": 146.84 }
+    },
+    {
+      "airTemperature": { "noaa": 28.59, "sg": 28.59 },
+      "precipitation": { "noaa": 0.24, "sg": 0.24 },
+      "time": "2022-04-07T21:00:00+00:00",
+      "waterTemperature": { "meto": 30.49, "noaa": 29.38, "sg": 30.49 },
+      "waveDirection": {
+        "icon": 213.29,
+        "meteo": 212.66,
+        "noaa": 225.34,
+        "sg": 212.66
+      },
+      "waveHeight": { "icon": 1.52, "meteo": 1.2, "noaa": 1.16, "sg": 1.2 },
+      "wavePeriod": { "icon": 11.47, "meteo": 7.19, "noaa": 16.75, "sg": 7.19 },
+      "windDirection": { "icon": 146.27, "noaa": 147.81, "sg": 146.27 }
+    },
+    {
+      "airTemperature": { "noaa": 28.43, "sg": 28.43 },
+      "precipitation": { "noaa": 0.39, "sg": 0.39 },
+      "time": "2022-04-07T22:00:00+00:00",
+      "waterTemperature": { "meto": 30.47, "noaa": 29.4, "sg": 30.47 },
+      "waveDirection": {
+        "icon": 213.52,
+        "meteo": 212.81,
+        "noaa": 225.46,
+        "sg": 212.81
+      },
+      "waveHeight": { "icon": 1.51, "meteo": 1.19, "noaa": 1.15, "sg": 1.19 },
+      "wavePeriod": { "icon": 11.5, "meteo": 7.24, "noaa": 16.7, "sg": 7.24 },
+      "windDirection": { "icon": 145.01, "noaa": 148.55, "sg": 145.01 }
+    },
+    {
+      "airTemperature": { "noaa": 28.28, "sg": 28.28 },
+      "precipitation": { "noaa": 0.55, "sg": 0.55 },
+      "time": "2022-04-07T23:00:00+00:00",
+      "waterTemperature": { "meto": 30.46, "noaa": 29.43, "sg": 30.46 },
+      "waveDirection": {
+        "icon": 213.75,
+        "meteo": 212.95,
+        "noaa": 225.58,
+        "sg": 212.95
+      },
+      "waveHeight": { "icon": 1.5, "meteo": 1.17, "noaa": 1.15, "sg": 1.17 },
+      "wavePeriod": { "icon": 11.53, "meteo": 7.28, "noaa": 16.64, "sg": 7.28 },
+      "windDirection": { "icon": 143.75, "noaa": 149.3, "sg": 143.75 }
+    },
+    {
+      "airTemperature": { "noaa": 28.12, "sg": 28.12 },
+      "precipitation": { "noaa": 0.71, "sg": 0.71 },
+      "time": "2022-04-08T00:00:00+00:00",
+      "waterTemperature": { "meto": 30.48, "noaa": 29.46, "sg": 30.48 },
+      "waveDirection": {
+        "icon": 213.98,
+        "meteo": 213.1,
+        "noaa": 225.7,
+        "sg": 213.1
+      },
+      "waveHeight": { "icon": 1.49, "meteo": 1.16, "noaa": 1.14, "sg": 1.16 },
+      "wavePeriod": { "icon": 11.56, "meteo": 7.33, "noaa": 16.59, "sg": 7.33 },
+      "windDirection": { "icon": 142.49, "noaa": 150.04, "sg": 142.49 }
+    },
+    {
+      "airTemperature": { "noaa": 28.11, "sg": 28.11 },
+      "precipitation": { "noaa": 0.47, "sg": 0.47 },
+      "time": "2022-04-08T01:00:00+00:00",
+      "waterTemperature": { "meto": 30.52, "noaa": 29.61, "sg": 30.52 },
+      "waveDirection": {
+        "icon": 214.17,
+        "meteo": 213.16,
+        "noaa": 225.82,
+        "sg": 213.16
+      },
+      "waveHeight": { "icon": 1.48, "meteo": 1.15, "noaa": 1.14, "sg": 1.15 },
+      "wavePeriod": { "icon": 11.58, "meteo": 7.35, "noaa": 16.53, "sg": 7.35 },
+      "windDirection": { "icon": 154.14, "noaa": 150.87, "sg": 154.14 }
+    },
+    {
+      "airTemperature": { "noaa": 28.09, "sg": 28.09 },
+      "precipitation": { "noaa": 0.24, "sg": 0.24 },
+      "time": "2022-04-08T02:00:00+00:00",
+      "waterTemperature": { "meto": 30.55, "noaa": 29.75, "sg": 30.55 },
+      "waveDirection": {
+        "icon": 214.36,
+        "meteo": 213.21,
+        "noaa": 225.93,
+        "sg": 213.21
+      },
+      "waveHeight": { "icon": 1.48, "meteo": 1.15, "noaa": 1.13, "sg": 1.15 },
+      "wavePeriod": { "icon": 11.61, "meteo": 7.38, "noaa": 16.47, "sg": 7.38 },
+      "windDirection": { "icon": 165.8, "noaa": 151.7, "sg": 165.8 }
+    },
+    {
+      "airTemperature": { "noaa": 28.07, "sg": 28.07 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-08T03:00:00+00:00",
+      "waterTemperature": { "meto": 30.67, "noaa": 29.9, "sg": 30.67 },
+      "waveDirection": {
+        "icon": 214.55,
+        "meteo": 213.27,
+        "noaa": 226.05,
+        "sg": 213.27
+      },
+      "waveHeight": { "icon": 1.47, "meteo": 1.14, "noaa": 1.13, "sg": 1.14 },
+      "wavePeriod": { "icon": 11.63, "meteo": 7.4, "noaa": 16.41, "sg": 7.4 },
+      "windDirection": { "icon": 177.45, "noaa": 152.53, "sg": 177.45 }
+    },
+    {
+      "airTemperature": { "noaa": 28.14, "sg": 28.14 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-08T04:00:00+00:00",
+      "waterTemperature": { "meto": 30.84, "noaa": 30.12, "sg": 30.84 },
+      "waveDirection": {
+        "icon": 214.7,
+        "meteo": 213.27,
+        "noaa": 225.98,
+        "sg": 213.27
+      },
+      "waveHeight": { "icon": 1.46, "meteo": 1.13, "noaa": 1.12, "sg": 1.13 },
+      "wavePeriod": { "icon": 11.65, "meteo": 7.41, "noaa": 16.3, "sg": 7.41 },
+      "windDirection": { "icon": 186.07, "noaa": 166.71, "sg": 186.07 }
+    },
+    {
+      "airTemperature": { "noaa": 28.2, "sg": 28.2 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-08T05:00:00+00:00",
+      "waterTemperature": { "meto": 30.99, "noaa": 30.33, "sg": 30.99 },
+      "waveDirection": {
+        "icon": 214.84,
+        "meteo": 213.28,
+        "noaa": 225.92,
+        "sg": 213.28
+      },
+      "waveHeight": { "icon": 1.46, "meteo": 1.12, "noaa": 1.12, "sg": 1.12 },
+      "wavePeriod": { "icon": 11.66, "meteo": 7.41, "noaa": 16.19, "sg": 7.41 },
+      "windDirection": { "icon": 194.69, "noaa": 180.88, "sg": 194.69 }
+    },
+    {
+      "airTemperature": { "noaa": 28.27, "sg": 28.27 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-08T06:00:00+00:00",
+      "waterTemperature": { "meto": 31.05, "noaa": 30.55, "sg": 31.05 },
+      "waveDirection": {
+        "icon": 214.99,
+        "meteo": 213.28,
+        "noaa": 225.85,
+        "sg": 213.28
+      },
+      "waveHeight": { "icon": 1.45, "meteo": 1.11, "noaa": 1.11, "sg": 1.11 },
+      "wavePeriod": { "icon": 11.68, "meteo": 7.42, "noaa": 16.08, "sg": 7.42 },
+      "windDirection": { "icon": 203.31, "noaa": 195.06, "sg": 203.31 }
+    },
+    {
+      "airTemperature": { "noaa": 28.48, "sg": 28.48 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-08T07:00:00+00:00",
+      "waterTemperature": { "meto": 31.05, "noaa": 30.36, "sg": 31.05 },
+      "waveDirection": {
+        "icon": 215.1,
+        "meteo": 213.27,
+        "noaa": 224.92,
+        "sg": 213.27
+      },
+      "waveHeight": { "icon": 1.45, "meteo": 1.11, "noaa": 1.11, "sg": 1.11 },
+      "wavePeriod": { "icon": 11.69, "meteo": 7.41, "noaa": 15.97, "sg": 7.41 },
+      "windDirection": { "icon": 203.64, "noaa": 194.25, "sg": 203.64 }
+    },
+    {
+      "airTemperature": { "noaa": 28.69, "sg": 28.69 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-08T08:00:00+00:00",
+      "waterTemperature": { "meto": 31.05, "noaa": 30.18, "sg": 31.05 },
+      "waveDirection": {
+        "icon": 215.22,
+        "meteo": 213.25,
+        "noaa": 224.0,
+        "sg": 213.25
+      },
+      "waveHeight": { "icon": 1.44, "meteo": 1.1, "noaa": 1.1, "sg": 1.1 },
+      "wavePeriod": { "icon": 11.7, "meteo": 7.39, "noaa": 15.86, "sg": 7.39 },
+      "windDirection": { "icon": 203.96, "noaa": 193.45, "sg": 203.96 }
+    },
+    {
+      "airTemperature": { "noaa": 28.9, "sg": 28.9 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-08T09:00:00+00:00",
+      "waterTemperature": { "meto": 31.01, "noaa": 29.99, "sg": 31.01 },
+      "waveDirection": {
+        "icon": 215.33,
+        "meteo": 213.24,
+        "noaa": 223.07,
+        "sg": 213.24
+      },
+      "waveHeight": { "icon": 1.44, "meteo": 1.1, "noaa": 1.1, "sg": 1.1 },
+      "wavePeriod": { "icon": 11.71, "meteo": 7.38, "noaa": 15.75, "sg": 7.38 },
+      "windDirection": { "icon": 204.29, "noaa": 192.64, "sg": 204.29 }
+    },
+    {
+      "airTemperature": { "noaa": 29.0, "sg": 29.0 },
+      "precipitation": { "noaa": 0.05, "sg": 0.05 },
+      "time": "2022-04-08T10:00:00+00:00",
+      "waterTemperature": { "meto": 30.96, "noaa": 29.83, "sg": 30.96 },
+      "waveDirection": {
+        "icon": 215.42,
+        "meteo": 213.25,
+        "noaa": 222.79,
+        "sg": 213.25
+      },
+      "waveHeight": { "icon": 1.44, "meteo": 1.09, "noaa": 1.1, "sg": 1.09 },
+      "wavePeriod": { "icon": 11.73, "meteo": 7.4, "noaa": 15.69, "sg": 7.4 },
+      "windDirection": { "icon": 192.55, "noaa": 190.4, "sg": 192.55 }
+    },
+    {
+      "airTemperature": { "noaa": 29.1, "sg": 29.1 },
+      "precipitation": { "noaa": 0.09, "sg": 0.09 },
+      "time": "2022-04-08T11:00:00+00:00",
+      "waterTemperature": { "meto": 30.94, "noaa": 29.67, "sg": 30.94 },
+      "waveDirection": {
+        "icon": 215.5,
+        "meteo": 213.26,
+        "noaa": 222.51,
+        "sg": 213.26
+      },
+      "waveHeight": { "icon": 1.43, "meteo": 1.09, "noaa": 1.1, "sg": 1.09 },
+      "wavePeriod": { "icon": 11.74, "meteo": 7.41, "noaa": 15.64, "sg": 7.41 },
+      "windDirection": { "icon": 180.81, "noaa": 188.15, "sg": 180.81 }
+    },
+    {
+      "airTemperature": { "noaa": 29.21, "sg": 29.21 },
+      "precipitation": { "noaa": 0.12, "sg": 0.12 },
+      "time": "2022-04-08T12:00:00+00:00",
+      "waterTemperature": { "meto": 30.9, "noaa": 29.51, "sg": 30.9 },
+      "waveDirection": {
+        "icon": 215.59,
+        "meteo": 213.27,
+        "noaa": 222.23,
+        "sg": 213.27
+      },
+      "waveHeight": { "icon": 1.43, "meteo": 1.08, "noaa": 1.1, "sg": 1.08 },
+      "wavePeriod": { "icon": 11.76, "meteo": 7.43, "noaa": 15.58, "sg": 7.43 },
+      "windDirection": { "icon": 169.07, "noaa": 185.91, "sg": 169.07 }
+    },
+    {
+      "airTemperature": { "noaa": 29.09, "sg": 29.09 },
+      "precipitation": { "noaa": 0.1, "sg": 0.1 },
+      "time": "2022-04-08T13:00:00+00:00",
+      "waterTemperature": { "meto": 30.86, "noaa": 29.48, "sg": 30.86 },
+      "waveDirection": {
+        "icon": 215.66,
+        "meteo": 213.33,
+        "noaa": 221.92,
+        "sg": 213.33
+      },
+      "waveHeight": { "icon": 1.43, "meteo": 1.08, "noaa": 1.1, "sg": 1.08 },
+      "wavePeriod": { "icon": 11.78, "meteo": 7.46, "noaa": 15.53, "sg": 7.46 },
+      "windDirection": { "icon": 162.13, "noaa": 180.83, "sg": 162.13 }
+    },
+    {
+      "airTemperature": { "noaa": 28.97, "sg": 28.97 },
+      "precipitation": { "noaa": 0.08, "sg": 0.08 },
+      "time": "2022-04-08T14:00:00+00:00",
+      "waterTemperature": { "meto": 30.82, "noaa": 29.44, "sg": 30.82 },
+      "waveDirection": {
+        "icon": 215.73,
+        "meteo": 213.38,
+        "noaa": 221.62,
+        "sg": 213.38
+      },
+      "waveHeight": { "icon": 1.43, "meteo": 1.07, "noaa": 1.11, "sg": 1.07 },
+      "wavePeriod": { "icon": 11.8, "meteo": 7.48, "noaa": 15.47, "sg": 7.48 },
+      "windDirection": { "icon": 155.19, "noaa": 175.76, "sg": 155.19 }
+    },
+    {
+      "airTemperature": { "noaa": 28.85, "sg": 28.85 },
+      "precipitation": { "noaa": 0.06, "sg": 0.06 },
+      "time": "2022-04-08T15:00:00+00:00",
+      "waterTemperature": { "meto": 30.78, "noaa": 29.41, "sg": 30.78 },
+      "waveDirection": {
+        "icon": 215.8,
+        "meteo": 213.44,
+        "noaa": 221.31,
+        "sg": 213.44
+      },
+      "waveHeight": { "icon": 1.43, "meteo": 1.07, "noaa": 1.11, "sg": 1.07 },
+      "wavePeriod": { "icon": 11.82, "meteo": 7.51, "noaa": 15.42, "sg": 7.51 },
+      "windDirection": { "icon": 148.25, "noaa": 170.68, "sg": 148.25 }
+    },
+    {
+      "airTemperature": { "noaa": 28.69, "sg": 28.69 },
+      "precipitation": { "noaa": 0.26, "sg": 0.26 },
+      "time": "2022-04-08T16:00:00+00:00",
+      "waterTemperature": { "meto": 30.73, "noaa": 29.42, "sg": 30.73 },
+      "waveDirection": {
+        "icon": 215.85,
+        "meteo": 213.49,
+        "noaa": 221.2,
+        "sg": 213.49
+      },
+      "waveHeight": { "icon": 1.43, "meteo": 1.07, "noaa": 1.11, "sg": 1.07 },
+      "wavePeriod": { "icon": 11.85, "meteo": 7.54, "noaa": 15.37, "sg": 7.54 },
+      "windDirection": { "icon": 139.68, "noaa": 171.89, "sg": 139.68 }
+    },
+    {
+      "airTemperature": { "noaa": 28.54, "sg": 28.54 },
+      "precipitation": { "noaa": 0.47, "sg": 0.47 },
+      "time": "2022-04-08T17:00:00+00:00",
+      "waterTemperature": { "meto": 30.7, "noaa": 29.43, "sg": 30.7 },
+      "waveDirection": {
+        "icon": 215.91,
+        "meteo": 213.55,
+        "noaa": 221.09,
+        "sg": 213.55
+      },
+      "waveHeight": { "icon": 1.44, "meteo": 1.07, "noaa": 1.12, "sg": 1.07 },
+      "wavePeriod": { "icon": 11.87, "meteo": 7.57, "noaa": 15.31, "sg": 7.57 },
+      "windDirection": { "icon": 131.12, "noaa": 173.1, "sg": 131.12 }
+    },
+    {
+      "airTemperature": { "noaa": 28.38, "sg": 28.38 },
+      "precipitation": { "noaa": 0.67, "sg": 0.67 },
+      "time": "2022-04-08T18:00:00+00:00",
+      "waterTemperature": { "meto": 30.66, "noaa": 29.44, "sg": 30.66 },
+      "waveDirection": {
+        "icon": 215.96,
+        "meteo": 213.6,
+        "noaa": 220.98,
+        "sg": 213.6
+      },
+      "waveHeight": { "icon": 1.44, "meteo": 1.07, "noaa": 1.12, "sg": 1.07 },
+      "wavePeriod": { "icon": 11.9, "meteo": 7.6, "noaa": 15.26, "sg": 7.6 },
+      "windDirection": { "icon": 122.55, "noaa": 174.31, "sg": 122.55 }
+    },
+    {
+      "airTemperature": { "noaa": 28.2, "sg": 28.2 },
+      "precipitation": { "noaa": 0.81, "sg": 0.81 },
+      "time": "2022-04-08T19:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.44, "sg": 30.63 },
+      "waveDirection": {
+        "icon": 216.0,
+        "meteo": 213.64,
+        "noaa": 221.0,
+        "sg": 213.64
+      },
+      "waveHeight": { "icon": 1.44, "meteo": 1.07, "noaa": 1.12, "sg": 1.07 },
+      "wavePeriod": { "icon": 11.93, "meteo": 7.63, "noaa": 15.19, "sg": 7.63 },
+      "windDirection": { "icon": 118.8, "noaa": 171.71, "sg": 118.8 }
+    },
+    {
+      "airTemperature": { "noaa": 28.01, "sg": 28.01 },
+      "precipitation": { "noaa": 0.96, "sg": 0.96 },
+      "time": "2022-04-08T20:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.45, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 216.05,
+        "meteo": 213.69,
+        "noaa": 221.03,
+        "sg": 213.69
+      },
+      "waveHeight": { "icon": 1.45, "meteo": 1.07, "noaa": 1.13, "sg": 1.07 },
+      "wavePeriod": { "icon": 11.97, "meteo": 7.67, "noaa": 15.13, "sg": 7.67 },
+      "windDirection": { "icon": 115.06, "noaa": 169.1, "sg": 115.06 }
+    },
+    {
+      "airTemperature": { "noaa": 27.83, "sg": 27.83 },
+      "precipitation": { "noaa": 1.1, "sg": 1.1 },
+      "time": "2022-04-08T21:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.45, "sg": 30.59 },
+      "waveDirection": {
+        "icon": 216.09,
+        "meteo": 213.73,
+        "noaa": 221.05,
+        "sg": 213.73
+      },
+      "waveHeight": { "icon": 1.45, "meteo": 1.07, "noaa": 1.13, "sg": 1.07 },
+      "wavePeriod": { "icon": 12.0, "meteo": 7.7, "noaa": 15.06, "sg": 7.7 },
+      "windDirection": { "icon": 111.31, "noaa": 166.5, "sg": 111.31 }
+    },
+    {
+      "airTemperature": { "noaa": 28.05, "sg": 28.05 },
+      "precipitation": { "noaa": 0.73, "sg": 0.73 },
+      "time": "2022-04-08T22:00:00+00:00",
+      "waterTemperature": { "meto": 30.57, "noaa": 29.47, "sg": 30.57 },
+      "waveDirection": {
+        "icon": 216.12,
+        "meteo": 213.74,
+        "noaa": 219.66,
+        "sg": 213.74
+      },
+      "waveHeight": { "icon": 1.46, "meteo": 1.07, "noaa": 1.13, "sg": 1.07 },
+      "wavePeriod": { "icon": 12.04, "meteo": 7.74, "noaa": 14.96, "sg": 7.74 },
+      "windDirection": { "icon": 106.67, "noaa": 158.59, "sg": 106.67 }
+    },
+    {
+      "airTemperature": { "noaa": 28.28, "sg": 28.28 },
+      "precipitation": { "noaa": 0.37, "sg": 0.37 },
+      "time": "2022-04-08T23:00:00+00:00",
+      "waterTemperature": { "meto": 30.56, "noaa": 29.48, "sg": 30.56 },
+      "waveDirection": {
+        "icon": 216.14,
+        "meteo": 213.75,
+        "noaa": 218.27,
+        "sg": 213.75
+      },
+      "waveHeight": { "icon": 1.46, "meteo": 1.08, "noaa": 1.14, "sg": 1.08 },
+      "wavePeriod": { "icon": 12.07, "meteo": 7.79, "noaa": 14.86, "sg": 7.79 },
+      "windDirection": { "icon": 102.02, "noaa": 150.69, "sg": 102.02 }
+    },
+    {
+      "airTemperature": { "noaa": 28.5, "sg": 28.5 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T00:00:00+00:00",
+      "waterTemperature": { "meto": 30.56, "noaa": 29.49, "sg": 30.56 },
+      "waveDirection": {
+        "icon": 216.17,
+        "meteo": 213.76,
+        "noaa": 216.88,
+        "sg": 213.76
+      },
+      "waveHeight": { "icon": 1.47, "meteo": 1.08, "noaa": 1.14, "sg": 1.08 },
+      "wavePeriod": { "icon": 12.11, "meteo": 7.83, "noaa": 14.76, "sg": 7.83 },
+      "windDirection": { "icon": 97.38, "noaa": 142.78, "sg": 97.38 }
+    },
+    {
+      "airTemperature": { "noaa": 28.54, "sg": 28.54 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T01:00:00+00:00",
+      "waterTemperature": { "meto": 30.56, "noaa": 29.78, "sg": 30.56 },
+      "waveDirection": {
+        "icon": 216.18,
+        "meteo": 213.67,
+        "noaa": 217.08,
+        "sg": 213.67
+      },
+      "waveHeight": { "icon": 1.48, "meteo": 1.08, "noaa": 1.14, "sg": 1.08 },
+      "wavePeriod": { "icon": 12.15, "meteo": 7.9, "noaa": 14.69, "sg": 7.9 },
+      "windDirection": { "icon": 111.59, "noaa": 150.54, "sg": 111.59 }
+    },
+    {
+      "airTemperature": { "noaa": 28.58, "sg": 28.58 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T02:00:00+00:00",
+      "waterTemperature": { "meto": 30.57, "noaa": 30.07, "sg": 30.57 },
+      "waveDirection": {
+        "icon": 216.18,
+        "meteo": 213.58,
+        "noaa": 217.27,
+        "sg": 213.58
+      },
+      "waveHeight": { "icon": 1.48, "meteo": 1.09, "noaa": 1.15, "sg": 1.09 },
+      "wavePeriod": { "icon": 12.2, "meteo": 7.96, "noaa": 14.62, "sg": 7.96 },
+      "windDirection": { "icon": 125.81, "noaa": 158.3, "sg": 125.81 }
+    },
+    {
+      "airTemperature": { "noaa": 28.62, "sg": 28.62 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T03:00:00+00:00",
+      "waterTemperature": { "meto": 30.58, "noaa": 30.36, "sg": 30.58 },
+      "waveDirection": {
+        "icon": 216.19,
+        "meteo": 213.49,
+        "noaa": 217.47,
+        "sg": 213.49
+      },
+      "waveHeight": { "icon": 1.49, "meteo": 1.09, "noaa": 1.15, "sg": 1.09 },
+      "wavePeriod": { "icon": 12.24, "meteo": 8.03, "noaa": 14.55, "sg": 8.03 },
+      "windDirection": { "icon": 140.02, "noaa": 166.06, "sg": 140.02 }
+    },
+    {
+      "airTemperature": { "noaa": 28.6, "sg": 28.6 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T04:00:00+00:00",
+      "waterTemperature": { "meto": 30.58, "noaa": 30.59, "sg": 30.58 },
+      "waveDirection": {
+        "icon": 216.17,
+        "meteo": 213.4,
+        "noaa": 217.63,
+        "sg": 213.4
+      },
+      "waveHeight": { "icon": 1.5, "meteo": 1.1, "noaa": 1.16, "sg": 1.1 },
+      "wavePeriod": { "icon": 12.28, "meteo": 8.09, "noaa": 14.52, "sg": 8.09 },
+      "windDirection": { "icon": 155.1, "noaa": 175.69, "sg": 155.1 }
+    },
+    {
+      "airTemperature": { "noaa": 28.57, "sg": 28.57 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T05:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 30.82, "sg": 30.59 },
+      "waveDirection": {
+        "icon": 216.15,
+        "meteo": 213.3,
+        "noaa": 217.79,
+        "sg": 213.3
+      },
+      "waveHeight": { "icon": 1.51, "meteo": 1.11, "noaa": 1.16, "sg": 1.11 },
+      "wavePeriod": { "icon": 12.33, "meteo": 8.14, "noaa": 14.48, "sg": 8.14 },
+      "windDirection": { "icon": 170.19, "noaa": 185.33, "sg": 170.19 }
+    },
+    {
+      "airTemperature": { "noaa": 28.55, "sg": 28.55 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T06:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 31.05, "sg": 30.59 },
+      "waveDirection": {
+        "icon": 216.13,
+        "meteo": 213.21,
+        "noaa": 217.95,
+        "sg": 213.21
+      },
+      "waveHeight": { "icon": 1.52, "meteo": 1.12, "noaa": 1.17, "sg": 1.12 },
+      "wavePeriod": { "icon": 12.37, "meteo": 8.2, "noaa": 14.45, "sg": 8.2 },
+      "windDirection": { "icon": 185.27, "noaa": 194.96, "sg": 185.27 }
+    },
+    {
+      "airTemperature": { "noaa": 28.74, "sg": 28.74 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T07:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 30.72, "sg": 30.6 },
+      "waveDirection": {
+        "icon": 216.07,
+        "meteo": 213.1,
+        "noaa": 217.96,
+        "sg": 213.1
+      },
+      "waveHeight": { "icon": 1.53, "meteo": 1.13, "noaa": 1.18, "sg": 1.13 },
+      "wavePeriod": { "icon": 12.4, "meteo": 8.24, "noaa": 14.43, "sg": 8.24 },
+      "windDirection": { "icon": 178.64, "noaa": 194.63, "sg": 178.64 }
+    },
+    {
+      "airTemperature": { "noaa": 28.93, "sg": 28.93 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T08:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 30.38, "sg": 30.6 },
+      "waveDirection": {
+        "icon": 216.0,
+        "meteo": 212.99,
+        "noaa": 217.98,
+        "sg": 212.99
+      },
+      "waveHeight": { "icon": 1.55, "meteo": 1.14, "noaa": 1.19, "sg": 1.14 },
+      "wavePeriod": { "icon": 12.44, "meteo": 8.29, "noaa": 14.42, "sg": 8.29 },
+      "windDirection": { "icon": 172.0, "noaa": 194.29, "sg": 172.0 }
+    },
+    {
+      "airTemperature": { "noaa": 29.11, "sg": 29.11 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T09:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 30.05, "sg": 30.6 },
+      "waveDirection": {
+        "icon": 215.94,
+        "meteo": 212.88,
+        "noaa": 217.99,
+        "sg": 212.88
+      },
+      "waveHeight": { "icon": 1.56, "meteo": 1.15, "noaa": 1.2, "sg": 1.15 },
+      "wavePeriod": { "icon": 12.47, "meteo": 8.33, "noaa": 14.4, "sg": 8.33 },
+      "windDirection": { "icon": 165.37, "noaa": 193.96, "sg": 165.37 }
+    },
+    {
+      "airTemperature": { "noaa": 29.15, "sg": 29.15 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T10:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.83, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 215.8,
+        "meteo": 212.81,
+        "noaa": 217.74,
+        "sg": 212.81
+      },
+      "waveHeight": { "icon": 1.57, "meteo": 1.16, "noaa": 1.21, "sg": 1.16 },
+      "wavePeriod": { "icon": 12.49, "meteo": 8.39, "noaa": 14.38, "sg": 8.39 },
+      "windDirection": { "icon": 154.43, "noaa": 180.51, "sg": 154.43 }
+    },
+    {
+      "airTemperature": { "noaa": 29.18, "sg": 29.18 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T11:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.61, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 215.66,
+        "meteo": 212.73,
+        "noaa": 217.5,
+        "sg": 212.73
+      },
+      "waveHeight": { "icon": 1.59, "meteo": 1.17, "noaa": 1.21, "sg": 1.17 },
+      "wavePeriod": { "icon": 12.5, "meteo": 8.44, "noaa": 14.35, "sg": 8.44 },
+      "windDirection": { "icon": 143.49, "noaa": 167.06, "sg": 143.49 }
+    },
+    {
+      "airTemperature": { "noaa": 29.21, "sg": 29.21 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T12:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.39, "sg": 30.62 },
+      "waveDirection": {
+        "icon": 215.52,
+        "meteo": 212.66,
+        "noaa": 217.25,
+        "sg": 212.66
+      },
+      "waveHeight": { "icon": 1.6, "meteo": 1.18, "noaa": 1.22, "sg": 1.18 },
+      "wavePeriod": { "icon": 12.52, "meteo": 8.5, "noaa": 14.33, "sg": 8.5 },
+      "windDirection": { "icon": 132.55, "noaa": 153.61, "sg": 132.55 }
+    },
+    {
+      "airTemperature": { "noaa": 29.18, "sg": 29.18 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T13:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.4, "sg": 30.62 },
+      "waveDirection": {
+        "icon": 215.33,
+        "meteo": 212.62,
+        "noaa": 216.94,
+        "sg": 212.62
+      },
+      "waveHeight": { "icon": 1.62, "meteo": 1.19, "noaa": 1.23, "sg": 1.19 },
+      "wavePeriod": { "icon": 12.52, "meteo": 8.58, "noaa": 14.29, "sg": 8.58 },
+      "windDirection": { "icon": 133.59, "noaa": 152.09, "sg": 133.59 }
+    },
+    {
+      "airTemperature": { "noaa": 29.15, "sg": 29.15 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T14:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.41, "sg": 30.63 },
+      "waveDirection": {
+        "icon": 215.15,
+        "meteo": 212.59,
+        "noaa": 216.62,
+        "sg": 212.59
+      },
+      "waveHeight": { "icon": 1.63, "meteo": 1.21, "noaa": 1.23, "sg": 1.21 },
+      "wavePeriod": { "icon": 12.52, "meteo": 8.65, "noaa": 14.26, "sg": 8.65 },
+      "windDirection": { "icon": 134.63, "noaa": 150.57, "sg": 134.63 }
+    },
+    {
+      "airTemperature": { "noaa": 29.12, "sg": 29.12 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T15:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.42, "sg": 30.63 },
+      "waveDirection": {
+        "icon": 214.96,
+        "meteo": 212.55,
+        "noaa": 216.31,
+        "sg": 212.55
+      },
+      "waveHeight": { "icon": 1.65, "meteo": 1.22, "noaa": 1.24, "sg": 1.22 },
+      "wavePeriod": { "icon": 12.52, "meteo": 8.73, "noaa": 14.22, "sg": 8.73 },
+      "windDirection": { "icon": 135.67, "noaa": 149.05, "sg": 135.67 }
+    },
+    {
+      "airTemperature": { "noaa": 29.03, "sg": 29.03 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T16:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.41, "sg": 30.63 },
+      "waveDirection": {
+        "icon": 214.73,
+        "meteo": 212.52,
+        "noaa": 216.01,
+        "sg": 212.52
+      },
+      "waveHeight": { "icon": 1.67, "meteo": 1.23, "noaa": 1.25, "sg": 1.23 },
+      "wavePeriod": { "icon": 12.5, "meteo": 8.82, "noaa": 14.16, "sg": 8.82 },
+      "windDirection": { "icon": 135.58, "noaa": 143.77, "sg": 135.58 }
+    },
+    {
+      "airTemperature": { "noaa": 28.93, "sg": 28.93 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T17:00:00+00:00",
+      "waterTemperature": { "meto": 30.64, "noaa": 29.4, "sg": 30.64 },
+      "waveDirection": {
+        "icon": 214.5,
+        "meteo": 212.49,
+        "noaa": 215.71,
+        "sg": 212.49
+      },
+      "waveHeight": { "icon": 1.69, "meteo": 1.25, "noaa": 1.25, "sg": 1.25 },
+      "wavePeriod": { "icon": 12.48, "meteo": 8.9, "noaa": 14.11, "sg": 8.9 },
+      "windDirection": { "icon": 135.48, "noaa": 138.48, "sg": 135.48 }
+    },
+    {
+      "airTemperature": { "noaa": 28.83, "sg": 28.83 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-09T18:00:00+00:00",
+      "waterTemperature": { "meto": 30.64, "noaa": 29.4, "sg": 30.64 },
+      "waveDirection": {
+        "icon": 214.27,
+        "meteo": 212.46,
+        "noaa": 215.41,
+        "sg": 212.46
+      },
+      "waveHeight": { "icon": 1.71, "meteo": 1.26, "noaa": 1.26, "sg": 1.26 },
+      "wavePeriod": { "icon": 12.46, "meteo": 8.99, "noaa": 14.05, "sg": 8.99 },
+      "windDirection": { "icon": 135.39, "noaa": 133.2, "sg": 135.39 }
+    },
+    {
+      "airTemperature": { "noaa": 28.75, "sg": 28.75 },
+      "precipitation": { "noaa": 0.09, "sg": 0.09 },
+      "time": "2022-04-09T19:00:00+00:00",
+      "waterTemperature": { "meto": 30.65, "noaa": 29.4, "sg": 30.65 },
+      "waveDirection": {
+        "icon": 213.94,
+        "meteo": 212.42,
+        "noaa": 214.41,
+        "sg": 212.42
+      },
+      "waveHeight": { "icon": 1.73, "meteo": 1.27, "noaa": 1.27, "sg": 1.27 },
+      "wavePeriod": { "icon": 12.41, "meteo": 9.06, "noaa": 13.97, "sg": 9.06 },
+      "windDirection": { "icon": 133.92, "noaa": 127.55, "sg": 133.92 }
+    },
+    {
+      "airTemperature": { "noaa": 28.67, "sg": 28.67 },
+      "precipitation": { "noaa": 0.17, "sg": 0.17 },
+      "time": "2022-04-09T20:00:00+00:00",
+      "waterTemperature": { "meto": 30.65, "noaa": 29.41, "sg": 30.65 },
+      "waveDirection": {
+        "icon": 213.61,
+        "meteo": 212.38,
+        "noaa": 213.4,
+        "sg": 212.38
+      },
+      "waveHeight": { "icon": 1.74, "meteo": 1.29, "noaa": 1.27, "sg": 1.29 },
+      "wavePeriod": { "icon": 12.36, "meteo": 9.14, "noaa": 13.88, "sg": 9.14 },
+      "windDirection": { "icon": 132.46, "noaa": 121.91, "sg": 132.46 }
+    },
+    {
+      "airTemperature": { "noaa": 28.59, "sg": 28.59 },
+      "precipitation": { "noaa": 0.26, "sg": 0.26 },
+      "time": "2022-04-09T21:00:00+00:00",
+      "waterTemperature": { "meto": 30.66, "noaa": 29.42, "sg": 30.66 },
+      "waveDirection": {
+        "icon": 213.28,
+        "meteo": 212.34,
+        "noaa": 212.4,
+        "sg": 212.34
+      },
+      "waveHeight": { "icon": 1.76, "meteo": 1.3, "noaa": 1.28, "sg": 1.3 },
+      "wavePeriod": { "icon": 12.31, "meteo": 9.21, "noaa": 13.8, "sg": 9.21 },
+      "windDirection": { "icon": 130.99, "noaa": 116.26, "sg": 130.99 }
+    },
+    {
+      "airTemperature": { "noaa": 28.51, "sg": 28.51 },
+      "precipitation": { "noaa": 0.21, "sg": 0.21 },
+      "time": "2022-04-09T22:00:00+00:00",
+      "waterTemperature": { "meto": 30.66, "noaa": 29.44, "sg": 30.66 },
+      "waveDirection": {
+        "icon": 212.89,
+        "meteo": 212.29,
+        "noaa": 212.43,
+        "sg": 212.29
+      },
+      "waveHeight": { "icon": 1.78, "meteo": 1.31, "noaa": 1.29, "sg": 1.31 },
+      "wavePeriod": { "icon": 12.25, "meteo": 9.23, "noaa": 13.75, "sg": 9.23 },
+      "windDirection": { "icon": 128.54, "noaa": 113.44, "sg": 128.54 }
+    },
+    {
+      "airTemperature": { "noaa": 28.44, "sg": 28.44 },
+      "precipitation": { "noaa": 0.16, "sg": 0.16 },
+      "time": "2022-04-09T23:00:00+00:00",
+      "waterTemperature": { "meto": 30.67, "noaa": 29.45, "sg": 30.67 },
+      "waveDirection": {
+        "icon": 212.51,
+        "meteo": 212.23,
+        "noaa": 212.45,
+        "sg": 212.23
+      },
+      "waveHeight": { "icon": 1.8, "meteo": 1.33, "noaa": 1.29, "sg": 1.33 },
+      "wavePeriod": { "icon": 12.18, "meteo": 9.26, "noaa": 13.69, "sg": 9.26 },
+      "windDirection": { "icon": 126.09, "noaa": 110.62, "sg": 126.09 }
+    },
+    {
+      "airTemperature": { "noaa": 28.37, "sg": 28.37 },
+      "precipitation": { "noaa": 0.11, "sg": 0.11 },
+      "time": "2022-04-10T00:00:00+00:00",
+      "waterTemperature": { "meto": 30.58, "noaa": 29.47, "sg": 30.58 },
+      "waveDirection": {
+        "icon": 212.12,
+        "meteo": 212.18,
+        "noaa": 212.48,
+        "sg": 212.18
+      },
+      "waveHeight": { "icon": 1.82, "meteo": 1.34, "noaa": 1.3, "sg": 1.34 },
+      "wavePeriod": { "icon": 12.12, "meteo": 9.28, "noaa": 13.64, "sg": 9.28 },
+      "windDirection": { "icon": 123.64, "noaa": 107.8, "sg": 123.64 }
+    },
+    {
+      "airTemperature": { "noaa": 28.38, "sg": 28.38 },
+      "precipitation": { "noaa": 0.07, "sg": 0.07 },
+      "time": "2022-04-10T01:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.53, "sg": 30.59 },
+      "waveDirection": {
+        "icon": 211.98,
+        "meteo": 212.15,
+        "noaa": 212.55,
+        "sg": 212.15
+      },
+      "waveHeight": { "icon": 1.83, "meteo": 1.35, "noaa": 1.31, "sg": 1.35 },
+      "wavePeriod": { "icon": 12.1, "meteo": 9.27, "noaa": 13.59, "sg": 9.27 },
+      "windDirection": { "icon": 122.63, "noaa": 113.77, "sg": 122.63 }
+    },
+    {
+      "airTemperature": { "noaa": 28.39, "sg": 28.39 },
+      "precipitation": { "noaa": 0.04, "sg": 0.04 },
+      "time": "2022-04-10T02:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.59, "sg": 30.59 },
+      "waveDirection": {
+        "icon": 211.84,
+        "meteo": 212.11,
+        "noaa": 212.62,
+        "sg": 212.11
+      },
+      "waveHeight": { "icon": 1.85, "meteo": 1.36, "noaa": 1.31, "sg": 1.36 },
+      "wavePeriod": { "icon": 12.08, "meteo": 9.26, "noaa": 13.55, "sg": 9.26 },
+      "windDirection": { "icon": 121.61, "noaa": 119.73, "sg": 121.61 }
+    },
+    {
+      "airTemperature": { "noaa": 28.4, "sg": 28.4 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T03:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.65, "sg": 30.59 },
+      "waveDirection": {
+        "icon": 211.7,
+        "meteo": 212.08,
+        "noaa": 212.69,
+        "sg": 212.08
+      },
+      "waveHeight": { "icon": 1.86, "meteo": 1.37, "noaa": 1.32, "sg": 1.37 },
+      "wavePeriod": { "icon": 12.06, "meteo": 9.25, "noaa": 13.5, "sg": 9.25 },
+      "windDirection": { "icon": 120.6, "noaa": 125.7, "sg": 120.6 }
+    },
+    {
+      "airTemperature": { "noaa": 28.45, "sg": 28.45 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T04:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.77, "sg": 30.6 },
+      "waveDirection": {
+        "icon": 211.19,
+        "meteo": 212.08,
+        "noaa": 212.74,
+        "sg": 212.08
+      },
+      "waveHeight": { "icon": 1.88, "meteo": 1.38, "noaa": 1.32, "sg": 1.38 },
+      "wavePeriod": { "icon": 11.99, "meteo": 9.43, "noaa": 13.47, "sg": 9.43 },
+      "windDirection": { "icon": 125.84, "noaa": 130.95, "sg": 125.84 }
+    },
+    {
+      "airTemperature": { "noaa": 28.5, "sg": 28.5 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T05:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.89, "sg": 30.6 },
+      "waveDirection": {
+        "icon": 210.68,
+        "meteo": 212.08,
+        "noaa": 212.79,
+        "sg": 212.08
+      },
+      "waveHeight": { "icon": 1.89, "meteo": 1.39, "noaa": 1.31, "sg": 1.39 },
+      "wavePeriod": { "icon": 11.92, "meteo": 9.6, "noaa": 13.43, "sg": 9.6 },
+      "windDirection": { "icon": 131.08, "noaa": 136.2, "sg": 131.08 }
+    },
+    {
+      "airTemperature": { "noaa": 28.55, "sg": 28.55 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T06:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 30.01, "sg": 30.6 },
+      "waveDirection": {
+        "icon": 210.17,
+        "meteo": 212.08,
+        "noaa": 212.84,
+        "sg": 212.08
+      },
+      "waveHeight": { "icon": 1.91, "meteo": 1.4, "noaa": 1.31, "sg": 1.4 },
+      "wavePeriod": { "icon": 11.85, "meteo": 9.78, "noaa": 13.4, "sg": 9.78 },
+      "windDirection": { "icon": 136.32, "noaa": 141.45, "sg": 136.32 }
+    },
+    {
+      "airTemperature": { "noaa": 28.83, "sg": 28.83 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T07:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.88, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 208.97,
+        "meteo": 212.01,
+        "noaa": 212.89,
+        "sg": 212.01
+      },
+      "waveHeight": { "icon": 1.94, "meteo": 1.41, "noaa": 1.32, "sg": 1.41 },
+      "wavePeriod": { "icon": 11.68, "meteo": 9.81, "noaa": 13.38, "sg": 9.81 },
+      "windDirection": { "icon": 138.8, "noaa": 142.46, "sg": 138.8 }
+    },
+    {
+      "airTemperature": { "noaa": 29.11, "sg": 29.11 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T08:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.76, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 207.76,
+        "meteo": 211.93,
+        "noaa": 212.95,
+        "sg": 211.93
+      },
+      "waveHeight": { "icon": 1.96, "meteo": 1.43, "noaa": 1.33, "sg": 1.43 },
+      "wavePeriod": { "icon": 11.5, "meteo": 9.83, "noaa": 13.35, "sg": 9.83 },
+      "windDirection": { "icon": 141.29, "noaa": 143.47, "sg": 141.29 }
+    },
+    {
+      "airTemperature": { "noaa": 29.39, "sg": 29.39 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T09:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.64, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 206.56,
+        "meteo": 211.86,
+        "noaa": 213.0,
+        "sg": 211.86
+      },
+      "waveHeight": { "icon": 1.99, "meteo": 1.44, "noaa": 1.34, "sg": 1.44 },
+      "wavePeriod": { "icon": 11.33, "meteo": 9.86, "noaa": 13.33, "sg": 9.86 },
+      "windDirection": { "icon": 143.77, "noaa": 144.48, "sg": 143.77 }
+    },
+    {
+      "airTemperature": { "noaa": 29.37, "sg": 29.37 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T10:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.58, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 205.15,
+        "meteo": 211.74,
+        "noaa": 213.03,
+        "sg": 211.74
+      },
+      "waveHeight": { "icon": 2.02, "meteo": 1.45, "noaa": 1.36, "sg": 1.45 },
+      "wavePeriod": { "icon": 11.16, "meteo": 9.43, "noaa": 13.3, "sg": 9.43 },
+      "windDirection": { "icon": 141.23, "noaa": 140.15, "sg": 141.23 }
+    },
+    {
+      "airTemperature": { "noaa": 29.35, "sg": 29.35 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T11:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.52, "sg": 30.62 },
+      "waveDirection": {
+        "icon": 203.75,
+        "meteo": 211.63,
+        "noaa": 213.07,
+        "sg": 211.63
+      },
+      "waveHeight": { "icon": 2.05, "meteo": 1.47, "noaa": 1.39, "sg": 1.47 },
+      "wavePeriod": { "icon": 10.99, "meteo": 8.99, "noaa": 13.26, "sg": 8.99 },
+      "windDirection": { "icon": 138.7, "noaa": 135.83, "sg": 138.7 }
+    },
+    {
+      "airTemperature": { "noaa": 29.33, "sg": 29.33 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T12:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.47, "sg": 30.62 },
+      "waveDirection": {
+        "icon": 202.34,
+        "meteo": 211.51,
+        "noaa": 213.1,
+        "sg": 211.51
+      },
+      "waveHeight": { "icon": 2.08, "meteo": 1.48, "noaa": 1.41, "sg": 1.48 },
+      "wavePeriod": { "icon": 10.82, "meteo": 8.56, "noaa": 13.23, "sg": 8.56 },
+      "windDirection": { "icon": 136.16, "noaa": 131.5, "sg": 136.16 }
+    },
+    {
+      "airTemperature": { "noaa": 29.3, "sg": 29.3 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T13:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.44, "sg": 30.62 },
+      "waveDirection": {
+        "icon": 201.97,
+        "meteo": 211.41,
+        "noaa": 212.32,
+        "sg": 211.41
+      },
+      "waveHeight": { "icon": 2.09, "meteo": 1.49, "noaa": 1.42, "sg": 1.49 },
+      "wavePeriod": { "icon": 10.81, "meteo": 8.7, "noaa": 13.16, "sg": 8.7 },
+      "windDirection": { "icon": 133.78, "noaa": 129.74, "sg": 133.78 }
+    },
+    {
+      "airTemperature": { "noaa": 29.28, "sg": 29.28 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T14:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.4, "sg": 30.63 },
+      "waveDirection": {
+        "icon": 201.59,
+        "meteo": 211.32,
+        "noaa": 211.54,
+        "sg": 211.32
+      },
+      "waveHeight": { "icon": 2.09, "meteo": 1.5, "noaa": 1.44, "sg": 1.5 },
+      "wavePeriod": { "icon": 10.8, "meteo": 8.83, "noaa": 13.08, "sg": 8.83 },
+      "windDirection": { "icon": 131.39, "noaa": 127.99, "sg": 131.39 }
+    },
+    {
+      "airTemperature": { "noaa": 29.25, "sg": 29.25 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T15:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.37, "sg": 30.63 },
+      "waveDirection": {
+        "icon": 201.22,
+        "meteo": 211.22,
+        "noaa": 210.76,
+        "sg": 211.22
+      },
+      "waveHeight": { "icon": 2.1, "meteo": 1.51, "noaa": 1.45, "sg": 1.51 },
+      "wavePeriod": { "icon": 10.79, "meteo": 8.97, "noaa": 13.01, "sg": 8.97 },
+      "windDirection": { "icon": 129.01, "noaa": 126.23, "sg": 129.01 }
+    },
+    {
+      "airTemperature": { "noaa": 29.16, "sg": 29.16 },
+      "precipitation": { "noaa": 0.02, "sg": 0.02 },
+      "time": "2022-04-10T16:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.39, "sg": 30.63 },
+      "waveDirection": {
+        "icon": 201.7,
+        "meteo": 211.01,
+        "noaa": 210.84,
+        "sg": 211.01
+      },
+      "waveHeight": { "icon": 2.09, "meteo": 1.52, "noaa": 1.45, "sg": 1.52 },
+      "wavePeriod": { "icon": 10.87, "meteo": 8.77, "noaa": 12.94, "sg": 8.77 },
+      "windDirection": { "icon": 128.38, "noaa": 126.52, "sg": 128.38 }
+    },
+    {
+      "airTemperature": { "noaa": 29.07, "sg": 29.07 },
+      "precipitation": { "noaa": 0.04, "sg": 0.04 },
+      "time": "2022-04-10T17:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.41, "sg": 30.63 },
+      "waveDirection": {
+        "icon": 202.19,
+        "meteo": 210.79,
+        "noaa": 210.91,
+        "sg": 210.79
+      },
+      "waveHeight": { "icon": 2.09, "meteo": 1.53, "noaa": 1.44, "sg": 1.53 },
+      "wavePeriod": { "icon": 10.96, "meteo": 8.57, "noaa": 12.87, "sg": 8.57 },
+      "windDirection": { "icon": 127.74, "noaa": 126.81, "sg": 127.74 }
+    },
+    {
+      "airTemperature": { "noaa": 28.98, "sg": 28.98 },
+      "precipitation": { "noaa": 0.06, "sg": 0.06 },
+      "time": "2022-04-10T18:00:00+00:00",
+      "waterTemperature": { "meto": 30.64, "noaa": 29.43, "sg": 30.64 },
+      "waveDirection": {
+        "icon": 202.67,
+        "meteo": 210.58,
+        "noaa": 210.99,
+        "sg": 210.58
+      },
+      "waveHeight": { "icon": 2.08, "meteo": 1.54, "noaa": 1.44, "sg": 1.54 },
+      "wavePeriod": { "icon": 11.04, "meteo": 8.37, "noaa": 12.8, "sg": 8.37 },
+      "windDirection": { "icon": 127.11, "noaa": 127.1, "sg": 127.11 }
+    },
+    {
+      "airTemperature": { "noaa": 28.91, "sg": 28.91 },
+      "precipitation": { "noaa": 0.04, "sg": 0.04 },
+      "time": "2022-04-10T19:00:00+00:00",
+      "waterTemperature": { "meto": 30.64, "noaa": 29.41, "sg": 30.64 },
+      "waveDirection": {
+        "icon": 203.43,
+        "meteo": 210.43,
+        "noaa": 211.07,
+        "sg": 210.43
+      },
+      "waveHeight": { "icon": 2.07, "meteo": 1.55, "noaa": 1.43, "sg": 1.55 },
+      "wavePeriod": { "icon": 11.16, "meteo": 8.32, "noaa": 12.76, "sg": 8.32 },
+      "windDirection": { "icon": 125.62, "noaa": 124.19, "sg": 125.62 }
+    },
+    {
+      "airTemperature": { "noaa": 28.84, "sg": 28.84 },
+      "precipitation": { "noaa": 0.02, "sg": 0.02 },
+      "time": "2022-04-10T20:00:00+00:00",
+      "waterTemperature": { "meto": 30.64, "noaa": 29.39, "sg": 30.64 },
+      "waveDirection": {
+        "icon": 204.19,
+        "meteo": 210.27,
+        "noaa": 211.14,
+        "sg": 210.27
+      },
+      "waveHeight": { "icon": 2.06, "meteo": 1.56, "noaa": 1.42, "sg": 1.56 },
+      "wavePeriod": { "icon": 11.28, "meteo": 8.28, "noaa": 12.73, "sg": 8.28 },
+      "windDirection": { "icon": 124.12, "noaa": 121.27, "sg": 124.12 }
+    },
+    {
+      "airTemperature": { "noaa": 28.78, "sg": 28.78 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-10T21:00:00+00:00",
+      "waterTemperature": { "meto": 30.64, "noaa": 29.37, "sg": 30.64 },
+      "waveDirection": {
+        "icon": 204.95,
+        "meteo": 210.12,
+        "noaa": 211.22,
+        "sg": 210.12
+      },
+      "waveHeight": { "icon": 2.05, "meteo": 1.57, "noaa": 1.41, "sg": 1.57 },
+      "wavePeriod": { "icon": 11.4, "meteo": 8.23, "noaa": 12.69, "sg": 8.23 },
+      "windDirection": { "icon": 122.63, "noaa": 118.36, "sg": 122.63 }
+    },
+    {
+      "airTemperature": { "noaa": 28.89, "sg": 28.89 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T22:00:00+00:00",
+      "waterTemperature": { "meto": 30.65, "noaa": 29.39, "sg": 30.65 },
+      "waveDirection": {
+        "icon": 205.07,
+        "meteo": 210.1,
+        "noaa": 211.23,
+        "sg": 210.1
+      },
+      "waveHeight": { "icon": 2.05, "meteo": 1.58, "noaa": 1.41, "sg": 1.58 },
+      "wavePeriod": { "icon": 11.44, "meteo": 8.33, "noaa": 12.66, "sg": 8.33 },
+      "windDirection": { "icon": 120.96, "noaa": 117.4, "sg": 120.96 }
+    },
+    {
+      "airTemperature": { "noaa": 29.01, "sg": 29.01 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-10T23:00:00+00:00",
+      "waterTemperature": { "meto": 30.65, "noaa": 29.41, "sg": 30.65 },
+      "waveDirection": {
+        "icon": 205.18,
+        "meteo": 210.09,
+        "noaa": 211.25,
+        "sg": 210.09
+      },
+      "waveHeight": { "icon": 2.05, "meteo": 1.58, "noaa": 1.41, "sg": 1.58 },
+      "wavePeriod": { "icon": 11.49, "meteo": 8.43, "noaa": 12.64, "sg": 8.43 },
+      "windDirection": { "icon": 119.29, "noaa": 116.45, "sg": 119.29 }
+    },
+    {
+      "airTemperature": { "noaa": 29.12, "sg": 29.12 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T00:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.43, "sg": 30.59 },
+      "waveDirection": {
+        "icon": 205.3,
+        "meteo": 210.07,
+        "noaa": 211.26,
+        "sg": 210.07
+      },
+      "waveHeight": { "icon": 2.05, "meteo": 1.59, "noaa": 1.41, "sg": 1.59 },
+      "wavePeriod": { "icon": 11.53, "meteo": 8.53, "noaa": 12.61, "sg": 8.53 },
+      "windDirection": { "icon": 117.62, "noaa": 115.49, "sg": 117.62 }
+    },
+    {
+      "airTemperature": { "noaa": 29.13, "sg": 29.13 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T01:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.47, "sg": 30.59 },
+      "waveDirection": {
+        "icon": 205.16,
+        "meteo": 210.11,
+        "noaa": 210.23,
+        "sg": 210.11
+      },
+      "waveHeight": { "icon": 2.05, "meteo": 1.59, "noaa": 1.41, "sg": 1.59 },
+      "wavePeriod": { "icon": 11.54, "meteo": 8.78, "noaa": 14.25, "sg": 8.78 },
+      "windDirection": { "icon": 121.5, "noaa": 116.21, "sg": 121.5 }
+    },
+    {
+      "airTemperature": { "noaa": 29.14, "sg": 29.14 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T02:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.51, "sg": 30.6 },
+      "waveDirection": {
+        "icon": 205.01,
+        "meteo": 210.14,
+        "noaa": 209.2,
+        "sg": 210.14
+      },
+      "waveHeight": { "icon": 2.06, "meteo": 1.6, "noaa": 1.4, "sg": 1.6 },
+      "wavePeriod": { "icon": 11.56, "meteo": 9.04, "noaa": 15.9, "sg": 9.04 },
+      "windDirection": { "icon": 125.38, "noaa": 116.94, "sg": 125.38 }
+    },
+    {
+      "airTemperature": { "noaa": 29.15, "sg": 29.15 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T03:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.55, "sg": 30.6 },
+      "waveDirection": {
+        "icon": 204.87,
+        "meteo": 210.18,
+        "noaa": 208.17,
+        "sg": 210.18
+      },
+      "waveHeight": { "icon": 2.06, "meteo": 1.6, "noaa": 1.4, "sg": 1.6 },
+      "wavePeriod": { "icon": 11.57, "meteo": 9.29, "noaa": 17.54, "sg": 9.29 },
+      "windDirection": { "icon": 129.26, "noaa": 117.66, "sg": 129.26 }
+    },
+    {
+      "airTemperature": { "noaa": 29.1, "sg": 29.1 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T04:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.58, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 204.76,
+        "meteo": 210.17,
+        "noaa": 208.42,
+        "sg": 210.17
+      },
+      "waveHeight": { "icon": 2.07, "meteo": 1.6, "noaa": 1.4, "sg": 1.6 },
+      "wavePeriod": { "icon": 11.59, "meteo": 9.44, "noaa": 16.51, "sg": 9.44 },
+      "windDirection": { "icon": 133.01, "noaa": 122.37, "sg": 133.01 }
+    },
+    {
+      "airTemperature": { "noaa": 29.04, "sg": 29.04 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T05:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.62, "sg": 30.61 },
+      "waveDirection": {
+        "icon": 204.65,
+        "meteo": 210.17,
+        "noaa": 208.67,
+        "sg": 210.17
+      },
+      "waveHeight": { "icon": 2.07, "meteo": 1.61, "noaa": 1.4, "sg": 1.61 },
+      "wavePeriod": { "icon": 11.6, "meteo": 9.59, "noaa": 15.49, "sg": 9.59 },
+      "windDirection": { "icon": 136.77, "noaa": 127.07, "sg": 136.77 }
+    },
+    {
+      "airTemperature": { "noaa": 28.99, "sg": 28.99 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T06:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.65, "sg": 30.62 },
+      "waveDirection": {
+        "icon": 204.54,
+        "meteo": 210.16,
+        "noaa": 208.92,
+        "sg": 210.16
+      },
+      "waveHeight": { "icon": 2.08, "meteo": 1.61, "noaa": 1.4, "sg": 1.61 },
+      "wavePeriod": { "icon": 11.62, "meteo": 9.74, "noaa": 14.46, "sg": 9.74 },
+      "windDirection": { "icon": 140.52, "noaa": 131.78, "sg": 140.52 }
+    },
+    {
+      "airTemperature": { "noaa": 29.06, "sg": 29.06 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T07:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.57, "sg": 30.62 },
+      "waveDirection": {
+        "icon": 204.33,
+        "meteo": 210.12,
+        "noaa": 208.29,
+        "sg": 210.12
+      },
+      "waveHeight": { "icon": 2.09, "meteo": 1.61, "noaa": 1.4, "sg": 1.61 },
+      "wavePeriod": { "icon": 11.6, "meteo": 9.8, "noaa": 15.17, "sg": 9.8 },
+      "windDirection": { "icon": 142.2, "noaa": 135.03, "sg": 142.2 }
+    },
+    {
+      "airTemperature": { "noaa": 29.14, "sg": 29.14 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T08:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.49, "sg": 30.63 },
+      "waveDirection": {
+        "icon": 204.13,
+        "meteo": 210.07,
+        "noaa": 207.67,
+        "sg": 210.07
+      },
+      "waveHeight": { "icon": 2.09, "meteo": 1.61, "noaa": 1.41, "sg": 1.61 },
+      "wavePeriod": { "icon": 11.59, "meteo": 9.86, "noaa": 15.87, "sg": 9.86 },
+      "windDirection": { "icon": 143.88, "noaa": 138.27, "sg": 143.88 }
+    },
+    {
+      "airTemperature": { "noaa": 29.21, "sg": 29.21 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T09:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.41, "sg": 30.63 },
+      "waveDirection": {
+        "icon": 203.92,
+        "meteo": 210.03,
+        "noaa": 207.04,
+        "sg": 210.03
+      },
+      "waveHeight": { "icon": 2.1, "meteo": 1.61, "noaa": 1.41, "sg": 1.61 },
+      "wavePeriod": { "icon": 11.57, "meteo": 9.92, "noaa": 16.58, "sg": 9.92 },
+      "windDirection": { "icon": 145.56, "noaa": 141.52, "sg": 145.56 }
+    },
+    {
+      "airTemperature": { "noaa": 29.21, "sg": 29.21 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T10:00:00+00:00",
+      "waterTemperature": { "meto": 30.64, "noaa": 29.42, "sg": 30.64 },
+      "waveDirection": {
+        "icon": 203.63,
+        "meteo": 209.89,
+        "noaa": 206.91,
+        "sg": 209.89
+      },
+      "waveHeight": { "icon": 2.11, "meteo": 1.62, "noaa": 1.42, "sg": 1.62 },
+      "wavePeriod": { "icon": 11.54, "meteo": 9.42, "noaa": 16.54, "sg": 9.42 },
+      "windDirection": { "icon": 142.21, "noaa": 139.61, "sg": 142.21 }
+    },
+    {
+      "airTemperature": { "noaa": 29.22, "sg": 29.22 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T11:00:00+00:00",
+      "waterTemperature": { "meto": 30.64, "noaa": 29.44, "sg": 30.64 },
+      "waveDirection": {
+        "icon": 203.33,
+        "meteo": 209.76,
+        "noaa": 206.78,
+        "sg": 209.76
+      },
+      "waveHeight": { "icon": 2.12, "meteo": 1.62, "noaa": 1.44, "sg": 1.62 },
+      "wavePeriod": { "icon": 11.51, "meteo": 8.93, "noaa": 16.49, "sg": 8.93 },
+      "windDirection": { "icon": 138.87, "noaa": 137.7, "sg": 138.87 }
+    },
+    {
+      "airTemperature": { "noaa": 29.22, "sg": 29.22 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T12:00:00+00:00",
+      "waterTemperature": { "meto": 30.65, "noaa": 29.45, "sg": 30.65 },
+      "waveDirection": {
+        "icon": 203.04,
+        "meteo": 209.62,
+        "noaa": 206.65,
+        "sg": 209.62
+      },
+      "waveHeight": { "icon": 2.13, "meteo": 1.63, "noaa": 1.45, "sg": 1.63 },
+      "wavePeriod": { "icon": 11.48, "meteo": 8.43, "noaa": 16.45, "sg": 8.43 },
+      "windDirection": { "icon": 135.52, "noaa": 135.79, "sg": 135.52 }
+    },
+    {
+      "airTemperature": { "noaa": 29.2, "sg": 29.2 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T13:00:00+00:00",
+      "waterTemperature": { "meto": 30.65, "noaa": 29.44, "sg": 30.65 },
+      "waveDirection": {
+        "icon": 202.67,
+        "meteo": 209.47,
+        "noaa": 206.65,
+        "sg": 209.47
+      },
+      "waveHeight": { "icon": 2.14, "meteo": 1.63, "noaa": 1.45, "sg": 1.63 },
+      "wavePeriod": { "icon": 11.43, "meteo": 8.47, "noaa": 16.41, "sg": 8.47 },
+      "windDirection": { "icon": 134.42, "noaa": 133.05, "sg": 134.42 }
+    },
+    {
+      "airTemperature": { "noaa": 29.18, "sg": 29.18 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T14:00:00+00:00",
+      "waterTemperature": { "meto": 30.66, "noaa": 29.42, "sg": 30.66 },
+      "waveDirection": {
+        "icon": 202.31,
+        "meteo": 209.31,
+        "noaa": 206.65,
+        "sg": 209.31
+      },
+      "waveHeight": { "icon": 2.16, "meteo": 1.64, "noaa": 1.45, "sg": 1.64 },
+      "wavePeriod": { "icon": 11.37, "meteo": 8.51, "noaa": 16.36, "sg": 8.51 },
+      "windDirection": { "icon": 133.31, "noaa": 130.3, "sg": 133.31 }
+    },
+    {
+      "airTemperature": { "noaa": 29.17, "sg": 29.17 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T15:00:00+00:00",
+      "waterTemperature": { "meto": 30.66, "noaa": 29.41, "sg": 30.66 },
+      "waveDirection": {
+        "icon": 201.94,
+        "meteo": 209.16,
+        "noaa": 206.65,
+        "sg": 209.16
+      },
+      "waveHeight": { "icon": 2.17, "meteo": 1.64, "noaa": 1.45, "sg": 1.64 },
+      "wavePeriod": { "icon": 11.32, "meteo": 8.55, "noaa": 16.32, "sg": 8.55 },
+      "windDirection": { "icon": 132.21, "noaa": 127.56, "sg": 132.21 }
+    },
+    {
+      "airTemperature": { "noaa": 29.13, "sg": 29.13 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T16:00:00+00:00",
+      "waterTemperature": { "meto": 30.67, "noaa": 29.42, "sg": 30.67 },
+      "waveDirection": {
+        "icon": 202.63,
+        "meteo": 209.12,
+        "noaa": 206.35,
+        "sg": 209.12
+      },
+      "waveHeight": { "icon": 2.16, "meteo": 1.64, "noaa": 1.45, "sg": 1.64 },
+      "wavePeriod": { "icon": 11.39, "meteo": 8.65, "noaa": 16.21, "sg": 8.65 },
+      "windDirection": { "icon": 130.47, "noaa": 127.3, "sg": 130.47 }
+    },
+    {
+      "airTemperature": { "noaa": 29.08, "sg": 29.08 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T17:00:00+00:00",
+      "waterTemperature": { "meto": 30.67, "noaa": 29.44, "sg": 30.67 },
+      "waveDirection": {
+        "icon": 203.31,
+        "meteo": 209.09,
+        "noaa": 206.05,
+        "sg": 209.09
+      },
+      "waveHeight": { "icon": 2.16, "meteo": 1.64, "noaa": 1.44, "sg": 1.64 },
+      "wavePeriod": { "icon": 11.45, "meteo": 8.76, "noaa": 16.09, "sg": 8.76 },
+      "windDirection": { "icon": 128.73, "noaa": 127.04, "sg": 128.73 }
+    },
+    {
+      "airTemperature": { "noaa": 29.04, "sg": 29.04 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T18:00:00+00:00",
+      "waterTemperature": { "meto": 30.68, "noaa": 29.45, "sg": 30.68 },
+      "waveDirection": {
+        "icon": 204.0,
+        "meteo": 209.05,
+        "noaa": 205.75,
+        "sg": 209.05
+      },
+      "waveHeight": { "icon": 2.15, "meteo": 1.64, "noaa": 1.44, "sg": 1.64 },
+      "wavePeriod": { "icon": 11.52, "meteo": 8.86, "noaa": 15.98, "sg": 8.86 },
+      "windDirection": { "icon": 126.99, "noaa": 126.78, "sg": 126.99 }
+    },
+    {
+      "airTemperature": { "noaa": 29.04, "sg": 29.04 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T19:00:00+00:00",
+      "waterTemperature": { "meto": 30.68, "noaa": 29.45, "sg": 30.68 },
+      "waveDirection": {
+        "icon": 204.62,
+        "meteo": 209.0,
+        "noaa": 205.79,
+        "sg": 209.0
+      },
+      "waveHeight": { "icon": 2.14, "meteo": 1.64, "noaa": 1.44, "sg": 1.64 },
+      "wavePeriod": { "icon": 11.58, "meteo": 8.9, "noaa": 15.83, "sg": 8.9 },
+      "windDirection": { "icon": 129.03, "noaa": 126.21, "sg": 129.03 }
+    },
+    {
+      "airTemperature": { "noaa": 29.03, "sg": 29.03 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T20:00:00+00:00",
+      "waterTemperature": { "meto": 30.69, "noaa": 29.45, "sg": 30.69 },
+      "waveDirection": {
+        "icon": 205.24,
+        "meteo": 208.94,
+        "noaa": 205.83,
+        "sg": 208.94
+      },
+      "waveHeight": { "icon": 2.13, "meteo": 1.64, "noaa": 1.43, "sg": 1.64 },
+      "wavePeriod": { "icon": 11.63, "meteo": 8.95, "noaa": 15.68, "sg": 8.95 },
+      "windDirection": { "icon": 131.08, "noaa": 125.63, "sg": 131.08 }
+    },
+    {
+      "airTemperature": { "noaa": 29.02, "sg": 29.02 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T21:00:00+00:00",
+      "waterTemperature": { "meto": 30.69, "noaa": 29.45, "sg": 30.69 },
+      "waveDirection": {
+        "icon": 205.86,
+        "meteo": 208.89,
+        "noaa": 205.87,
+        "sg": 208.89
+      },
+      "waveHeight": { "icon": 2.12, "meteo": 1.64, "noaa": 1.43, "sg": 1.64 },
+      "wavePeriod": { "icon": 11.69, "meteo": 8.99, "noaa": 15.53, "sg": 8.99 },
+      "windDirection": { "icon": 133.12, "noaa": 125.06, "sg": 133.12 }
+    },
+    {
+      "airTemperature": { "noaa": 28.98, "sg": 28.98 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T22:00:00+00:00",
+      "waterTemperature": { "meto": 30.7, "noaa": 29.45, "sg": 30.7 },
+      "waveDirection": {
+        "icon": 206.03,
+        "meteo": 208.81,
+        "noaa": 206.07,
+        "sg": 208.81
+      },
+      "waveHeight": { "icon": 2.12, "meteo": 1.64, "noaa": 1.43, "sg": 1.64 },
+      "wavePeriod": { "icon": 11.68, "meteo": 8.99, "noaa": 15.48, "sg": 8.99 },
+      "windDirection": { "icon": 133.32, "noaa": 124.36, "sg": 133.32 }
+    },
+    {
+      "airTemperature": { "noaa": 28.94, "sg": 28.94 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-11T23:00:00+00:00",
+      "waterTemperature": { "meto": 30.7, "noaa": 29.45, "sg": 30.7 },
+      "waveDirection": {
+        "icon": 206.2,
+        "meteo": 208.74,
+        "noaa": 206.28,
+        "sg": 208.74
+      },
+      "waveHeight": { "icon": 2.12, "meteo": 1.63, "noaa": 1.42, "sg": 1.63 },
+      "wavePeriod": { "icon": 11.66, "meteo": 9.0, "noaa": 15.44, "sg": 9.0 },
+      "windDirection": { "icon": 133.53, "noaa": 123.67, "sg": 133.53 }
+    },
+    {
+      "airTemperature": { "noaa": 28.9, "sg": 28.9 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T00:00:00+00:00",
+      "waterTemperature": { "meto": 30.56, "noaa": 29.45, "sg": 30.56 },
+      "waveDirection": {
+        "icon": 206.37,
+        "meteo": 208.66,
+        "noaa": 206.48,
+        "sg": 208.66
+      },
+      "waveHeight": { "icon": 2.12, "meteo": 1.63, "noaa": 1.42, "sg": 1.63 },
+      "wavePeriod": { "icon": 11.65, "meteo": 9.0, "noaa": 15.39, "sg": 9.0 },
+      "windDirection": { "icon": 133.73, "noaa": 122.97, "sg": 133.73 }
+    },
+    {
+      "airTemperature": { "noaa": 28.88, "sg": 28.88 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T01:00:00+00:00",
+      "waterTemperature": { "meto": 30.57, "noaa": 29.48, "sg": 30.57 },
+      "waveDirection": {
+        "icon": 206.46,
+        "meteo": 208.57,
+        "noaa": 206.77,
+        "sg": 208.57
+      },
+      "waveHeight": { "icon": 2.12, "meteo": 1.63, "noaa": 1.43, "sg": 1.63 },
+      "wavePeriod": { "icon": 11.62, "meteo": 8.99, "noaa": 15.35, "sg": 8.99 },
+      "windDirection": { "icon": 132.2, "noaa": 123.72, "sg": 132.2 }
+    },
+    {
+      "airTemperature": { "noaa": 28.86, "sg": 28.86 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T02:00:00+00:00",
+      "waterTemperature": { "meto": 30.57, "noaa": 29.52, "sg": 30.57 },
+      "waveDirection": {
+        "icon": 206.54,
+        "meteo": 208.48,
+        "noaa": 207.05,
+        "sg": 208.48
+      },
+      "waveHeight": { "icon": 2.11, "meteo": 1.62, "noaa": 1.43, "sg": 1.62 },
+      "wavePeriod": { "icon": 11.6, "meteo": 8.97, "noaa": 15.31, "sg": 8.97 },
+      "windDirection": { "icon": 130.67, "noaa": 124.46, "sg": 130.67 }
+    },
+    {
+      "airTemperature": { "noaa": 28.84, "sg": 28.84 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T03:00:00+00:00",
+      "waterTemperature": { "meto": 30.57, "noaa": 29.55, "sg": 30.57 },
+      "waveDirection": {
+        "icon": 206.63,
+        "meteo": 208.39,
+        "noaa": 207.34,
+        "sg": 208.39
+      },
+      "waveHeight": { "icon": 2.11, "meteo": 1.62, "noaa": 1.44, "sg": 1.62 },
+      "wavePeriod": { "icon": 11.57, "meteo": 8.96, "noaa": 15.27, "sg": 8.96 },
+      "windDirection": { "icon": 129.14, "noaa": 125.21, "sg": 129.14 }
+    },
+    {
+      "airTemperature": { "noaa": 28.81, "sg": 28.81 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T04:00:00+00:00",
+      "waterTemperature": { "meto": 30.58, "noaa": 29.62, "sg": 30.58 },
+      "waveDirection": {
+        "icon": 206.9,
+        "meteo": 208.32,
+        "noaa": 207.58,
+        "sg": 208.32
+      },
+      "waveHeight": { "icon": 2.1, "meteo": 1.61, "noaa": 1.44, "sg": 1.61 },
+      "wavePeriod": { "icon": 11.58, "meteo": 8.94, "noaa": 15.22, "sg": 8.94 },
+      "windDirection": { "icon": 133.42, "noaa": 129.49, "sg": 133.42 }
+    },
+    {
+      "airTemperature": { "noaa": 28.78, "sg": 28.78 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T05:00:00+00:00",
+      "waterTemperature": { "meto": 30.58, "noaa": 29.68, "sg": 30.58 },
+      "waveDirection": {
+        "icon": 207.16,
+        "meteo": 208.25,
+        "noaa": 207.82,
+        "sg": 208.25
+      },
+      "waveHeight": { "icon": 2.1, "meteo": 1.61, "noaa": 1.43, "sg": 1.61 },
+      "wavePeriod": { "icon": 11.58, "meteo": 8.93, "noaa": 15.17, "sg": 8.93 },
+      "windDirection": { "icon": 137.7, "noaa": 133.77, "sg": 137.7 }
+    },
+    {
+      "airTemperature": { "noaa": 28.74, "sg": 28.74 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T06:00:00+00:00",
+      "waterTemperature": { "meto": 30.58, "noaa": 29.75, "sg": 30.58 },
+      "waveDirection": {
+        "icon": 207.43,
+        "meteo": 208.18,
+        "noaa": 208.06,
+        "sg": 208.18
+      },
+      "waveHeight": { "icon": 2.09, "meteo": 1.6, "noaa": 1.43, "sg": 1.6 },
+      "wavePeriod": { "icon": 11.59, "meteo": 8.91, "noaa": 15.12, "sg": 8.91 },
+      "windDirection": { "icon": 141.98, "noaa": 138.05, "sg": 141.98 }
+    },
+    {
+      "airTemperature": { "noaa": 28.86, "sg": 28.86 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T07:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.68, "sg": 30.59 },
+      "waveDirection": { "meteo": 208.13, "noaa": 207.82, "sg": 208.13 },
+      "waveHeight": { "meteo": 1.59, "noaa": 1.43, "sg": 1.59 },
+      "wavePeriod": { "meteo": 8.9, "noaa": 14.97, "sg": 8.9 },
+      "windDirection": { "noaa": 141.5, "sg": 141.5 }
+    },
+    {
+      "airTemperature": { "noaa": 28.98, "sg": 28.98 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T08:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.62, "sg": 30.59 },
+      "waveDirection": { "meteo": 208.08, "noaa": 207.58, "sg": 208.08 },
+      "waveHeight": { "meteo": 1.58, "noaa": 1.42, "sg": 1.58 },
+      "wavePeriod": { "meteo": 8.89, "noaa": 14.83, "sg": 8.89 },
+      "windDirection": { "noaa": 144.95, "sg": 144.95 }
+    },
+    {
+      "airTemperature": { "noaa": 29.09, "sg": 29.09 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T09:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.55, "sg": 30.59 },
+      "waveDirection": { "meteo": 208.03, "noaa": 207.34, "sg": 208.03 },
+      "waveHeight": { "meteo": 1.57, "noaa": 1.42, "sg": 1.57 },
+      "wavePeriod": { "meteo": 8.88, "noaa": 14.68, "sg": 8.88 },
+      "windDirection": { "noaa": 148.4, "sg": 148.4 }
+    },
+    {
+      "airTemperature": { "noaa": 29.17, "sg": 29.17 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T10:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.51, "sg": 30.59 },
+      "waveDirection": { "meteo": 207.97, "noaa": 207.42, "sg": 207.97 },
+      "waveHeight": { "meteo": 1.56, "noaa": 1.42, "sg": 1.56 },
+      "wavePeriod": { "meteo": 8.88, "noaa": 14.58, "sg": 8.88 },
+      "windDirection": { "noaa": 143.77, "sg": 143.77 }
+    },
+    {
+      "airTemperature": { "noaa": 29.25, "sg": 29.25 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T11:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.47, "sg": 30.6 },
+      "waveDirection": { "meteo": 207.92, "noaa": 207.5, "sg": 207.92 },
+      "waveHeight": { "meteo": 1.54, "noaa": 1.41, "sg": 1.54 },
+      "wavePeriod": { "meteo": 8.87, "noaa": 14.48, "sg": 8.87 },
+      "windDirection": { "noaa": 139.13, "sg": 139.13 }
+    },
+    {
+      "airTemperature": { "noaa": 29.33, "sg": 29.33 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T12:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.42, "sg": 30.6 },
+      "waveDirection": { "meteo": 207.86, "noaa": 207.58, "sg": 207.86 },
+      "waveHeight": { "meteo": 1.53, "noaa": 1.41, "sg": 1.53 },
+      "wavePeriod": { "meteo": 8.87, "noaa": 14.38, "sg": 8.87 },
+      "windDirection": { "noaa": 134.5, "sg": 134.5 }
+    },
+    {
+      "airTemperature": { "noaa": 29.29, "sg": 29.29 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T13:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.41, "sg": 30.6 },
+      "waveDirection": { "meteo": 207.76, "noaa": 207.58, "sg": 207.76 },
+      "waveHeight": { "meteo": 1.52, "noaa": 1.41, "sg": 1.52 },
+      "wavePeriod": { "meteo": 8.86, "noaa": 14.33, "sg": 8.86 },
+      "windDirection": { "noaa": 132.8, "sg": 132.8 }
+    },
+    {
+      "airTemperature": { "noaa": 29.24, "sg": 29.24 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T14:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.4, "sg": 30.6 },
+      "waveDirection": { "meteo": 207.67, "noaa": 207.57, "sg": 207.67 },
+      "waveHeight": { "meteo": 1.52, "noaa": 1.42, "sg": 1.52 },
+      "wavePeriod": { "meteo": 8.85, "noaa": 14.29, "sg": 8.85 },
+      "windDirection": { "noaa": 131.09, "sg": 131.09 }
+    },
+    {
+      "airTemperature": { "noaa": 29.2, "sg": 29.2 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T15:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.39, "sg": 30.61 },
+      "waveDirection": { "meteo": 207.57, "noaa": 207.57, "sg": 207.57 },
+      "waveHeight": { "meteo": 1.51, "noaa": 1.42, "sg": 1.51 },
+      "wavePeriod": { "meteo": 8.84, "noaa": 14.24, "sg": 8.84 },
+      "windDirection": { "noaa": 129.39, "sg": 129.39 }
+    },
+    {
+      "airTemperature": { "noaa": 29.15, "sg": 29.15 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T16:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.41, "sg": 30.61 },
+      "waveDirection": { "meteo": 207.43, "noaa": 207.53, "sg": 207.43 },
+      "waveHeight": { "meteo": 1.5, "noaa": 1.42, "sg": 1.5 },
+      "wavePeriod": { "meteo": 8.73, "noaa": 14.22, "sg": 8.73 },
+      "windDirection": { "noaa": 127.8, "sg": 127.8 }
+    },
+    {
+      "airTemperature": { "noaa": 29.09, "sg": 29.09 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T17:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.44, "sg": 30.61 },
+      "waveDirection": { "meteo": 207.28, "noaa": 207.5, "sg": 207.28 },
+      "waveHeight": { "meteo": 1.5, "noaa": 1.43, "sg": 1.5 },
+      "wavePeriod": { "meteo": 8.63, "noaa": 14.2, "sg": 8.63 },
+      "windDirection": { "noaa": 126.22, "sg": 126.22 }
+    },
+    {
+      "airTemperature": { "noaa": 29.04, "sg": 29.04 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T18:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.46, "sg": 30.61 },
+      "waveDirection": { "meteo": 207.14, "noaa": 207.46, "sg": 207.14 },
+      "waveHeight": { "meteo": 1.49, "noaa": 1.43, "sg": 1.49 },
+      "wavePeriod": { "meteo": 8.52, "noaa": 14.18, "sg": 8.52 },
+      "windDirection": { "noaa": 124.63, "sg": 124.63 }
+    },
+    {
+      "airTemperature": { "noaa": 29.02, "sg": 29.02 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T19:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.43, "sg": 30.62 },
+      "waveDirection": { "meteo": 206.94, "noaa": 207.48, "sg": 206.94 },
+      "waveHeight": { "meteo": 1.49, "noaa": 1.41, "sg": 1.49 },
+      "wavePeriod": { "meteo": 8.47, "noaa": 14.17, "sg": 8.47 },
+      "windDirection": { "noaa": 122.83, "sg": 122.83 }
+    },
+    {
+      "airTemperature": { "noaa": 29.0, "sg": 29.0 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T20:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.41, "sg": 30.62 },
+      "waveDirection": { "meteo": 206.75, "noaa": 207.49, "sg": 206.75 },
+      "waveHeight": { "meteo": 1.48, "noaa": 1.4, "sg": 1.48 },
+      "wavePeriod": { "meteo": 8.42, "noaa": 14.16, "sg": 8.42 },
+      "windDirection": { "noaa": 121.04, "sg": 121.04 }
+    },
+    {
+      "airTemperature": { "noaa": 28.98, "sg": 28.98 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T21:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.38, "sg": 30.62 },
+      "waveDirection": { "meteo": 206.55, "noaa": 207.51, "sg": 206.55 },
+      "waveHeight": { "meteo": 1.48, "noaa": 1.38, "sg": 1.48 },
+      "wavePeriod": { "meteo": 8.37, "noaa": 14.15, "sg": 8.37 },
+      "windDirection": { "noaa": 119.24, "sg": 119.24 }
+    },
+    {
+      "airTemperature": { "noaa": 28.9, "sg": 28.9 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T22:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.39, "sg": 30.62 },
+      "waveDirection": { "meteo": 206.41, "noaa": 207.09, "sg": 206.41 },
+      "waveHeight": { "meteo": 1.47, "noaa": 1.35, "sg": 1.47 },
+      "wavePeriod": { "meteo": 8.45, "noaa": 13.43, "sg": 8.45 },
+      "windDirection": { "noaa": 117.54, "sg": 117.54 }
+    },
+    {
+      "airTemperature": { "noaa": 28.83, "sg": 28.83 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-12T23:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.4, "sg": 30.62 },
+      "waveDirection": { "meteo": 206.26, "noaa": 206.67, "sg": 206.26 },
+      "waveHeight": { "meteo": 1.47, "noaa": 1.33, "sg": 1.47 },
+      "wavePeriod": { "meteo": 8.53, "noaa": 12.7, "sg": 8.53 },
+      "windDirection": { "noaa": 115.85, "sg": 115.85 }
+    },
+    {
+      "airTemperature": { "noaa": 28.75, "sg": 28.75 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T00:00:00+00:00",
+      "waterTemperature": { "meto": 30.52, "noaa": 29.42, "sg": 30.52 },
+      "waveDirection": { "meteo": 206.12, "noaa": 206.25, "sg": 206.12 },
+      "waveHeight": { "meteo": 1.46, "noaa": 1.3, "sg": 1.46 },
+      "wavePeriod": { "meteo": 8.61, "noaa": 11.98, "sg": 8.61 },
+      "windDirection": { "noaa": 114.15, "sg": 114.15 }
+    },
+    {
+      "airTemperature": { "noaa": 28.68, "sg": 28.68 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T01:00:00+00:00",
+      "waterTemperature": { "meto": 30.53, "noaa": 29.5, "sg": 30.53 },
+      "waveDirection": { "meteo": 206.0, "noaa": 205.98, "sg": 206.0 },
+      "waveHeight": { "meteo": 1.45, "noaa": 1.28, "sg": 1.45 },
+      "wavePeriod": { "meteo": 8.66, "noaa": 11.93, "sg": 8.66 },
+      "windDirection": { "noaa": 116.74, "sg": 116.74 }
+    },
+    {
+      "airTemperature": { "noaa": 28.62, "sg": 28.62 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T02:00:00+00:00",
+      "waterTemperature": { "meto": 30.54, "noaa": 29.58, "sg": 30.54 },
+      "waveDirection": { "meteo": 205.87, "noaa": 205.71, "sg": 205.87 },
+      "waveHeight": { "meteo": 1.45, "noaa": 1.25, "sg": 1.45 },
+      "wavePeriod": { "meteo": 8.7, "noaa": 11.87, "sg": 8.7 },
+      "windDirection": { "noaa": 119.32, "sg": 119.32 }
+    },
+    {
+      "airTemperature": { "noaa": 28.55, "sg": 28.55 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T03:00:00+00:00",
+      "waterTemperature": { "meto": 30.54, "noaa": 29.66, "sg": 30.54 },
+      "waveDirection": { "meteo": 205.75, "noaa": 205.44, "sg": 205.75 },
+      "waveHeight": { "meteo": 1.44, "noaa": 1.23, "sg": 1.44 },
+      "wavePeriod": { "meteo": 8.75, "noaa": 11.82, "sg": 8.75 },
+      "windDirection": { "noaa": 121.91, "sg": 121.91 }
+    },
+    {
+      "airTemperature": { "noaa": 28.42, "sg": 28.42 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T04:00:00+00:00",
+      "waterTemperature": { "meto": 30.55, "noaa": 29.8, "sg": 30.55 },
+      "waveDirection": { "meteo": 205.63, "noaa": 205.23, "sg": 205.63 },
+      "waveHeight": { "meteo": 1.43, "noaa": 1.21, "sg": 1.43 },
+      "wavePeriod": { "meteo": 8.77, "noaa": 11.78, "sg": 8.77 },
+      "windDirection": { "noaa": 134.3, "sg": 134.3 }
+    },
+    {
+      "airTemperature": { "noaa": 28.28, "sg": 28.28 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T05:00:00+00:00",
+      "waterTemperature": { "meto": 30.55, "noaa": 29.94, "sg": 30.55 },
+      "waveDirection": { "meteo": 205.5, "noaa": 205.03, "sg": 205.5 },
+      "waveHeight": { "meteo": 1.42, "noaa": 1.2, "sg": 1.42 },
+      "wavePeriod": { "meteo": 8.79, "noaa": 11.74, "sg": 8.79 },
+      "windDirection": { "noaa": 146.68, "sg": 146.68 }
+    },
+    {
+      "airTemperature": { "noaa": 28.15, "sg": 28.15 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T06:00:00+00:00",
+      "waterTemperature": { "meto": 30.56, "noaa": 30.08, "sg": 30.56 },
+      "waveDirection": { "meteo": 205.38, "noaa": 204.82, "sg": 205.38 },
+      "waveHeight": { "meteo": 1.41, "noaa": 1.18, "sg": 1.41 },
+      "wavePeriod": { "meteo": 8.81, "noaa": 11.7, "sg": 8.81 },
+      "windDirection": { "noaa": 159.07, "sg": 159.07 }
+    },
+    {
+      "airTemperature": { "noaa": 28.57, "sg": 28.57 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T07:00:00+00:00",
+      "waterTemperature": { "meto": 30.56, "noaa": 29.98, "sg": 30.56 },
+      "waveDirection": { "meteo": 205.25, "noaa": 204.69, "sg": 205.25 },
+      "waveHeight": { "meteo": 1.4, "noaa": 1.17, "sg": 1.4 },
+      "wavePeriod": { "meteo": 8.81, "noaa": 11.63, "sg": 8.81 },
+      "windDirection": { "noaa": 153.49, "sg": 153.49 }
+    },
+    {
+      "airTemperature": { "noaa": 28.99, "sg": 28.99 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T08:00:00+00:00",
+      "waterTemperature": { "meto": 30.57, "noaa": 29.88, "sg": 30.57 },
+      "waveDirection": { "meteo": 205.13, "noaa": 204.57, "sg": 205.13 },
+      "waveHeight": { "meteo": 1.38, "noaa": 1.15, "sg": 1.38 },
+      "wavePeriod": { "meteo": 8.81, "noaa": 11.56, "sg": 8.81 },
+      "windDirection": { "noaa": 147.9, "sg": 147.9 }
+    },
+    {
+      "airTemperature": { "noaa": 29.41, "sg": 29.41 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T09:00:00+00:00",
+      "waterTemperature": { "meto": 30.57, "noaa": 29.78, "sg": 30.57 },
+      "waveDirection": { "meteo": 205.0, "noaa": 204.44, "sg": 205.0 },
+      "waveHeight": { "meteo": 1.37, "noaa": 1.14, "sg": 1.37 },
+      "wavePeriod": { "meteo": 8.81, "noaa": 11.49, "sg": 8.81 },
+      "windDirection": { "noaa": 142.32, "sg": 142.32 }
+    },
+    {
+      "airTemperature": { "noaa": 29.43, "sg": 29.43 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T10:00:00+00:00",
+      "waterTemperature": { "meto": 30.58, "noaa": 29.65, "sg": 30.58 },
+      "waveDirection": { "meteo": 204.86, "noaa": 203.77, "sg": 204.86 },
+      "waveHeight": { "meteo": 1.35, "noaa": 1.14, "sg": 1.35 },
+      "wavePeriod": { "meteo": 8.79, "noaa": 11.4, "sg": 8.79 },
+      "windDirection": { "noaa": 141.9, "sg": 141.9 }
+    },
+    {
+      "airTemperature": { "noaa": 29.45, "sg": 29.45 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T11:00:00+00:00",
+      "waterTemperature": { "meto": 30.58, "noaa": 29.52, "sg": 30.58 },
+      "waveDirection": { "meteo": 204.73, "noaa": 203.11, "sg": 204.73 },
+      "waveHeight": { "meteo": 1.34, "noaa": 1.15, "sg": 1.34 },
+      "wavePeriod": { "meteo": 8.78, "noaa": 11.3, "sg": 8.78 },
+      "windDirection": { "noaa": 141.48, "sg": 141.48 }
+    },
+    {
+      "airTemperature": { "noaa": 29.47, "sg": 29.47 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T12:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.39, "sg": 30.59 },
+      "waveDirection": { "meteo": 204.59, "noaa": 202.44, "sg": 204.59 },
+      "waveHeight": { "meteo": 1.32, "noaa": 1.15, "sg": 1.32 },
+      "wavePeriod": { "meteo": 8.76, "noaa": 11.21, "sg": 8.76 },
+      "windDirection": { "noaa": 141.06, "sg": 141.06 }
+    },
+    {
+      "airTemperature": { "noaa": 29.39, "sg": 29.39 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T13:00:00+00:00",
+      "waterTemperature": { "meto": 30.59, "noaa": 29.41, "sg": 30.59 },
+      "waveDirection": { "meteo": 204.45, "noaa": 202.37, "sg": 204.45 },
+      "waveHeight": { "meteo": 1.31, "noaa": 1.17, "sg": 1.31 },
+      "wavePeriod": { "meteo": 8.73, "noaa": 11.17, "sg": 8.73 },
+      "windDirection": { "noaa": 136.35, "sg": 136.35 }
+    },
+    {
+      "airTemperature": { "noaa": 29.31, "sg": 29.31 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T14:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.43, "sg": 30.6 },
+      "waveDirection": { "meteo": 204.3, "noaa": 202.31, "sg": 204.3 },
+      "waveHeight": { "meteo": 1.29, "noaa": 1.18, "sg": 1.29 },
+      "wavePeriod": { "meteo": 8.69, "noaa": 11.12, "sg": 8.69 },
+      "windDirection": { "noaa": 131.65, "sg": 131.65 }
+    },
+    {
+      "airTemperature": { "noaa": 29.22, "sg": 29.22 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T15:00:00+00:00",
+      "waterTemperature": { "meto": 30.6, "noaa": 29.45, "sg": 30.6 },
+      "waveDirection": { "meteo": 204.16, "noaa": 202.24, "sg": 204.16 },
+      "waveHeight": { "meteo": 1.28, "noaa": 1.2, "sg": 1.28 },
+      "wavePeriod": { "meteo": 8.66, "noaa": 11.08, "sg": 8.66 },
+      "windDirection": { "noaa": 126.94, "sg": 126.94 }
+    },
+    {
+      "airTemperature": { "noaa": 29.18, "sg": 29.18 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T16:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.45, "sg": 30.61 },
+      "waveDirection": { "meteo": 204.01, "noaa": 202.35, "sg": 204.01 },
+      "waveHeight": { "meteo": 1.27, "noaa": 1.2, "sg": 1.27 },
+      "wavePeriod": { "meteo": 8.58, "noaa": 11.05, "sg": 8.58 },
+      "windDirection": { "noaa": 123.98, "sg": 123.98 }
+    },
+    {
+      "airTemperature": { "noaa": 29.13, "sg": 29.13 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T17:00:00+00:00",
+      "waterTemperature": { "meto": 30.61, "noaa": 29.45, "sg": 30.61 },
+      "waveDirection": { "meteo": 203.85, "noaa": 202.45, "sg": 203.85 },
+      "waveHeight": { "meteo": 1.26, "noaa": 1.19, "sg": 1.26 },
+      "wavePeriod": { "meteo": 8.51, "noaa": 11.03, "sg": 8.51 },
+      "windDirection": { "noaa": 121.01, "sg": 121.01 }
+    },
+    {
+      "airTemperature": { "noaa": 29.09, "sg": 29.09 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T18:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.45, "sg": 30.62 },
+      "waveDirection": { "meteo": 203.7, "noaa": 202.56, "sg": 203.7 },
+      "waveHeight": { "meteo": 1.25, "noaa": 1.19, "sg": 1.25 },
+      "wavePeriod": { "meteo": 8.43, "noaa": 11.0, "sg": 8.43 },
+      "windDirection": { "noaa": 118.05, "sg": 118.05 }
+    },
+    {
+      "airTemperature": { "noaa": 29.07, "sg": 29.07 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T19:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.44, "sg": 30.62 },
+      "waveDirection": { "meteo": 203.52, "noaa": 203.13, "sg": 203.52 },
+      "waveHeight": { "meteo": 1.24, "noaa": 1.15, "sg": 1.24 },
+      "wavePeriod": { "meteo": 8.33, "noaa": 11.75, "sg": 8.33 },
+      "windDirection": { "noaa": 117.39, "sg": 117.39 }
+    },
+    {
+      "airTemperature": { "noaa": 29.05, "sg": 29.05 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T20:00:00+00:00",
+      "waterTemperature": { "meto": 30.62, "noaa": 29.43, "sg": 30.62 },
+      "waveDirection": { "meteo": 203.34, "noaa": 203.71, "sg": 203.34 },
+      "waveHeight": { "meteo": 1.23, "noaa": 1.12, "sg": 1.23 },
+      "wavePeriod": { "meteo": 8.24, "noaa": 12.5, "sg": 8.24 },
+      "windDirection": { "noaa": 116.74, "sg": 116.74 }
+    },
+    {
+      "airTemperature": { "noaa": 29.02, "sg": 29.02 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T21:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.41, "sg": 30.63 },
+      "waveDirection": { "meteo": 203.16, "noaa": 204.28, "sg": 203.16 },
+      "waveHeight": { "meteo": 1.22, "noaa": 1.08, "sg": 1.22 },
+      "wavePeriod": { "meteo": 8.14, "noaa": 13.25, "sg": 8.14 },
+      "windDirection": { "noaa": 116.08, "sg": 116.08 }
+    },
+    {
+      "airTemperature": { "noaa": 28.95, "sg": 28.95 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T22:00:00+00:00",
+      "waterTemperature": { "meto": 30.63, "noaa": 29.43, "sg": 30.63 },
+      "waveDirection": { "meteo": 203.0, "noaa": 204.0, "sg": 203.0 },
+      "waveHeight": { "meteo": 1.21, "noaa": 1.06, "sg": 1.21 },
+      "wavePeriod": { "meteo": 8.07, "noaa": 13.23, "sg": 8.07 },
+      "windDirection": { "noaa": 117.82, "sg": 117.82 }
+    },
+    {
+      "airTemperature": { "noaa": 28.88, "sg": 28.88 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-13T23:00:00+00:00",
+      "waterTemperature": { "meto": 30.64, "noaa": 29.44, "sg": 30.64 },
+      "waveDirection": { "meteo": 202.83, "noaa": 203.72, "sg": 202.83 },
+      "waveHeight": { "meteo": 1.2, "noaa": 1.05, "sg": 1.2 },
+      "wavePeriod": { "meteo": 7.99, "noaa": 13.21, "sg": 7.99 },
+      "windDirection": { "noaa": 119.56, "sg": 119.56 }
+    },
+    {
+      "airTemperature": { "noaa": 28.81, "sg": 28.81 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-14T00:00:00+00:00",
+      "waterTemperature": { "meto": 30.32, "noaa": 29.45, "sg": 30.32 },
+      "waveDirection": { "meteo": 202.67, "noaa": 203.44, "sg": 202.67 },
+      "waveHeight": { "meteo": 1.19, "noaa": 1.03, "sg": 1.19 },
+      "wavePeriod": { "meteo": 7.92, "noaa": 13.19, "sg": 7.92 },
+      "windDirection": { "noaa": 121.3, "sg": 121.3 }
+    },
+    {
+      "airTemperature": { "noaa": 28.83, "sg": 28.83 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-14T01:00:00+00:00",
+      "waterTemperature": { "meto": 30.31, "noaa": 29.47, "sg": 30.31 },
+      "waveDirection": { "meteo": 202.6, "noaa": 203.41, "sg": 202.6 },
+      "waveHeight": { "meteo": 1.18, "noaa": 1.04, "sg": 1.18 },
+      "wavePeriod": { "meteo": 7.88, "noaa": 13.11, "sg": 7.88 },
+      "windDirection": { "noaa": 121.4, "sg": 121.4 }
+    },
+    {
+      "airTemperature": { "noaa": 28.85, "sg": 28.85 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-14T02:00:00+00:00",
+      "waterTemperature": { "meto": 30.31, "noaa": 29.5, "sg": 30.31 },
+      "waveDirection": { "meteo": 202.52, "noaa": 203.39, "sg": 202.52 },
+      "waveHeight": { "meteo": 1.16, "noaa": 1.04, "sg": 1.16 },
+      "wavePeriod": { "meteo": 7.85, "noaa": 13.04, "sg": 7.85 },
+      "windDirection": { "noaa": 121.5, "sg": 121.5 }
+    },
+    {
+      "airTemperature": { "noaa": 28.88, "sg": 28.88 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-14T03:00:00+00:00",
+      "waterTemperature": { "meto": 30.3, "noaa": 29.52, "sg": 30.3 },
+      "waveDirection": { "meteo": 202.45, "noaa": 203.36, "sg": 202.45 },
+      "waveHeight": { "meteo": 1.15, "noaa": 1.05, "sg": 1.15 },
+      "wavePeriod": { "meteo": 7.81, "noaa": 12.96, "sg": 7.81 },
+      "windDirection": { "noaa": 121.6, "sg": 121.6 }
+    },
+    {
+      "airTemperature": { "noaa": 28.88, "sg": 28.88 },
+      "precipitation": { "noaa": 0.02, "sg": 0.02 },
+      "time": "2022-04-14T04:00:00+00:00",
+      "waterTemperature": { "meto": 30.29, "noaa": 29.59, "sg": 30.29 },
+      "waveDirection": { "meteo": 202.45, "noaa": 203.11, "sg": 202.45 },
+      "waveHeight": { "meteo": 1.14, "noaa": 1.06, "sg": 1.14 },
+      "wavePeriod": { "meteo": 7.8, "noaa": 12.9, "sg": 7.8 },
+      "windDirection": { "noaa": 125.41, "sg": 125.41 }
+    },
+    {
+      "airTemperature": { "noaa": 28.88, "sg": 28.88 },
+      "precipitation": { "noaa": 0.04, "sg": 0.04 },
+      "time": "2022-04-14T05:00:00+00:00",
+      "waterTemperature": { "meto": 30.29, "noaa": 29.66, "sg": 30.29 },
+      "waveDirection": { "meteo": 202.46, "noaa": 202.85, "sg": 202.46 },
+      "waveHeight": { "meteo": 1.13, "noaa": 1.06, "sg": 1.13 },
+      "wavePeriod": { "meteo": 7.79, "noaa": 12.83, "sg": 7.79 },
+      "windDirection": { "noaa": 129.21, "sg": 129.21 }
+    },
+    {
+      "airTemperature": { "noaa": 28.88, "sg": 28.88 },
+      "precipitation": { "noaa": 0.05, "sg": 0.05 },
+      "time": "2022-04-14T06:00:00+00:00",
+      "waterTemperature": { "meto": 30.28, "noaa": 29.73, "sg": 30.28 },
+      "waveDirection": { "meteo": 202.46, "noaa": 202.6, "sg": 202.46 },
+      "waveHeight": { "meteo": 1.12, "noaa": 1.07, "sg": 1.12 },
+      "wavePeriod": { "meteo": 7.78, "noaa": 12.77, "sg": 7.78 },
+      "windDirection": { "noaa": 133.02, "sg": 133.02 }
+    },
+    {
+      "airTemperature": { "noaa": 29.0, "sg": 29.0 },
+      "precipitation": { "noaa": 0.11, "sg": 0.11 },
+      "time": "2022-04-14T07:00:00+00:00",
+      "waterTemperature": { "meto": 30.28, "noaa": 29.67, "sg": 30.28 },
+      "waveDirection": { "meteo": 202.47, "noaa": 202.5, "sg": 202.47 },
+      "waveHeight": { "meteo": 1.11, "noaa": 1.1, "sg": 1.11 },
+      "wavePeriod": { "meteo": 7.76, "noaa": 12.74, "sg": 7.76 },
+      "windDirection": { "noaa": 135.24, "sg": 135.24 }
+    },
+    {
+      "airTemperature": { "noaa": 29.12, "sg": 29.12 },
+      "precipitation": { "noaa": 0.17, "sg": 0.17 },
+      "time": "2022-04-14T08:00:00+00:00",
+      "waterTemperature": { "meto": 30.27, "noaa": 29.61, "sg": 30.27 },
+      "waveDirection": { "meteo": 202.47, "noaa": 202.41, "sg": 202.47 },
+      "waveHeight": { "meteo": 1.09, "noaa": 1.14, "sg": 1.09 },
+      "wavePeriod": { "meteo": 7.74, "noaa": 12.71, "sg": 7.74 },
+      "windDirection": { "noaa": 137.46, "sg": 137.46 }
+    },
+    {
+      "airTemperature": { "noaa": 29.24, "sg": 29.24 },
+      "precipitation": { "noaa": 0.23, "sg": 0.23 },
+      "time": "2022-04-14T09:00:00+00:00",
+      "waterTemperature": { "meto": 30.27, "noaa": 29.55, "sg": 30.27 },
+      "waveDirection": { "meteo": 202.48, "noaa": 202.31, "sg": 202.48 },
+      "waveHeight": { "meteo": 1.08, "noaa": 1.17, "sg": 1.08 },
+      "wavePeriod": { "meteo": 7.72, "noaa": 12.68, "sg": 7.72 },
+      "windDirection": { "noaa": 139.68, "sg": 139.68 }
+    },
+    {
+      "airTemperature": { "noaa": 29.2, "sg": 29.2 },
+      "precipitation": { "noaa": 0.18, "sg": 0.18 },
+      "time": "2022-04-14T10:00:00+00:00",
+      "waterTemperature": { "meto": 30.26, "noaa": 29.55, "sg": 30.26 },
+      "waveDirection": { "meteo": 202.34, "noaa": 202.28, "sg": 202.34 },
+      "waveHeight": { "meteo": 1.07, "noaa": 1.21, "sg": 1.07 },
+      "wavePeriod": { "meteo": 7.64, "noaa": 12.64, "sg": 7.64 },
+      "windDirection": { "noaa": 136.08, "sg": 136.08 }
+    },
+    {
+      "airTemperature": { "noaa": 29.17, "sg": 29.17 },
+      "precipitation": { "noaa": 0.13, "sg": 0.13 },
+      "time": "2022-04-14T11:00:00+00:00",
+      "waterTemperature": { "meto": 30.25, "noaa": 29.56, "sg": 30.25 },
+      "waveDirection": { "meteo": 202.2, "noaa": 202.25, "sg": 202.2 },
+      "waveHeight": { "meteo": 1.06, "noaa": 1.25, "sg": 1.06 },
+      "wavePeriod": { "meteo": 7.55, "noaa": 12.61, "sg": 7.55 },
+      "windDirection": { "noaa": 132.48, "sg": 132.48 }
+    },
+    {
+      "airTemperature": { "noaa": 29.13, "sg": 29.13 },
+      "precipitation": { "noaa": 0.08, "sg": 0.08 },
+      "time": "2022-04-14T12:00:00+00:00",
+      "waterTemperature": { "meto": 30.25, "noaa": 29.56, "sg": 30.25 },
+      "waveDirection": { "meteo": 202.06, "noaa": 202.22, "sg": 202.06 },
+      "waveHeight": { "meteo": 1.05, "noaa": 1.29, "sg": 1.05 },
+      "wavePeriod": { "meteo": 7.47, "noaa": 12.57, "sg": 7.47 },
+      "windDirection": { "noaa": 128.88, "sg": 128.88 }
+    },
+    {
+      "airTemperature": { "noaa": 29.0, "sg": 29.0 },
+      "precipitation": { "noaa": 0.13, "sg": 0.13 },
+      "time": "2022-04-14T13:00:00+00:00",
+      "waterTemperature": { "meto": 30.24, "noaa": 29.52, "sg": 30.24 },
+      "waveDirection": { "meteo": 201.45, "noaa": 202.19, "sg": 201.45 },
+      "waveHeight": { "meteo": 1.05, "noaa": 1.29, "sg": 1.05 },
+      "wavePeriod": { "meteo": 7.37, "noaa": 12.51, "sg": 7.37 },
+      "windDirection": { "noaa": 125.4, "sg": 125.4 }
+    },
+    {
+      "airTemperature": { "noaa": 28.88, "sg": 28.88 },
+      "precipitation": { "noaa": 0.17, "sg": 0.17 },
+      "time": "2022-04-14T14:00:00+00:00",
+      "waterTemperature": { "meto": 30.23, "noaa": 29.48, "sg": 30.23 },
+      "waveDirection": { "meteo": 200.85, "noaa": 202.15, "sg": 200.85 },
+      "waveHeight": { "meteo": 1.05, "noaa": 1.28, "sg": 1.05 },
+      "wavePeriod": { "meteo": 7.27, "noaa": 12.44, "sg": 7.27 },
+      "windDirection": { "noaa": 121.92, "sg": 121.92 }
+    },
+    {
+      "airTemperature": { "noaa": 28.75, "sg": 28.75 },
+      "precipitation": { "noaa": 0.21, "sg": 0.21 },
+      "time": "2022-04-14T15:00:00+00:00",
+      "waterTemperature": { "meto": 30.23, "noaa": 29.44, "sg": 30.23 },
+      "waveDirection": { "meteo": 200.24, "noaa": 202.12, "sg": 200.24 },
+      "waveHeight": { "meteo": 1.05, "noaa": 1.28, "sg": 1.05 },
+      "wavePeriod": { "meteo": 7.17, "noaa": 12.38, "sg": 7.17 },
+      "windDirection": { "noaa": 118.44, "sg": 118.44 }
+    },
+    {
+      "airTemperature": { "noaa": 28.85, "sg": 28.85 },
+      "precipitation": { "noaa": 0.14, "sg": 0.14 },
+      "time": "2022-04-14T16:00:00+00:00",
+      "waterTemperature": { "meto": 30.22, "noaa": 29.44, "sg": 30.22 },
+      "waveDirection": { "meteo": 199.12, "noaa": 202.12, "sg": 199.12 },
+      "waveHeight": { "meteo": 1.06, "noaa": 1.28, "sg": 1.06 },
+      "wavePeriod": { "meteo": 7.22, "noaa": 12.31, "sg": 7.22 },
+      "windDirection": { "noaa": 118.15, "sg": 118.15 }
+    },
+    {
+      "airTemperature": { "noaa": 28.95, "sg": 28.95 },
+      "precipitation": { "noaa": 0.07, "sg": 0.07 },
+      "time": "2022-04-14T17:00:00+00:00",
+      "waterTemperature": { "meto": 30.22, "noaa": 29.45, "sg": 30.22 },
+      "waveDirection": { "meteo": 197.99, "noaa": 202.12, "sg": 197.99 },
+      "waveHeight": { "meteo": 1.06, "noaa": 1.27, "sg": 1.06 },
+      "wavePeriod": { "meteo": 7.27, "noaa": 12.25, "sg": 7.27 },
+      "windDirection": { "noaa": 117.86, "sg": 117.86 }
+    },
+    {
+      "airTemperature": { "noaa": 29.05, "sg": 29.05 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-14T18:00:00+00:00",
+      "waterTemperature": { "meto": 30.21, "noaa": 29.45, "sg": 30.21 },
+      "waveDirection": { "meteo": 196.87, "noaa": 202.12, "sg": 196.87 },
+      "waveHeight": { "meteo": 1.07, "noaa": 1.27, "sg": 1.07 },
+      "wavePeriod": { "meteo": 7.32, "noaa": 12.18, "sg": 7.32 },
+      "windDirection": { "noaa": 117.57, "sg": 117.57 }
+    },
+    {
+      "airTemperature": { "noaa": 29.05, "sg": 29.05 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-14T19:00:00+00:00",
+      "waterTemperature": { "meto": 30.21, "noaa": 29.44, "sg": 30.21 },
+      "waveDirection": { "meteo": 195.8, "noaa": 202.15, "sg": 195.8 },
+      "waveHeight": { "meteo": 1.08, "noaa": 1.27, "sg": 1.08 },
+      "wavePeriod": { "meteo": 7.31, "noaa": 13.97, "sg": 7.31 },
+      "windDirection": { "noaa": 117.02, "sg": 117.02 }
+    },
+    {
+      "airTemperature": { "noaa": 29.06, "sg": 29.06 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-14T20:00:00+00:00",
+      "waterTemperature": { "meto": 30.2, "noaa": 29.43, "sg": 30.2 },
+      "waveDirection": { "meteo": 194.74, "noaa": 202.17, "sg": 194.74 },
+      "waveHeight": { "meteo": 1.1, "noaa": 1.28, "sg": 1.1 },
+      "wavePeriod": { "meteo": 7.29, "noaa": 15.76, "sg": 7.29 },
+      "windDirection": { "noaa": 116.46, "sg": 116.46 }
+    },
+    {
+      "airTemperature": { "noaa": 29.06, "sg": 29.06 },
+      "precipitation": { "noaa": 0.0, "sg": 0.0 },
+      "time": "2022-04-14T21:00:00+00:00",
+      "waterTemperature": { "meto": 30.2, "noaa": 29.42, "sg": 30.2 },
+      "waveDirection": { "meteo": 193.67, "noaa": 202.2, "sg": 193.67 },
+      "waveHeight": { "meteo": 1.11, "noaa": 1.28, "sg": 1.11 },
+      "wavePeriod": { "meteo": 7.28, "noaa": 17.55, "sg": 7.28 },
+      "windDirection": { "noaa": 115.91, "sg": 115.91 }
+    },
+    {
+      "airTemperature": { "noaa": 29.08, "sg": 29.08 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-14T22:00:00+00:00",
+      "waterTemperature": { "meto": 30.19, "noaa": 29.43, "sg": 30.19 },
+      "waveDirection": { "meteo": 193.06, "noaa": 202.74, "sg": 193.06 },
+      "waveHeight": { "meteo": 1.12, "noaa": 1.29, "sg": 1.12 },
+      "wavePeriod": { "meteo": 7.2, "noaa": 17.31, "sg": 7.2 },
+      "windDirection": { "noaa": 115.99, "sg": 115.99 }
+    },
+    {
+      "airTemperature": { "noaa": 29.09, "sg": 29.09 },
+      "precipitation": { "noaa": 0.01, "sg": 0.01 },
+      "time": "2022-04-14T23:00:00+00:00",
+      "waterTemperature": { "meto": 30.19, "noaa": 29.44, "sg": 30.19 },
+      "waveDirection": { "meteo": 192.46, "noaa": 203.27, "sg": 192.46 },
+      "waveHeight": { "meteo": 1.12, "noaa": 1.29, "sg": 1.12 },
+      "wavePeriod": { "meteo": 7.11, "noaa": 17.06, "sg": 7.11 },
+      "windDirection": { "noaa": 116.08, "sg": 116.08 }
+    },
+    {
+      "airTemperature": { "noaa": 29.11, "sg": 29.11 },
+      "precipitation": { "noaa": 0.02, "sg": 0.02 },
+      "time": "2022-04-15T00:00:00+00:00",
+      "waterTemperature": { "noaa": 29.45, "sg": 29.45 },
+      "waveDirection": { "meteo": 191.85, "noaa": 203.81, "sg": 191.85 },
+      "waveHeight": { "meteo": 1.13, "noaa": 1.3, "sg": 1.13 },
+      "wavePeriod": { "meteo": 7.03, "noaa": 16.82, "sg": 7.03 },
+      "windDirection": { "noaa": 116.16, "sg": 116.16 }
+    }
+  ],
+  "meta": {
+    "cost": 1,
+    "dailyQuota": 50,
+    "end": "2022-04-15 00:00",
+    "lat": -8.90352666519009,
+    "lng": 116.24423373370097,
+    "params": [
+      "airTemperature",
+      "precipitation",
+      "waterTemperature",
+      "waveDirection",
+      "waveHeight",
+      "wavePeriod",
+      "windDirection"
+    ],
+    "requestCount": 4,
+    "start": "2022-04-05 00:00"
+  }
+}

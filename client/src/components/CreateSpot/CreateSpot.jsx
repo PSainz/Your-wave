@@ -300,7 +300,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           alignItems: "center",
         }}
       >
-        {/* <Button
+        <Button
           className={""}
           variant="contained"
           color="primary"
@@ -310,12 +310,8 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           onClick={() => getCoordinates()}
         >
           Get current Location
-        </Button> */}
+        </Button>
       </div>
-      <div onClick={() => getCoordinates()}>
-        <Modal location={locationSpot} />
-      </div>
-
       <Button
         className={""}
         variant="contained"

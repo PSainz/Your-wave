@@ -5,34 +5,36 @@ import Typography from "@mui/material/Typography";
 import CircularProgress from "@mui/material/CircularProgress";
 import Modal from "@mui/material/Modal";
 import Map from "./../Gmaps/Map.jsx";
+import hours from "../../utils/forecast.json";
+import { style, forecastInfo, morning, upRow } from "./styles";
 
-const style = {
-  //   position: "absolute",
-  //   top: "50%",
-  //   left: "50%",
-  //   transform: "translate(-50%, -50%)",
-  //   width: "100%",
-  height: "80%",
-  bgcolor: "background.paper",
-  //   border: "2px solid #000",
-  //   boxShadow: 24,
-  //   p: 4,
-};
-
-export default function BasicModal(locationSpot) {
+export default function BasicModal({ spot }) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const forecast = hours.hours;
+  console.log(forecast, "forecast");
 
-  // const renderMap = () => {
-  //   if (locationSpot.location.lng) {
-  //     return <Map location={location} zoomLevel={7} />;
-  //   }
-  //   return renderMap();
-  // }
-  const location = locationSpot.location;
+  // 807b335c-e8f5-11e9-80bf-0242ac130004-807b347e-e8f5-11e9-80bf-0242ac130004
 
-  console.log(locationSpot.location, "locationSpot");
+  // const getForecast = () => {
+  //   const params =
+  //     "airTemperature,precipitation,waterTemperature,waveDirection,waveHeight,wavePeriod,windDirection";
+
+  //   fetch(
+  //     `https://api.stormglass.io/v2/weather/point?lat=${spot.location.lat}&lng=${spot.location.lng}&params=${params}`,
+  //     {
+  //       headers: {
+  //         Authorization:
+  //           "807b335c-e8f5-11e9-80bf-0242ac130004-807b347e-e8f5-11e9-80bf-0242ac130004",
+  //       },
+  //     }
+  //   )
+  //     .then((response) => response.json())
+  //     .then((jsonData) => {
+  //       console.log(jsonData, "API FORECAST");
+  //     });
+  // };
 
   return (
     <div>
@@ -44,8 +46,18 @@ export default function BasicModal(locationSpot) {
         type="fire"
         onClick={handleOpen}
       >
-        Check current location in map
+        Show Forecast
       </Button>
+      {/* <Button
+        className={""}
+        variant="contained"
+        color="primary"
+        size="large"
+        type="fire"
+        onClick={getForecast}
+      >
+        Api call forecast
+      </Button> */}
       <Modal
         open={open}
         onClose={handleClose}
@@ -53,8 +65,37 @@ export default function BasicModal(locationSpot) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <div>Aqui iria llamada a la api y demás info del Spot</div>
-          <Map location={location} zoomLevel={7} />
+          <div>
+            <h2>{spot.spot_name}</h2>
+          </div>
+          <div className={forecastInfo}>
+            <div className={morning}>
+              <div className="upRow">
+                <ul>
+                  {!!forecast && (
+                    <li>
+                      {/* <i class="material-icons">brightness_7</i> */}
+                      {forecast[4].airTemperature.noaa.toFixed()} -
+                      {forecast[12].airTemperature.noaa.toFixed()}
+                      ºC
+                    </li>
+                  )}
+                </ul>
+                <p>Morning 05 - 11h</p>
+                <ul>
+                  {!!forecast && (
+                    <li>
+                      {/* <i class="material-icons">opacity</i> */}
+                      {forecast[4].waterTemperature.meto.toFixed()} -
+                      {forecast[12].waterTemperature.meto.toFixed()}
+                      ºC
+                    </li>
+                  )}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <Map location={spot.location} zoomLevel={15} />
         </Box>
       </Modal>
     </div>

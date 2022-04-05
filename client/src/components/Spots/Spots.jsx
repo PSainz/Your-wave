@@ -4,7 +4,7 @@ import { Grid, CircularProgress } from "@mui/material";
 import { useSelector } from "react-redux";
 import Navbar from "./../Navbar/Navbar.jsx";
 import Spot from "../Spot/Spot";
-import { Button } from "@mui/material";
+// import { Button } from "@mui/material";
 // import useStyles from "./styles";
 
 const Spots = ({ setCurrentId }) => {
@@ -29,17 +29,7 @@ const Spots = ({ setCurrentId }) => {
         {spots.map((spot) => (
           <Grid key={spot._id} item xs={12} sm={6} md={6}>
             <Spot spot={spot} setCurrentId={setCurrentId} />
-            <img src={spot.selectedFile} style={{ width: "100%" }} />
-            <Button
-              className={""}
-              variant="contained"
-              color="primary"
-              size="large"
-              type="submit"
-              fullWidth
-            >
-              Show forecast
-            </Button>
+            {/* <img src={spot.selectedFile} style={{ width: "100%" }} /> */}
           </Grid>
         ))}
       </Grid>
