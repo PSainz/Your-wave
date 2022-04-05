@@ -1,15 +1,23 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import FileBase from "react-file-base64";
 import { useNavigate } from "react-router-dom";
 import { createSpot } from "../../actions/spots";
-import { TextField, MenuItem, Button } from "@mui/material";
+import {
+  TextField,
+  MenuItem,
+  Button,
+  // Select,
+  // OutlinedInput,
+} from "@mui/material";
 import allCountries from "country-region-data/data.json";
 import Navbar from "./../Navbar/Navbar.jsx";
 import { waveForms } from "./../../utils/waveForms";
 import { waveDirections } from "./../../utils/waveDirections";
 import { breakTypes } from "./../../utils/breakTypes";
 import { ratings } from "./../../utils/ratings";
+import Modal from "../Modal/Modal";
 
 // import { countries } from "./../../utils/countries";
 // import useStyles from "./styles";
@@ -18,6 +26,17 @@ import { ratings } from "./../../utils/ratings";
 // import useGeoLocation from "./../../hooks/useGeoLocation";
 
 // console.log(allCountries, "allCountries");
+
+// const ITEM_HEIGHT = 48;
+// const ITEM_PADDING_TOP = 8;
+// const MenuProps = {
+//   PaperProps: {
+//     style: {
+//       maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
+//       width: 250,
+//     },
+//   },
+// };
 
 const CreateSpot = ({ currentId, setCurrentId }) => {
   const [spotData, setSpotData] = useState({
@@ -45,7 +64,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
     lat: "",
     lng: "",
   };
-  console.log(locationSpot, "locationSpot");
+  console.log(locationSpot, "locationSpotDelCreate");
 
   const getCoordinates = async () => {
     if (navigator.geolocation) {
@@ -113,6 +132,14 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
   return (
     <div>
       <Navbar />
+      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/spots">Spots</Link>
+        </li>
+      </div>
       <form
         autoComplete="off"
         noValidate
@@ -138,6 +165,9 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           variant="outlined"
           fullWidth
           select
+          // SelectProps={{
+          //   menuprops: { MenuProps },
+          // }}
           label="Country"
           value={spotData.country}
           onChange={(e) =>
@@ -270,7 +300,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           alignItems: "center",
         }}
       >
-        <Button
+        {/* <Button
           className={""}
           variant="contained"
           color="primary"
@@ -280,8 +310,12 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           onClick={() => getCoordinates()}
         >
           Get current Location
-        </Button>
+        </Button> */}
       </div>
+      <div onClick={() => getCoordinates()}>
+        <Modal location={locationSpot} />
+      </div>
+
       <Button
         className={""}
         variant="contained"

@@ -8,9 +8,6 @@ function Home() {
       <Navbar />
       <ul>
         <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
           <Link to="/spots">Spots</Link>
         </li>
         <li>
