@@ -1,38 +1,88 @@
-export const style = {
-    //   position: "absolute",
-    //   top: "50%",
-    //   left: "50%",
-    //   transform: "translate(-50%, -50%)",
-    //   width: "100%",
-    height: "90%",
-    bgcolor: "background.paper",
-    overflowX: "hidden",
-    overflowY: "auto",
-    border: "1px solid red",
-    marginTop: "30px",
-    //   border: "2px solid #000",
-    //   boxShadow: 24,
-    //   p: 4,
-  };
-  
-export  const forecastInfo = {
-    width: "100%",
-    display: "flex",
-  }
-  
-export  const morning = {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-between",
-    width: "100%",
-    height: "100%",
-    background: "#e5e5e5",
-    border: "1px solid 1px solid rgba(0, 0, 0, 0.2)"
-  }
-  
-export  const upRow = {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    border: "1px solid yellow"
-  };
+.forecastInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.forecastInfo ul li {
+  list-style: none;
+}
+
+.morning {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background: #f5eab2;
+}
+
+.morning .upRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.morning .midRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.morning .downRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.midDay {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background: #afead6;
+}
+
+.midDay .upRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.midDay .midRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.midDay .downRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.evening {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background: #f6dbbc;
+}
+
+.evening .upRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.evening .midRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.evening .downRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
