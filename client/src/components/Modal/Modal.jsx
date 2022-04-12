@@ -6,8 +6,8 @@ import CircularProgress from "@mui/material/CircularProgress";
 import Modal from "@mui/material/Modal";
 import Map from "./../Gmaps/Map.jsx";
 // import hours from "../../utils/forecast.json";
-import Forecast from "../Forecast/Forecast.jsx";
-
+import Forecast from "../Forecast/Forecast";
+import SpotDetail from "../SpotDetail/SpotDetail";
 const style = {
   //   position: "absolute",
   //   top: "50%",
@@ -49,6 +49,7 @@ export default function BasicModal({ spot }) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
+          <SpotDetail spot={spot} />
           <Forecast spot={spot} />
           <Map location={spot.location} zoomLevel={15} />
         </Box>

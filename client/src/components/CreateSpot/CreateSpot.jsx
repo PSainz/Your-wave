@@ -17,7 +17,8 @@ import { waveForms } from "./../../utils/waveForms";
 import { waveDirections } from "./../../utils/waveDirections";
 import { breakTypes } from "./../../utils/breakTypes";
 import { ratings } from "./../../utils/ratings";
-import Modal from "../Modal/Modal";
+import Map from "../Gmaps/Map";
+import "./styles.css";
 
 // import { countries } from "./../../utils/countries";
 // import useStyles from "./styles";
@@ -39,6 +40,10 @@ import Modal from "../Modal/Modal";
 // };
 
 const CreateSpot = ({ currentId, setCurrentId }) => {
+  const [loaded, setLoaded] = useState(false);
+  const [loc, setLoc] = useState({});
+  const [show, setShow] = useState(false);
+  console.log(show, "show");
   const [spotData, setSpotData] = useState({
     spot_name: "",
     country: "",
@@ -68,12 +73,15 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
 
   const getCoordinates = async () => {
     if (navigator.geolocation) {
+      setShow(true);
       const id = navigator.geolocation.watchPosition((position, posError) => {
         console.log(position, "POSITION GET");
         const lat = position.coords.latitude;
         const lng = position.coords.longitude;
         locationSpot.lat = lat;
         locationSpot.lng = lng;
+        setLoc(locationSpot);
+        setLoaded(true);
       });
       setTimeout(() => {
         navigator.geolocation.clearWatch(id);
@@ -140,6 +148,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           <Link to="/spots">Spots</Link>
         </li>
       </div>
+
       <form
         autoComplete="off"
         noValidate
@@ -311,6 +320,15 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
         >
           Get current Location
         </Button>
+      </div>
+      <div className={!show ? "hide" : "show"}>
+        {!!loaded ? (
+          <React.Fragment>
+            <Map location={loc} zoomLevel={15} />
+          </React.Fragment>
+        ) : (
+          <p>Loading current location...</p>
+        )}
       </div>
       <Button
         className={""}

@@ -5,23 +5,23 @@ import LocationPin from "./LocationPin.jsx";
 // dotenv.config();
 import "./Map.css";
 
-// getLocation();
-
-const Map = ({ location, zoomLevel }) => (
-  <div className="google-map">
-    {/* <button onClick={getLocation()} style={{ display: "none" }}></button> */}
-    <GoogleMapReact
-      bootstrapURLKeys={{ key: "" }}
-      defaultCenter={location}
-      defaultZoom={zoomLevel}
-    >
-      <LocationPin
-        lat={location.lat}
-        lng={location.lng}
-        text={location.address}
-      />
-    </GoogleMapReact>
-  </div>
-);
+const Map = ({ location, zoomLevel }) => {
+  return (
+    <div className="google-map">
+      {/* <button onClick={getLocation()} style={{ display: "none" }}></button> */}
+      <GoogleMapReact
+        bootstrapURLKeys={{ key: "" }}
+        defaultCenter={location}
+        defaultZoom={zoomLevel}
+      >
+        <LocationPin
+          lat={location.lat}
+          lng={location.lng}
+          text={location.address}
+        />
+      </GoogleMapReact>
+    </div>
+  );
+};
 
 export default Map;
