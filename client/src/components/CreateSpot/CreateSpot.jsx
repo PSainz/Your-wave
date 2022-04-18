@@ -174,9 +174,6 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           variant="outlined"
           fullWidth
           select
-          // SelectProps={{
-          //   menuprops: { MenuProps },
-          // }}
           label="Country"
           value={spotData.country}
           onChange={(e) =>

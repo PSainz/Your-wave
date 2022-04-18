@@ -1,13 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import CircularProgress from "@mui/material/CircularProgress";
 import Modal from "@mui/material/Modal";
-import Map from "./../Gmaps/Map.jsx";
-// import hours from "../../utils/forecast.json";
-import Forecast from "../Forecast/Forecast";
-import SpotDetail from "../SpotDetail/SpotDetail";
+import Map from "../Gmaps/Map.jsx";
 const style = {
   //   position: "absolute",
   //   top: "50%",
@@ -40,7 +35,7 @@ export default function BasicModal({ spot }) {
         type="fire"
         onClick={handleOpen}
       >
-        Show Forecast
+        Location
       </Button>
       <Modal
         open={open}
@@ -49,8 +44,6 @@ export default function BasicModal({ spot }) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <SpotDetail spot={spot} />
-          <Forecast spot={spot} />
           <Map location={spot.location} zoomLevel={15} />
         </Box>
       </Modal>
