@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import FileBase from "react-file-base64";
 import { useNavigate } from "react-router-dom";
-import { createSpot } from "../../actions/spots";
+import { createSpot } from "../../redux/actions/SpotActions";
 import {
   TextField,
   MenuItem,
@@ -93,6 +93,8 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
     }
   };
 
+  console.log(loc, "loc");
+
   useEffect(() => {
     if (spot) setSpotData(spot);
   }, [spot]);
@@ -115,21 +117,21 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
   const handleSubmit = async (e) => {
     if (currentId === 0) {
       e.preventDefault();
-      spotData.location = locationSpot;
+      spotData.location = loc;
       if (spotData.location.lat === "" && spotData.location.lng === "") {
         window.alert("PLEASE GET LOCATION FIRST");
       } else {
-        spotData.location = locationSpot;
+        spotData.location = loc;
         window.alert("LOCATION SUCCED!");
         // console.log(spotData.location, "spotData.location.HandleSubmit");
-        setTimeout(() => {
-          dispatch(createSpot(spotData));
-          clear();
-          navigate("/spots");
-        }, 3000);
-        // dispatch(createSpot(spotData));
-        // clear();
-        // navigate("/spots");
+        // setTimeout(() => {
+        //   dispatch(createSpot(spotData));
+        //   clear();
+        //   navigate("/spots");
+        // }, 3000);
+        dispatch(createSpot(spotData));
+        clear();
+        navigate("/spots");
       }
     } else {
       // dispatch(updatePost(currentId, postData));
