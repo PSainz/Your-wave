@@ -5,11 +5,11 @@ import { searchSpots, filterByRating } from "../../redux/actions/SpotActions";
 
 const Header = ({ search, setSearch, onChange }) => {
   const dispatch = useDispatch();
-  const [filter, setFilter] = useState("2");
+  const [filter, setFilter] = useState("");
 
   useEffect(() => {
     dispatch(searchSpots(search));
-    dispatch(filterByRating());
+    // dispatch(filterByRating());
     // if (sort === 'desc') {
     // 	dispatch(sortPostsDesc());
     // }
@@ -17,7 +17,18 @@ const Header = ({ search, setSearch, onChange }) => {
     // 	dispatch(sortPostsAsc());
     // }
     // [search, sort, dispatch]
-  }, [search, filter, dispatch]);
+  }, [search, dispatch]);
+
+  useEffect(() => {
+    dispatch(filterByRating(filter));
+    // if (sort === 'desc') {
+    // 	dispatch(sortPostsDesc());
+    // }
+    // if (sort === 'asc') {
+    // 	dispatch(sortPostsAsc());
+    // }
+    // [search, sort, dispatch]
+  }, [filter, dispatch]);
 
   console.log(filter, "FILTER");
 

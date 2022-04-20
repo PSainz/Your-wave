@@ -23,16 +23,17 @@ export const createSpot = (newSpot) => async (dispatch) => {
 export const searchSpots = (query) => (dispatch, getState) => {
   const { SpotReducers } = getState();
   const searchResults = SpotReducers.searchResults.filter((spot) =>
-    spot.spot_name.toLowerCase().includes(query.toLowerCase())
+    spot.spot_name.toLowerCase().includes(query.toLowerCase()) 
   );
   dispatch({ type: actions.SEARCH_SPOTS, payload: searchResults });
 };
 
 
-export const filterByRating = () => (dispatch, getState) => {
+export const filterByRating = (rating) => (dispatch, getState) => {
 	const { SpotReducers } = getState();
-	// const 
-	dispatch({ type: actions.FILTER_BY_RATING, payload: SpotReducers.spots });
+	const filteredSpots = SpotReducers.filteredSpots.filter((spot) => spot.rating == rating);
+  console.log(filteredSpots, "filteredSpots", rating, "rating");
+	dispatch({ type: actions.FILTER_BY_RATING, payload: filteredSpots });
 };
 
 // export const sortPostsDesc = () => (dispatch, getState) => {
