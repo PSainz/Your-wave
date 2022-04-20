@@ -2,35 +2,19 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { searchSpots, filterByRating } from "../../redux/actions/SpotActions";
+import { ratingsFilter } from "../../utils/ratings";
 
 const Header = ({ search, setSearch, onChange }) => {
   const dispatch = useDispatch();
-  const [filter, setFilter] = useState("");
+  const [filter, setFilter] = useState("5");
 
   useEffect(() => {
     dispatch(searchSpots(search));
-    // dispatch(filterByRating());
-    // if (sort === 'desc') {
-    // 	dispatch(sortPostsDesc());
-    // }
-    // if (sort === 'asc') {
-    // 	dispatch(sortPostsAsc());
-    // }
-    // [search, sort, dispatch]
   }, [search, dispatch]);
 
   useEffect(() => {
     dispatch(filterByRating(filter));
-    // if (sort === 'desc') {
-    // 	dispatch(sortPostsDesc());
-    // }
-    // if (sort === 'asc') {
-    // 	dispatch(sortPostsAsc());
-    // }
-    // [search, sort, dispatch]
   }, [filter, dispatch]);
-
-  console.log(filter, "FILTER");
 
   return (
     <header>
@@ -51,13 +35,11 @@ const Header = ({ search, setSearch, onChange }) => {
             placeholder="Search"
           />
         </div>
-        <div className="sort">
+        <div className="filterByRating">
           <select onChange={(e) => setFilter(e.target.value)}>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
+            {ratingsFilter.map((rating) => (
+              <option value={rating.value}>{rating.label}</option>
+            ))}
           </select>
         </div>
       </div>

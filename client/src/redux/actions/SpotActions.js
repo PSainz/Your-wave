@@ -36,7 +36,3 @@ export const filterByRating = (rating) => (dispatch, getState) => {
 	dispatch({ type: actions.FILTER_BY_RATING, payload: filteredSpots });
 };
 
-// export const sortPostsDesc = () => (dispatch, getState) => {
-// 	const { PostReducers } = getState();
-// 	dispatch({ type: actions.SORT_POSTS_DESC, payload: PostReducers.posts });
-// };

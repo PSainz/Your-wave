@@ -15,15 +15,14 @@ export const SpotReducers = (state = initialState, action) => {
 				loaded: true,
 				spots: action.payload.data,
 				searchResults: action.payload.data,
-				filteredSpots: action.payload.data
+				filteredSpots: action.payload.data,
+				filteredSpotsCity: action.payload.data
 			};
             case actions.CREATE_SPOT:
 			return {
 				spots: [...state.spots, action.payload.data]
 			};
 		case actions.FILTER_BY_RATING:
-			// const filtered = action.payload.filter(spot => spot.rating);
-            // console.log(filtered, "filtered");
 			return {
 				...state,
 				spots: action.payload,

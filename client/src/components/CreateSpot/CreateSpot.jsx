@@ -12,32 +12,12 @@ import {
   // OutlinedInput,
 } from "@mui/material";
 import allCountries from "country-region-data/data.json";
-import Navbar from "./../Navbar/Navbar.jsx";
 import { waveForms } from "./../../utils/waveForms";
 import { waveDirections } from "./../../utils/waveDirections";
 import { breakTypes } from "./../../utils/breakTypes";
 import { ratings } from "./../../utils/ratings";
 import Map from "../Gmaps/Map";
 import "./styles.css";
-
-// import { countries } from "./../../utils/countries";
-// import useStyles from "./styles";
-// import Modal from "./../Modal/Modal.jsx";
-// import Map from "./../Gmaps/Map.jsx";
-// import useGeoLocation from "./../../hooks/useGeoLocation";
-
-// console.log(allCountries, "allCountries");
-
-// const ITEM_HEIGHT = 48;
-// const ITEM_PADDING_TOP = 8;
-// const MenuProps = {
-//   PaperProps: {
-//     style: {
-//       maxHeight: ITEM_HEIGHT * 4.5 + ITEM_PADDING_TOP,
-//       width: 250,
-//     },
-//   },
-// };
 
 const CreateSpot = ({ currentId, setCurrentId }) => {
   const [loaded, setLoaded] = useState(false);
@@ -55,6 +35,8 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
     location: "",
     selectedFile: "",
   });
+
+  console.log(ratings, "ratings");
 
   const spot = useSelector((state) =>
     currentId
@@ -141,7 +123,6 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
 
   return (
     <div>
-      <Navbar />
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
         <li>
           <Link to="/">Home</Link>
@@ -277,7 +258,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           {ratings.map((item) => {
             return (
               <MenuItem key={item.value} value={item.value || ""}>
-                {item.text}
+                {item.label}
               </MenuItem>
             );
           })}
