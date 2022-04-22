@@ -50,7 +50,6 @@ const Spots = ({ setCurrentId }) => {
             {filterSpots.map((spot) => (
               <Grid key={spot._id} item xs={12} sm={6} md={6}>
                 <Spot spot={spot} setCurrentId={setCurrentId} />
-                {/* <img src={spot.selectedFile} style={{ width: "100%" }} /> */}
               </Grid>
             ))}
           </Grid>

@@ -21,12 +21,15 @@ import ModalInfo from "../Modals/ModalInfo";
 const Spot = ({ spot, setCurrentId }) => {
   // const dispatch = useDispatch();
   // const classes = useStyles();
+  const src = "./images/logo.png";
 
   return (
     <Card className={""} style={{ border: "1px solid blue" }}>
+      <img src={spot.selectedFile || src} alt="logo" />
       <CardMedia
         className={""}
-        image={spot.selectedFile || ""}
+        // image={spot.selectedFile || ""}
+        image={spot.selectedFile || src}
         title={spot.spot_name}
       />
       <div className={""}>
