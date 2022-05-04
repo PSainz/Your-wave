@@ -3,10 +3,15 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { searchSpots, filterByRating } from "../../redux/actions/SpotActions";
 import { ratingsFilter } from "../../utils/ratings";
+import { useSelector } from "react-redux";
 
 const Header = ({ search, setSearch, onChange }) => {
   const dispatch = useDispatch();
   const [filter, setFilter] = useState("5");
+  const { spots, loaded } = useSelector((state) => state.SpotReducers);
+  // console.log(spots, "spots");
+  // const prueba = Object.create(spots);
+  // console.log(prueba, "prueba");
 
   useEffect(() => {
     dispatch(searchSpots(search));

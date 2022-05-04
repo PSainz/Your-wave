@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchSpots } from "../../redux/actions/SpotActions";
 import Header from "../Header/Header";
 import Paginate from "../Paginate/Paginate";
+import Cam from "../TakePicture/Cam";
 // import { Button } from "@mui/material";
 // import useStyles from "./styles";
 
@@ -28,6 +29,11 @@ const Spots = ({ setCurrentId }) => {
     dispatch(fetchSpots());
   }, [dispatch]);
 
+  const seeAll = () => {
+    dispatch(fetchSpots());
+    setSearch("");
+  };
+
   const spotsPerPage = 6;
   const totalSpots = spots.length;
 
@@ -35,13 +41,23 @@ const Spots = ({ setCurrentId }) => {
   const indexOfFirstSpot = indexOfLastSpot - spotsPerPage;
   const filterSpots = spots.slice(indexOfFirstSpot, indexOfLastSpot);
 
+  // const uploadImage = async (file) => {
+  //   const formData = new FormData();
+  //   console.log(file, "file");
+  //   formData.append("file", file);
+  //   // Connect to a seaweedfs instance
+  // };
+
   return (
     <>
+      <Cam />
+      {/* <CameraFeed sendFile={uploadImage} /> */}
       <Header
         search={search}
         setSearch={setSearch}
         onChange={handleChangeSearch}
       />
+      <button onClick={seeAll}>See all</button>
       {!loaded ? (
         <CircularProgress />
       ) : (
