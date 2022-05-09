@@ -7,6 +7,7 @@ const Forecast = ({ spot }) => {
   const forecast = hours.hours;
   const loaded = true;
 
+  console.log(spot, "spotForecast");
   //   const [forecast, setForecast] = useState([]);
   //   const [loaded, setLoaded] = useState(false);
 

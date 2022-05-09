@@ -4,12 +4,12 @@ import "react-html5-camera-photo/build/css/index.css";
 
 import ImagePreview from "./ImagePreview"; // source code : ./src/demo/AppWithImagePreview/ImagePreview
 
-function Cam(props) {
+function Cam({ data }) {
   const [dataUri, setDataUri] = useState("");
 
   function handleTakePhotoAnimationDone(dataUri) {
-    console.log("takePhoto");
     setDataUri(dataUri);
+    // console.log(dataUri, "dataUri");
   }
 
   const isFullscreen = false;
@@ -21,6 +21,7 @@ function Cam(props) {
         <Camera
           onTakePhotoAnimationDone={handleTakePhotoAnimationDone}
           isFullscreen={isFullscreen}
+          data={dataUri}
         />
       )}
     </div>

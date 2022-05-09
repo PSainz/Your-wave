@@ -17,6 +17,7 @@ import { waveDirections } from "./../../utils/waveDirections";
 import { breakTypes } from "./../../utils/breakTypes";
 import { ratings } from "./../../utils/ratings";
 import Map from "../Gmaps/Map";
+import ModalCam from "../Modals/ModalCam";
 import "./styles.css";
 
 const CreateSpot = ({ currentId, setCurrentId }) => {
@@ -130,6 +131,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
         <li>
           <Link to="/spots">Spots</Link>
         </li>
+        <ModalCam data={spotData} />
       </div>
 
       <form

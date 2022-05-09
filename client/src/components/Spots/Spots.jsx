@@ -50,7 +50,7 @@ const Spots = ({ setCurrentId }) => {
 
   return (
     <>
-      <Cam />
+      {/* <Cam /> */}
       {/* <CameraFeed sendFile={uploadImage} /> */}
       <Header
         search={search}
