@@ -22,6 +22,7 @@ const Spot = ({ spot, setCurrentId }) => {
   // const dispatch = useDispatch();
   // const classes = useStyles();
   const src = "./images/logo.png";
+  console.log(src);
 
   return (
     <Card className={""} style={{ border: "1px solid blue" }}>

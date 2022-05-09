@@ -14,8 +14,11 @@ app.use(cors());
 
 app.use('/', spotsRoutes);
 
+
 const CONNECTION_URL = process.env.DB;
 const PORT = process.env.PORT|| 5500;
+
+
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => app.listen(PORT, () => console.log(`Server Running on Port: http://localhost:${PORT}`)))

@@ -1,7 +1,6 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "proxy": "http://localhost:5500",
   "browser": {
     "fs": false,
     "path": false,
@@ -11,9 +10,12 @@
   "dependencies": {
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "@iconify/icons-mdi": "^1.2.1",
     "@iconify/react": "^3.1.4",
-    "@mui/icons-material": "^5.4.2",
+    "@mui/icons-material": "^5.6.2",
     "@mui/material": "^5.4.3",
     "@mui/styles": "^5.4.2",
     "@reduxjs/toolkit": "^1.8.0",

@@ -24,7 +24,6 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
   const [loaded, setLoaded] = useState(false);
   const [loc, setLoc] = useState({});
   const [show, setShow] = useState(false);
-  console.log(show, "show");
   const [spotData, setSpotData] = useState({
     spot_name: "",
     country: "",
@@ -76,7 +75,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
     }
   };
 
-  console.log(loc, "loc");
+  // console.log(loc, "loc");
 
   useEffect(() => {
     if (spot) setSpotData(spot);
@@ -265,7 +264,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
             );
           })}
         </TextField>
-        <div className={""}>
+        {/* <div className={""}>
           <FileBase
             type="file"
             multiple={false}
@@ -273,17 +272,9 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
               setSpotData({ ...spotData, selectedFile: base64 })
             }
           />
-        </div>
-        <Button
-          variant="contained"
-          color="error"
-          size="small"
-          onClick={clear}
-          fullWidth
-        >
-          Clear
-        </Button>
+        </div> */}
       </form>
+      <ModalCam data={spotData} />
       <div
         style={{
           display: "flex",
@@ -312,6 +303,15 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
           <p>Loading current location...</p>
         )}
       </div>
+      <Button
+        variant="contained"
+        color="error"
+        size="small"
+        onClick={clear}
+        fullWidth
+      >
+        Clear
+      </Button>
       <Button
         className={""}
         variant="contained"

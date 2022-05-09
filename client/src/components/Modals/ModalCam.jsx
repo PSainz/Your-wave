@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
-import Camera from "react-html5-camera-photo";
+import Camera, { FACING_MODES, IMAGE_TYPES } from "react-html5-camera-photo";
 import "react-html5-camera-photo/build/css/index.css";
 // import Cam from "../TakePicture/Cam";
 const style = {
@@ -33,6 +33,18 @@ export default function BasicModal({ data }) {
     // console.log(dataUri, "dataUri");
   };
 
+  // const isFullscreen = true;
+  // const imageType = "jpg";
+
+  const handleTakePhoto = (dataUri) => {
+    // Do stuff with the photo...
+    console.log("takePhoto");
+  };
+
+  const handleCameraError = (error) => {
+    console.log("handleCameraError", error);
+  };
+
   console.log(data);
 
   return (
@@ -43,6 +55,7 @@ export default function BasicModal({ data }) {
         color="primary"
         size="large"
         type="fire"
+        fullWidth
         onClick={handleOpen}
       >
         Take pic
@@ -54,8 +67,19 @@ export default function BasicModal({ data }) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <Camera onTakePhotoAnimationDone={handleTakePhotoAnimationDone} />
-          <img src={dataUri} alt="" />
+          <div>
+            {dataUri ? (
+              <img src={dataUri} alt="" />
+            ) : (
+              <Camera
+                onTakePhotoAnimationDone={handleTakePhotoAnimationDone}
+                isFullscreen={false}
+                imageType={IMAGE_TYPES.JPG}
+                imageCompression={0.97}
+                isMaxResolution={false}
+              />
+            )}
+          </div>
         </Box>
       </Modal>
     </div>
