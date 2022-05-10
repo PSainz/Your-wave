@@ -3,15 +3,12 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { searchSpots, filterByRating } from "../../redux/actions/SpotActions";
 import { ratingsFilter } from "../../utils/ratings";
-import { useSelector } from "react-redux";
+import "./Header.css";
+// import { useSelector } from "react-redux";
 
-const Header = ({ search, setSearch, onChange }) => {
+const Header = ({ search, onChange }) => {
   const dispatch = useDispatch();
   const [filter, setFilter] = useState("5");
-  const { spots, loaded } = useSelector((state) => state.SpotReducers);
-  // console.log(spots, "spots");
-  // const prueba = Object.create(spots);
-  // console.log(prueba, "prueba");
 
   useEffect(() => {
     dispatch(searchSpots(search));
@@ -22,14 +19,15 @@ const Header = ({ search, setSearch, onChange }) => {
   }, [filter, dispatch]);
 
   return (
-    <header>
+    <header className="header">
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/create-spot">Cspot</Link>
-        </li>
+        <Link to="/" className="link">
+          HOME
+        </Link>
+
+        <Link to="/create-spot" className="link">
+          CREATE SPOT
+        </Link>
       </div>
       <div className="filters">
         <div className="search">

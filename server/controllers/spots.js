@@ -52,7 +52,6 @@ export const getSpots = async (req, res) => {
     try {
       await newSpot.save();
       res.status(201).json(newSpot);
-      console.table(newSpot, "NEW SPOT");
     } catch (error) {
       res.status(409).json({ message: error.message });
     }

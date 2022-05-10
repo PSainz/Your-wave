@@ -18,7 +18,7 @@ import { breakTypes } from "./../../utils/breakTypes";
 import { ratings } from "./../../utils/ratings";
 import Map from "../Gmaps/Map";
 import ModalCam from "../Modals/ModalCam";
-import "./styles.css";
+import "./CreateSpot.css";
 
 const CreateSpot = ({ currentId, setCurrentId }) => {
   const [loaded, setLoaded] = useState(false);
@@ -35,8 +35,6 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
     location: "",
     selectedFile: "",
   });
-
-  console.log(ratings, "ratings");
 
   const spot = useSelector((state) =>
     currentId
@@ -75,8 +73,6 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
     }
   };
 
-  // console.log(loc, "loc");
-
   useEffect(() => {
     if (spot) setSpotData(spot);
   }, [spot]);
@@ -105,18 +101,11 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
       } else {
         spotData.location = loc;
         window.alert("LOCATION SUCCED!");
-        // console.log(spotData.location, "spotData.location.HandleSubmit");
-        // setTimeout(() => {
-        //   dispatch(createSpot(spotData));
-        //   clear();
-        //   navigate("/spots");
-        // }, 3000);
         dispatch(createSpot(spotData));
         clear();
         navigate("/spots");
       }
     } else {
-      // dispatch(updatePost(currentId, postData));
       clear();
     }
   };
@@ -125,12 +114,11 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
     <div>
       <div style={{ display: "flex", justifyContent: "space-evenly" }}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">HOME</Link>
         </li>
         <li>
-          <Link to="/spots">Spots</Link>
+          <Link to="/spots">SPOTS</Link>
         </li>
-        <ModalCam data={spotData} />
       </div>
 
       <form
@@ -264,15 +252,6 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
             );
           })}
         </TextField>
-        {/* <div className={""}>
-          <FileBase
-            type="file"
-            multiple={false}
-            onDone={({ base64 }) =>
-              setSpotData({ ...spotData, selectedFile: base64 })
-            }
-          />
-        </div> */}
       </form>
       <ModalCam data={spotData} />
       <div

@@ -27,16 +27,10 @@ export default function BasicModal({ spot }) {
 
   return (
     <div>
-      <Button
-        className={""}
-        variant="contained"
-        color="primary"
-        size="large"
-        type="fire"
-        onClick={handleOpen}
-      >
-        Location
-      </Button>
+      <span onClick={handleOpen} className="text-forecast">
+        {" "}
+        LOCATION
+      </span>
       <Modal
         open={open}
         onClose={handleClose}

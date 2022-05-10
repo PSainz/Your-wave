@@ -1,0 +1,28 @@
+.container-spot {
+  width: 95%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 8px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  border: 0.5px solid black;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+}
+
+.last-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 7px;
+}

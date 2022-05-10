@@ -2,6 +2,8 @@
   width: 100vw;
   height: 100vh;
   position: absolute;
+  /* background-color: #84b6f4; */
+  background-color: #b2e2f2;
 }
 
 .title {
@@ -42,10 +44,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-.text p {
-  margin-bottom: 5px;
-}
-
 .spots {
   border: 1px solid black;
   padding: 3px 5px;
@@ -54,4 +52,9 @@
 .create-spot {
   border: 1px solid black;
   padding: 3px 5px;
+}
+
+.space {
+  height: 15px;
+  /* border: 1px solid black; */
 }

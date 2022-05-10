@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
 import Forecast from "../Forecast/Forecast";
+import "./ModalForecast.css";
 
 const style = {
   //   position: "absolute",
@@ -27,16 +28,10 @@ export default function BasicModal({ spot }) {
 
   return (
     <div>
-      <Button
-        className={""}
-        variant="contained"
-        color="primary"
-        size="large"
-        type="fire"
-        onClick={handleOpen}
-      >
-        Forecast
-      </Button>
+      <span onClick={handleOpen} className="text-forecast">
+        {" "}
+        FORECAST
+      </span>
       <Modal
         open={open}
         onClose={handleClose}

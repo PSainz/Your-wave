@@ -1,0 +1,19 @@
+.containers-spots {
+  width: 100%;
+  height: 100%;
+  background-color: #b2e2f2;
+}
+
+.full-container-spots {
+  background-color: #b2e2f2;
+}
+
+.div-button-see-all {
+  display: flex;
+  justify-content: center;
+}
+
+.button-see-all {
+  color: black;
+  border-color: black;
+}

@@ -6,17 +6,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchSpots } from "../../redux/actions/SpotActions";
 import Header from "../Header/Header";
 import Paginate from "../Paginate/Paginate";
-import Cam from "../TakePicture/Cam";
-// import { Button } from "@mui/material";
-// import useStyles from "./styles";
+import "./Spots.css";
 
 const Spots = ({ setCurrentId }) => {
   const [search, setSearch] = useState("");
   const dispatch = useDispatch();
   const { spots, loaded } = useSelector((state) => state.SpotReducers);
   const [currentPage, setCurrentPage] = useState(1);
-  // console.log(spots, "SPOTS RENDER PAGINA SPOTS");
-  // const classes = useStyles();
 
   const handleChangeSearch = (e) => {
     if (e.target.value.length > 0) {
@@ -41,44 +37,39 @@ const Spots = ({ setCurrentId }) => {
   const indexOfFirstSpot = indexOfLastSpot - spotsPerPage;
   const filterSpots = spots.slice(indexOfFirstSpot, indexOfLastSpot);
 
-  // const uploadImage = async (file) => {
-  //   const formData = new FormData();
-  //   console.log(file, "file");
-  //   formData.append("file", file);
-  //   // Connect to a seaweedfs instance
-  // };
-
   return (
     <>
-      {/* <Cam /> */}
-      {/* <CameraFeed sendFile={uploadImage} /> */}
-      <Header
-        search={search}
-        setSearch={setSearch}
-        onChange={handleChangeSearch}
-      />
-      <button onClick={seeAll}>See all</button>
-      {!loaded ? (
-        <CircularProgress />
-      ) : (
-        <div className="container">
-          <Grid className={""} container alignItems="stretch" spacing={3}>
-            {filterSpots.map((spot) => (
-              <Grid key={spot._id} item xs={12} sm={6} md={6}>
-                <Spot spot={spot} setCurrentId={setCurrentId} />
-              </Grid>
-            ))}
-          </Grid>
-          {totalSpots > spotsPerPage && (
-            <Paginate
-              currentPage={currentPage}
-              setCurrentPage={setCurrentPage}
-              totalPosts={totalSpots}
-              postPerPage={spotsPerPage}
-            />
-          )}
+      <div className="full-container-spots">
+        <Header
+          search={search}
+          setSearch={setSearch}
+          onChange={handleChangeSearch}
+        />
+        <div className="div-button-see-all">
+          <button onClick={seeAll} className="button-see-all">
+            See all
+          </button>
         </div>
-      )}
+        {!loaded ? (
+          <CircularProgress />
+        ) : (
+          <div className="container-spots">
+            <Grid className={""} container alignItems="stretch" spacing={3}>
+              {filterSpots.map((spot) => (
+                <Grid key={spot._id} item xs={12} sm={6} md={6}>
+                  <Spot spot={spot} setCurrentId={setCurrentId} />
+                </Grid>
+              ))}
+            </Grid>
+          </div>
+        )}
+        <Paginate
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+          totalPosts={totalSpots}
+          postPerPage={spotsPerPage}
+        />
+      </div>
     </>
   );
 };

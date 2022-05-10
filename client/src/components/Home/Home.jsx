@@ -28,8 +28,10 @@ function Home() {
       </div>
       <div className="text">
         <p>...APP IN PROGRESS...</p>
+        <br></br>
         <CircularProgress />
       </div>
+      <div className="space"></div>
     </div>
   );
 }

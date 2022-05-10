@@ -1,0 +1,32 @@
+.header {
+  margin-top: 7px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  border: 1px solid black;
+  padding: 3px 5px;
+}
+
+.filters {
+  margin-top: 7px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search input {
+  background-color: transparent;
+  border: 1px solid black;
+  height: 35px;
+}
+
+.filterByRating select {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  height: 35px;
+}
