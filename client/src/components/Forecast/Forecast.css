@@ -1,0 +1,177 @@
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+.forecastInfo {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  position: fixed;
+}
+
+.forecastInfo ul li {
+  list-style: none;
+}
+
+.morning {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 30%;
+  background: #f5eab2;
+}
+
+.morning .upRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.morning .upRow p {
+  font-weight: bold;
+}
+
+.morning .midRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.condition {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.morning .downRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.morning .upRow li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.morning .downRow li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.morning .downRow p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.midDay {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 30%;
+  background: #afead6;
+}
+
+.midDay .upRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+}
+
+.midDay .upRow p {
+  font-weight: bold;
+}
+
+.midDay .midRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+}
+
+.midDay .downRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+}
+
+.midDay .upRow li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.midDay .downRow li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.midDay .downRow p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.evening {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 33%;
+  background: #f6dbbc;
+}
+
+.evening .upRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+}
+
+.evening .midRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33%;
+}
+
+.evening .downRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 33%;
+}
+
+.evening .upRow p {
+  font-weight: bold;
+}
+
+.evening .downRow p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.evening .upRow li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.evening .downRow li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}

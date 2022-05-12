@@ -15,9 +15,9 @@ import allCountries from "country-region-data/data.json";
 import { waveForms } from "./../../utils/waveForms";
 import { waveDirections } from "./../../utils/waveDirections";
 import { breakTypes } from "./../../utils/breakTypes";
-import { ratings } from "./../../utils/ratings";
 import Map from "../Gmaps/Map";
 import ModalCam from "../Modals/ModalCam";
+import { ratings } from "../../utils/ratings";
 import "./CreateSpot.css";
 
 const CreateSpot = ({ currentId, setCurrentId }) => {
@@ -112,7 +112,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
 
   return (
     <div>
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div className="divHeader">
         <li>
           <Link to="/">HOME</Link>
         </li>
@@ -124,134 +124,82 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
       <form
         autoComplete="off"
         noValidate
-        className={""}
+        className="form"
         onSubmit={handleSubmit}
       >
-        <TextField
-          inputProps={{ pattern: "[a-z]" }}
-          name="spot_name"
-          required
-          variant="outlined"
-          label="Spot Name"
-          fullWidth
-          value={spotData.spot_name || ""}
-          onChange={(e) =>
-            setSpotData({ ...spotData, spot_name: e.target.value })
-          }
-        />
-        <TextField
-          name="Country"
-          margin="dense"
-          required
-          variant="outlined"
-          fullWidth
-          select
-          label="Country"
-          value={spotData.country}
-          onChange={(e) =>
-            setSpotData({ ...spotData, country: e.target.value })
-          }
-        >
-          {allCountries.map((item) => {
-            return (
-              <MenuItem key={item.countryName} value={item.countryName || ""}>
-                {item.countryName}
-              </MenuItem>
-            );
-          })}
-        </TextField>
-        <TextField
-          name="city"
-          margin="dense"
-          required
-          variant="outlined"
-          label="City - Region"
-          fullWidth
-          value={spotData.city || ""}
-          onChange={(e) => setSpotData({ ...spotData, city: e.target.value })}
-        />
-        <TextField
-          name="Wave form"
-          margin="dense"
-          required
-          variant="outlined"
-          fullWidth
-          select
-          label="Wave form"
-          value={spotData.wave_form}
-          onChange={(e) =>
-            setSpotData({ ...spotData, wave_form: e.target.value })
-          }
-        >
-          {waveForms.map((item) => {
-            return (
-              <MenuItem key={item.value} value={item.value || ""}>
-                {item.text}
-              </MenuItem>
-            );
-          })}
-        </TextField>
-        <TextField
-          name="Wave direction"
-          margin="dense"
-          required
-          variant="outlined"
-          fullWidth
-          select
-          label="Wave direction"
-          value={spotData.wave_direction}
-          onChange={(e) =>
-            setSpotData({ ...spotData, wave_direction: e.target.value })
-          }
-        >
-          {waveDirections.map((item) => {
-            return (
-              <MenuItem key={item.value} value={item.value || ""}>
-                {item.text}
-              </MenuItem>
-            );
-          })}
-        </TextField>
-        <TextField
-          name="Break type"
-          margin="dense"
-          required
-          variant="outlined"
-          fullWidth
-          select
-          label="Break type"
-          value={spotData.break_type}
-          onChange={(e) =>
-            setSpotData({ ...spotData, break_type: e.target.value })
-          }
-        >
-          {breakTypes.map((item) => {
-            return (
-              <MenuItem key={item.value} value={item.value || ""}>
-                {item.text}
-              </MenuItem>
-            );
-          })}
-        </TextField>
-        <TextField
-          name="Rating"
-          margin="dense"
-          required
-          variant="outlined"
-          fullWidth
-          select
-          label="Rating"
-          value={spotData.rating}
-          onChange={(e) => setSpotData({ ...spotData, rating: e.target.value })}
-        >
-          {ratings.map((item) => {
-            return (
-              <MenuItem key={item.value} value={item.value || ""}>
-                {item.label}
-              </MenuItem>
-            );
-          })}
-        </TextField>
+        <div className="input">
+          <input
+            type="text"
+            value={spotData.spot_name || ""}
+            onChange={(e) =>
+              setSpotData({ ...spotData, spot_name: e.target.value })
+            }
+            placeholder="Spot Name"
+          />
+        </div>
+        <div className="select">
+          <select
+            onChange={(e) =>
+              setSpotData({ ...spotData, country: e.target.value })
+            }
+          >
+            {allCountries.map((item) => (
+              <option value={item.countryName}>{item.countryName}</option>
+            ))}
+          </select>
+        </div>
+        <div className="input">
+          <input
+            type="text"
+            value={spotData.city || ""}
+            onChange={(e) => setSpotData({ ...spotData, city: e.target.value })}
+            placeholder="City - Region"
+          />
+        </div>
+        <div className="select">
+          <select
+            onChange={(e) =>
+              setSpotData({ ...spotData, wave_form: e.target.value })
+            }
+          >
+            {waveForms.map((item) => (
+              <option value={item.value}>{item.value}</option>
+            ))}
+          </select>
+        </div>
+        <div className="select">
+          <select
+            onChange={(e) =>
+              setSpotData({ ...spotData, wave_direction: e.target.value })
+            }
+          >
+            {waveDirections.map((item) => (
+              <option value={item.value}>{item.value}</option>
+            ))}
+          </select>
+        </div>
+        <div className="select">
+          <select
+            onChange={(e) =>
+              setSpotData({ ...spotData, break_type: e.target.value })
+            }
+          >
+            {breakTypes.map((item) => (
+              <option value={item.value}>{item.value}</option>
+            ))}
+          </select>
+        </div>
+        <div className="select">
+          <select
+            onChange={(e) =>
+              setSpotData({ ...spotData, rating: e.target.value })
+            }
+          >
+            {ratings.map((rating) => (
+              <option value={rating.value}>{rating.label}</option>
+            ))}
+          </select>
+        </div>
       </form>
       <ModalCam data={spotData} />
       <div
@@ -262,7 +210,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
         }}
       >
         <Button
-          className={""}
+          className="marginButton"
           variant="contained"
           color="primary"
           size="small"
@@ -279,7 +227,7 @@ const CreateSpot = ({ currentId, setCurrentId }) => {
             <Map location={loc} zoomLevel={15} />
           </React.Fragment>
         ) : (
-          <p>Loading current location...</p>
+          <p className="textCenter">...GETTING CURRENT LOCATION...</p>
         )}
       </div>
       <Button
