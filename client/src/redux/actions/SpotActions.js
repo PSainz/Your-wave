@@ -1,9 +1,11 @@
 import * as actions from "../constants/SpotConstants";
 import axios from "axios";
 
+const url = 'https://your-wave-api.herokuapp.com/'
+
 export const fetchSpots = () => async (dispatch) => {
   try {
-    const data = await axios.get("http://localhost:5500/");
+    const data = await axios.get(url);
     dispatch({ type: actions.FETCH_SPOTS, payload: data });
   } catch (error) {
     console.log(error.message);
@@ -12,7 +14,7 @@ export const fetchSpots = () => async (dispatch) => {
 
 export const createSpot = (newSpot) => async (dispatch) => {
   try {
-    const data = await axios.post("http://localhost:5500/", newSpot);
+    const data = await axios.post(url, newSpot);
     console.log(data, "DATA DEL CREATE");
     dispatch({ type: actions.CREATE_SPOT, payload: data });
   } catch (error) {
