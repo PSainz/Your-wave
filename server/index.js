@@ -18,7 +18,6 @@ app.get('/', (req, res) => {
   res.send('Your wave API')
 });
 // const CONNECTION_URL = process.env.DB;
-const CONNECTION_URL = 'mongodb+srv://Pepe:Pepe@cluster0.ovrbv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT = process.env.PORT|| 5500;
 
 
